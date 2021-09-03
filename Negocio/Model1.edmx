@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="EPE_2020_3Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="T_05_DIG_CAP100">
+          <Key>
+            <PropertyRef Name="ID" />
+            <PropertyRef Name="NROHOGAR" />
+            <PropertyRef Name="P101" />
+          </Key>
+          <Property Name="ID" Type="char" MaxLength="16" Nullable="false" />
+          <Property Name="NROHOGAR" Type="int" Nullable="false" />
+          <Property Name="P101" Type="int" Nullable="false" />
+          <Property Name="P101P" Type="char" MaxLength="8" />
+          <Property Name="P102_1" Type="varchar" MaxLength="20" />
+          <Property Name="P102_2" Type="varchar" MaxLength="30" />
+          <Property Name="P103" Type="int" />
+          <Property Name="P104" Type="int" />
+          <Property Name="P105" Type="int" />
+          <Property Name="P106" Type="int" />
+          <Property Name="P107" Type="int" />
+          <Property Name="P108" Type="int" />
+          <Property Name="P108_OBS" Type="varchar" MaxLength="255" />
+          <Property Name="P109_1" Type="int" />
+          <Property Name="P109_2" Type="int" />
+          <Property Name="P109_3" Type="int" />
+          <Property Name="P110A" Type="varchar" MaxLength="100" />
+          <Property Name="P111" Type="varchar" MaxLength="20" />
+          <Property Name="P112" Type="varchar" MaxLength="20" />
+          <Property Name="OBS" Type="varchar" MaxLength="255" />
+          <Property Name="ESTADO" Type="int" />
+          <Property Name="USUCRE" Type="varchar" MaxLength="35" />
+          <Property Name="FECCRE" Type="varchar" MaxLength="35" />
+          <Property Name="USUREG" Type="varchar" MaxLength="35" />
+          <Property Name="FECREG" Type="varchar" MaxLength="35" />
+          <Property Name="FECENV" Type="varchar" MaxLength="35" />
+          <Property Name="P110A_1" Type="varchar" MaxLength="10" />
+          <Property Name="P110A_2" Type="varchar" MaxLength="100" />
+          <Property Name="P110A_3" Type="int" />
+          <Property Name="P110B_1" Type="varchar" MaxLength="10" />
+          <Property Name="P110B_2" Type="varchar" MaxLength="100" />
+          <Property Name="P110B_3" Type="int" />
+          <Property Name="P110B_4" Type="int" />
+          <Property Name="P113" Type="int" />
+          <Property Name="P114" Type="int" />
+          <Property Name="P115" Type="int" />
+          <Property Name="P115_O" Type="varchar" MaxLength="100" />
+          <Property Name="FLAG" Type="int" />
+          <Property Name="FLAG_ADD" Type="int" />
+          <Property Name="usurecu" Type="varchar" MaxLength="30" />
+        </EntityType>
+        <Function Name="LISTADO_PERSONAS_WEB" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="ID" Type="nchar" Mode="In" />
+          <Parameter Name="NROHOGAR" Type="int" Mode="In" />
+        </Function>
+        <EntityContainer Name="EPE_2020_3ModelStoreContainer">
+          <EntitySet Name="T_05_DIG_CAP100" EntityType="Self.T_05_DIG_CAP100" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="EPE_2020_3Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="T_05_DIG_CAP100">
+          <Key>
+            <PropertyRef Name="ID" />
+            <PropertyRef Name="NROHOGAR" />
+            <PropertyRef Name="P101" />
+          </Key>
+          <Property Name="ID" Type="String" MaxLength="16" FixedLength="true" Unicode="false" Nullable="false" />
+          <Property Name="NROHOGAR" Type="Int32" Nullable="false" />
+          <Property Name="P101" Type="Int32" Nullable="false" />
+          <Property Name="P101P" Type="String" MaxLength="8" FixedLength="true" Unicode="false" />
+          <Property Name="P102_1" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="P102_2" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Name="P103" Type="Int32" />
+          <Property Name="P104" Type="Int32" />
+          <Property Name="P105" Type="Int32" />
+          <Property Name="P106" Type="Int32" />
+          <Property Name="P107" Type="Int32" />
+          <Property Name="P108" Type="Int32" />
+          <Property Name="P108_OBS" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="P109_1" Type="Int32" />
+          <Property Name="P109_2" Type="Int32" />
+          <Property Name="P109_3" Type="Int32" />
+          <Property Name="P110A" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="P111" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="P112" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="OBS" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="ESTADO" Type="Int32" />
+          <Property Name="USUCRE" Type="String" MaxLength="35" FixedLength="false" Unicode="false" />
+          <Property Name="FECCRE" Type="String" MaxLength="35" FixedLength="false" Unicode="false" />
+          <Property Name="USUREG" Type="String" MaxLength="35" FixedLength="false" Unicode="false" />
+          <Property Name="FECREG" Type="String" MaxLength="35" FixedLength="false" Unicode="false" />
+          <Property Name="FECENV" Type="String" MaxLength="35" FixedLength="false" Unicode="false" />
+          <Property Name="P110A_1" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="P110A_2" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="P110A_3" Type="Int32" />
+          <Property Name="P110B_1" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="P110B_2" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="P110B_3" Type="Int32" />
+          <Property Name="P110B_4" Type="Int32" />
+          <Property Name="P113" Type="Int32" />
+          <Property Name="P114" Type="Int32" />
+          <Property Name="P115" Type="Int32" />
+          <Property Name="P115_O" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="FLAG" Type="Int32" />
+          <Property Name="FLAG_ADD" Type="Int32" />
+          <Property Name="usurecu" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityContainer Name="EPE_2020_3Entities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="T_05_DIG_CAP100" EntityType="Self.T_05_DIG_CAP100" />
+          <FunctionImport Name="LISTADO_PERSONAS_WEB" ReturnType="Collection(EPE_2020_3Model.LISTADO_PERSONAS_WEB_Result)">
+            <Parameter Name="ID" Mode="In" Type="String" />
+            <Parameter Name="NROHOGAR" Mode="In" Type="Int32" />
+          </FunctionImport>
+        </EntityContainer>
+        <ComplexType Name="LISTADO_PERSONAS_WEB_Result">
+          <Property Type="String" Name="ID" Nullable="false" MaxLength="16" />
+          <Property Type="Int32" Name="NROHOGAR" Nullable="false" />
+          <Property Type="Int64" Name="P101" Nullable="true" />
+          <Property Type="String" Name="P102" Nullable="true" MaxLength="51" />
+          <Property Type="String" Name="P103" Nullable="true" MaxLength="22" />
+          <Property Type="String" Name="P104" Nullable="true" MaxLength="2" />
+          <Property Type="String" Name="P105" Nullable="true" MaxLength="2" />
+          <Property Type="String" Name="P106" Nullable="true" MaxLength="2" />
+          <Property Type="String" Name="P107" Nullable="false" MaxLength="6" />
+          <Property Type="Int32" Name="P108" Nullable="true" />
+          <Property Type="Int32" Name="P109" Nullable="true" />
+          <Property Type="String" Name="P110A" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="P110B" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="P111" Nullable="true" MaxLength="20" />
+          <Property Type="Int32" Name="P200_INF" Nullable="false" />
+        </ComplexType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="EPE_2020_3ModelStoreContainer" CdmEntityContainer="EPE_2020_3Entities">
+          <EntitySetMapping Name="T_05_DIG_CAP100">
+            <EntityTypeMapping TypeName="EPE_2020_3Model.T_05_DIG_CAP100">
+              <MappingFragment StoreEntitySet="T_05_DIG_CAP100">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="NROHOGAR" ColumnName="NROHOGAR" />
+                <ScalarProperty Name="P101" ColumnName="P101" />
+                <ScalarProperty Name="P101P" ColumnName="P101P" />
+                <ScalarProperty Name="P102_1" ColumnName="P102_1" />
+                <ScalarProperty Name="P102_2" ColumnName="P102_2" />
+                <ScalarProperty Name="P103" ColumnName="P103" />
+                <ScalarProperty Name="P104" ColumnName="P104" />
+                <ScalarProperty Name="P105" ColumnName="P105" />
+                <ScalarProperty Name="P106" ColumnName="P106" />
+                <ScalarProperty Name="P107" ColumnName="P107" />
+                <ScalarProperty Name="P108" ColumnName="P108" />
+                <ScalarProperty Name="P108_OBS" ColumnName="P108_OBS" />
+                <ScalarProperty Name="P109_1" ColumnName="P109_1" />
+                <ScalarProperty Name="P109_2" ColumnName="P109_2" />
+                <ScalarProperty Name="P109_3" ColumnName="P109_3" />
+                <ScalarProperty Name="P110A" ColumnName="P110A" />
+                <ScalarProperty Name="P111" ColumnName="P111" />
+                <ScalarProperty Name="P112" ColumnName="P112" />
+                <ScalarProperty Name="OBS" ColumnName="OBS" />
+                <ScalarProperty Name="ESTADO" ColumnName="ESTADO" />
+                <ScalarProperty Name="USUCRE" ColumnName="USUCRE" />
+                <ScalarProperty Name="FECCRE" ColumnName="FECCRE" />
+                <ScalarProperty Name="USUREG" ColumnName="USUREG" />
+                <ScalarProperty Name="FECREG" ColumnName="FECREG" />
+                <ScalarProperty Name="FECENV" ColumnName="FECENV" />
+                <ScalarProperty Name="P110A_1" ColumnName="P110A_1" />
+                <ScalarProperty Name="P110A_2" ColumnName="P110A_2" />
+                <ScalarProperty Name="P110A_3" ColumnName="P110A_3" />
+                <ScalarProperty Name="P110B_1" ColumnName="P110B_1" />
+                <ScalarProperty Name="P110B_2" ColumnName="P110B_2" />
+                <ScalarProperty Name="P110B_3" ColumnName="P110B_3" />
+                <ScalarProperty Name="P110B_4" ColumnName="P110B_4" />
+                <ScalarProperty Name="P113" ColumnName="P113" />
+                <ScalarProperty Name="P114" ColumnName="P114" />
+                <ScalarProperty Name="P115" ColumnName="P115" />
+                <ScalarProperty Name="P115_O" ColumnName="P115_O" />
+                <ScalarProperty Name="FLAG" ColumnName="FLAG" />
+                <ScalarProperty Name="FLAG_ADD" ColumnName="FLAG_ADD" />
+                <ScalarProperty Name="usurecu" ColumnName="usurecu" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <FunctionImportMapping FunctionImportName="LISTADO_PERSONAS_WEB" FunctionName="EPE_2020_3Model.Store.LISTADO_PERSONAS_WEB">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="EPE_2020_3Model.LISTADO_PERSONAS_WEB_Result">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="NROHOGAR" ColumnName="NROHOGAR" />
+                <ScalarProperty Name="P101" ColumnName="P101" />
+                <ScalarProperty Name="P102" ColumnName="P102" />
+                <ScalarProperty Name="P103" ColumnName="P103" />
+                <ScalarProperty Name="P104" ColumnName="P104" />
+                <ScalarProperty Name="P105" ColumnName="P105" />
+                <ScalarProperty Name="P106" ColumnName="P106" />
+                <ScalarProperty Name="P107" ColumnName="P107" />
+                <ScalarProperty Name="P108" ColumnName="P108" />
+                <ScalarProperty Name="P109" ColumnName="P109" />
+                <ScalarProperty Name="P110A" ColumnName="P110A" />
+                <ScalarProperty Name="P110B" ColumnName="P110B" />
+                <ScalarProperty Name="P111" ColumnName="P111" />
+                <ScalarProperty Name="P200_INF" ColumnName="P200_INF" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Ninguno" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

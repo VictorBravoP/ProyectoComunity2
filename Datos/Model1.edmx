@@ -1,0 +1,1547 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="ComunityModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="T_05_DIG_CAP200">
+          <Key>
+            <PropertyRef Name="ID" />
+            <PropertyRef Name="NROHOGAR" />
+            <PropertyRef Name="NROPERSONA" />
+          </Key>
+          <Property Name="ID" Type="char" MaxLength="16" Nullable="false" />
+          <Property Name="NROHOGAR" Type="int" Nullable="false" />
+          <Property Name="NROPERSONA" Type="int" Nullable="false" />
+          <Property Name="NOMBREPERS" Type="varchar" MaxLength="100" />
+          <Property Name="P200_INF" Type="int" />
+          <Property Name="P200PI_DIA" Type="char" MaxLength="2" />
+          <Property Name="P200PI_MES" Type="char" MaxLength="2" />
+          <Property Name="P200PI_ANIO" Type="int" />
+          <Property Name="P200PF_DIA" Type="char" MaxLength="2" />
+          <Property Name="P200PF_MES" Type="char" MaxLength="2" />
+          <Property Name="P200PF_ANIO" Type="int" />
+          <Property Name="P200A_DIA" Type="char" MaxLength="2" />
+          <Property Name="P200A_MES" Type="char" MaxLength="2" />
+          <Property Name="P200A_ANIO" Type="int" />
+          <Property Name="P201" Type="int" />
+          <Property Name="P202" Type="int" />
+          <Property Name="P203" Type="int" />
+          <Property Name="P204_1" Type="int" />
+          <Property Name="P204_2" Type="int" />
+          <Property Name="P204_3" Type="int" />
+          <Property Name="P204_4" Type="int" />
+          <Property Name="P204_5" Type="int" />
+          <Property Name="P204_6" Type="int" />
+          <Property Name="P204_7" Type="int" />
+          <Property Name="P204_8" Type="int" />
+          <Property Name="P204_9" Type="int" />
+          <Property Name="P204_10" Type="int" />
+          <Property Name="P204_10_O" Type="varchar" MaxLength="100" />
+          <Property Name="P204A" Type="varchar" MaxLength="100" />
+          <Property Name="P204B" Type="varchar" MaxLength="100" />
+          <Property Name="P205A" Type="varchar" MaxLength="100" />
+          <Property Name="P206" Type="int" />
+          <Property Name="P206_O" Type="varchar" MaxLength="100" />
+          <Property Name="P206A" Type="int" />
+          <Property Name="P206A_O" Type="varchar" MaxLength="100" />
+          <Property Name="P207_1" Type="int" />
+          <Property Name="P207_2" Type="int" />
+          <Property Name="P208_DIA" Type="char" MaxLength="2" />
+          <Property Name="P208_MES" Type="char" MaxLength="2" />
+          <Property Name="P208_ANIO" Type="int" />
+          <Property Name="P209A_1" Type="int" />
+          <Property Name="P209A_2" Type="int" />
+          <Property Name="P209A_3" Type="int" />
+          <Property Name="P209A_4" Type="int" />
+          <Property Name="P209A_5" Type="int" />
+          <Property Name="P209A_6" Type="int" />
+          <Property Name="P209A_7" Type="int" />
+          <Property Name="P209A_8" Type="int" />
+          <Property Name="P209A_9" Type="int" />
+          <Property Name="P209A_10" Type="int" />
+          <Property Name="P209A_11" Type="int" />
+          <Property Name="P209A_12" Type="int" />
+          <Property Name="P209A_13" Type="int" />
+          <Property Name="P209A_14" Type="int" />
+          <Property Name="P209A_15" Type="int" />
+          <Property Name="P209B" Type="int" />
+          <Property Name="P209C" Type="int" />
+          <Property Name="P209D" Type="int" />
+          <Property Name="P209E" Type="int" />
+          <Property Name="P210" Type="int" />
+          <Property Name="P211_1" Type="int" />
+          <Property Name="P211_2" Type="int" />
+          <Property Name="P211D" Type="int" />
+          <Property Name="P211E" Type="int" />
+          <Property Name="P211F" Type="int" />
+          <Property Name="P211O" Type="int" />
+          <Property Name="P211_OBS" Type="varchar" MaxLength="500" />
+          <Property Name="P212_1" Type="int" />
+          <Property Name="P212_2" Type="int" />
+          <Property Name="P212D" Type="int" />
+          <Property Name="P212E" Type="int" />
+          <Property Name="P212F" Type="int" />
+          <Property Name="P212O" Type="int" />
+          <Property Name="P212_OBS" Type="varchar" MaxLength="500" />
+          <Property Name="P212A_1" Type="int" />
+          <Property Name="P212A_2" Type="int" />
+          <Property Name="P212A_3" Type="int" />
+          <Property Name="P212A_4" Type="int" />
+          <Property Name="P212A_E" Type="varchar" MaxLength="100" />
+          <Property Name="P212AD" Type="int" />
+          <Property Name="P212AE" Type="int" />
+          <Property Name="P212AF" Type="int" />
+          <Property Name="P212AO" Type="int" />
+          <Property Name="P212A_OBS" Type="varchar" MaxLength="500" />
+          <Property Name="P213" Type="int" />
+          <Property Name="P214" Type="int" />
+          <Property Name="P214_O" Type="varchar" MaxLength="100" />
+          <Property Name="P215" Type="int" />
+          <Property Name="P216" Type="int" />
+          <Property Name="P217" Type="int" />
+          <Property Name="P217_O" Type="varchar" MaxLength="100" />
+          <Property Name="P218" Type="int" />
+          <Property Name="P218_O" Type="varchar" MaxLength="100" />
+          <Property Name="P219" Type="int" />
+          <Property Name="P220" Type="int" />
+          <Property Name="P220A" Type="varchar" MaxLength="100" />
+          <Property Name="P220B" Type="varchar" MaxLength="100" />
+          <Property Name="P221_1" Type="int" />
+          <Property Name="P221_DIA" Type="char" MaxLength="2" />
+          <Property Name="P221_MES" Type="char" MaxLength="2" />
+          <Property Name="P221_ANIO" Type="int" />
+          <Property Name="P221_1_OBS" Type="varchar" MaxLength="100" />
+          <Property Name="P222" Type="int" />
+          <Property Name="P222_O" Type="varchar" MaxLength="100" />
+          <Property Name="P223_1" Type="int" />
+          <Property Name="P223_2" Type="int" />
+          <Property Name="P223_3" Type="int" />
+          <Property Name="P223_4" Type="int" />
+          <Property Name="P223_5" Type="int" />
+          <Property Name="P223_6" Type="int" />
+          <Property Name="P223_7" Type="int" />
+          <Property Name="P224" Type="int" />
+          <Property Name="P224_O" Type="varchar" MaxLength="100" />
+          <Property Name="P225" Type="int" />
+          <Property Name="P225_O_1" Type="varchar" MaxLength="100" />
+          <Property Name="P225_O_2" Type="varchar" MaxLength="100" />
+          <Property Name="OBS_CAP200_1" Type="varchar" MaxLength="1000" />
+          <Property Name="OBS_CAP200_2" Type="varchar" MaxLength="1500" />
+          <Property Name="CTRFECHA" Type="varchar" MaxLength="10" />
+          <Property Name="CTRDIA" Type="int" />
+          <Property Name="CTRMES" Type="int" />
+          <Property Name="CTRANIO" Type="int" />
+          <Property Name="CTRHOR" Type="varchar" MaxLength="5" />
+          <Property Name="CTRRES" Type="int" />
+          <Property Name="CTRRES_E" Type="varchar" MaxLength="100" />
+          <Property Name="CTRRES_OBS" Type="varchar" MaxLength="1000" />
+          <Property Name="T204A" Type="int" />
+          <Property Name="T205A" Type="int" />
+          <Property Name="P2DA" Type="int" />
+          <Property Name="CTRREE" Type="int" />
+          <Property Name="FLGTER200" Type="int" />
+          <Property Name="FLGOMISION" Type="int" />
+          <Property Name="ESTADO" Type="int" />
+          <Property Name="USUCRE" Type="varchar" MaxLength="35" />
+          <Property Name="FECCRE" Type="varchar" MaxLength="35" />
+          <Property Name="USUREG" Type="varchar" MaxLength="35" />
+          <Property Name="FECREG" Type="varchar" MaxLength="35" />
+          <Property Name="FECENV" Type="varchar" MaxLength="35" />
+          <Property Name="P206B" Type="int" />
+          <Property Name="P211_3" Type="int" />
+          <Property Name="P212B" Type="int" />
+          <Property Name="P212B_O_1" Type="varchar" MaxLength="100" />
+          <Property Name="P212B_O_2" Type="varchar" MaxLength="100" />
+          <Property Name="P222_1" Type="int" />
+          <Property Name="P222_2" Type="int" />
+          <Property Name="P222_3" Type="int" />
+          <Property Name="P222_4" Type="int" />
+          <Property Name="P222_5" Type="int" />
+          <Property Name="P222_6" Type="int" />
+          <Property Name="P222A_1" Type="int" />
+          <Property Name="P222A_2" Type="int" />
+          <Property Name="P222A_3" Type="int" />
+          <Property Name="P222A_4" Type="int" />
+          <Property Name="P222A_5" Type="int" />
+          <Property Name="P222A_6" Type="int" />
+          <Property Name="P222_6_O" Type="varchar" MaxLength="100" />
+          <Property Name="P222A_6_O" Type="varchar" MaxLength="100" />
+          <Property Name="P224_O_1" Type="varchar" MaxLength="100" />
+          <Property Name="P224_O_2" Type="varchar" MaxLength="100" />
+          <Property Name="P224_O_3" Type="varchar" MaxLength="100" />
+          <Property Name="P204_11" Type="int" />
+          <Property Name="P204_11_O" Type="varchar" MaxLength="100" />
+          <Property Name="P212B_O_3" Type="varchar" MaxLength="100" />
+          <Property Name="P200B" Type="int" />
+          <Property Name="P200C_0" Type="int" />
+          <Property Name="P200C_1" Type="nvarchar" MaxLength="2" />
+          <Property Name="P200C_2" Type="nvarchar" MaxLength="2" />
+          <Property Name="P200C_3" Type="nvarchar" MaxLength="2" />
+          <Property Name="P200C_4" Type="nvarchar" MaxLength="100" />
+          <Property Name="P224A" Type="int" />
+          <Property Name="P224A_O_1" Type="nvarchar" MaxLength="100" />
+          <Property Name="P224A_O_2" Type="nvarchar" MaxLength="100" />
+          <Property Name="P225A" Type="int" />
+          <Property Name="P225A_O_1" Type="nvarchar" MaxLength="100" />
+          <Property Name="P225A_O_2" Type="nvarchar" MaxLength="100" />
+          <Property Name="P225A_O_3" Type="nvarchar" MaxLength="100" />
+          <Property Name="P204A_COD" Type="int" />
+          <Property Name="P204A_COD4" Type="int" />
+          <Property Name="P205A_COD4" Type="int" />
+          <Property Name="P205B_COD" Type="int" />
+          <Property Name="P220A_COD" Type="int" />
+          <Property Name="P220A_COD4" Type="int" />
+          <Property Name="P220B_COD" Type="int" />
+          <Property Name="P220B_COD4" Type="int" />
+          <Property Name="P226" Type="int" />
+          <Property Name="P227" Type="int" />
+          <Property Name="P227E" Type="varchar" MaxLength="100" />
+          <Property Name="P228" Type="int" />
+          <Property Name="P228E" Type="varchar" MaxLength="100" />
+          <Property Name="P229_1" Type="int" />
+          <Property Name="P229_2" Type="int" />
+          <Property Name="P229_3" Type="int" />
+          <Property Name="P229_3E" Type="varchar" MaxLength="100" />
+          <Property Name="P230" Type="int" />
+          <Property Name="P230E" Type="varchar" MaxLength="100" />
+          <Property Name="P231" Type="int" />
+          <Property Name="P232" Type="int" />
+          <Property Name="P233_1" Type="int" />
+          <Property Name="P233_2" Type="int" />
+          <Property Name="P233_3" Type="int" />
+          <Property Name="P233_4" Type="int" />
+          <Property Name="P233_5" Type="int" />
+          <Property Name="P233_6" Type="int" />
+          <Property Name="P233_7" Type="int" />
+          <Property Name="P233_8" Type="int" />
+          <Property Name="P233_8E" Type="varchar" MaxLength="100" />
+          <Property Name="OCU200" Type="int" />
+          <Property Name="i211a" Type="int" />
+          <Property Name="i211b" Type="int" />
+          <Property Name="i212a" Type="int" />
+          <Property Name="i212b" Type="int" />
+          <Property Name="i212c" Type="int" />
+          <Property Name="i212d" Type="int" />
+          <Property Name="INGTOT" Type="int" />
+          <Property Name="INGPRIN" Type="int" />
+          <Property Name="DMES" Type="int" />
+          <Property Name="DANIO" Type="int" />
+          <Property Name="SMES" Type="int" />
+          <Property Name="SANIO" Type="int" />
+          <Property Name="d211a" Type="int" />
+          <Property Name="d211b" Type="int" />
+          <Property Name="d212a" Type="int" />
+          <Property Name="d212b" Type="int" />
+          <Property Name="d212c" Type="int" />
+          <Property Name="d212d" Type="int" />
+          <Property Name="whora" Type="int" />
+          <Property Name="DINGTOT" Type="int" />
+          <Property Name="DINGPRIN" Type="int" />
+          <Property Name="digita1" Type="int" />
+          <Property Name="digit" Type="varchar" MaxLength="20" />
+          <Property Name="usurecu" Type="varchar" MaxLength="30" />
+        </EntityType>
+        <EntityType Name="T_05_DIG_CONFI">
+          <Key>
+            <PropertyRef Name="ID" />
+            <PropertyRef Name="NROHOGAR" />
+            <PropertyRef Name="NROPERSONA" />
+          </Key>
+          <Property Name="ID" Type="char" MaxLength="16" Nullable="false" />
+          <Property Name="NROHOGAR" Type="int" Nullable="false" />
+          <Property Name="NROPERSONA" Type="int" Nullable="false" />
+          <Property Name="PH223" Type="int" />
+          <Property Name="PH223_O" Type="varchar" MaxLength="30" />
+          <Property Name="PH224" Type="int" />
+          <Property Name="PH225" Type="int" />
+          <Property Name="PH204A" Type="int" />
+          <Property Name="PH205A" Type="int" />
+          <Property Name="PH206" Type="int" />
+          <Property Name="PH209A" Type="int" />
+          <Property Name="PH211" Type="int" />
+          <Property Name="PHOTR" Type="int" />
+          <Property Name="HOTRO" Type="varchar" MaxLength="100" />
+          <Property Name="HOBS" Type="varchar" MaxLength="150" />
+          <Property Name="FLGTERHC" Type="int" />
+          <Property Name="USUCRE" Type="varchar" MaxLength="35" />
+          <Property Name="FECCRE" Type="varchar" MaxLength="35" />
+          <Property Name="USUREG" Type="varchar" MaxLength="35" />
+          <Property Name="FECREG" Type="varchar" MaxLength="35" />
+          <Property Name="FECENV" Type="varchar" MaxLength="35" />
+          <Property Name="C_FECDIG" Type="varchar" MaxLength="20" />
+        </EntityType>
+        <EntityType Name="T_05_DIG_HOGAR">
+          <Key>
+            <PropertyRef Name="ID" />
+            <PropertyRef Name="P8" />
+          </Key>
+          <Property Name="ID" Type="char" MaxLength="16" Nullable="false" />
+          <Property Name="P8" Type="int" Nullable="false" />
+          <Property Name="P12_1" Type="varchar" MaxLength="20" />
+          <Property Name="P12_2" Type="int" />
+          <Property Name="P12_2_O" Type="varchar" MaxLength="100" />
+          <Property Name="P14" Type="int" />
+          <Property Name="P15" Type="int" />
+          <Property Name="P198" Type="int" />
+          <Property Name="P199" Type="int" />
+          <Property Name="OBS_CARATULA" Type="varchar" MaxLength="500" />
+          <Property Name="P100_INF" Type="int" />
+          <Property Name="OBS_CAP100" Type="varchar" MaxLength="500" />
+          <Property Name="USUCRE" Type="varchar" MaxLength="35" />
+          <Property Name="FECCRE" Type="varchar" MaxLength="35" />
+          <Property Name="USUREG" Type="varchar" MaxLength="35" />
+          <Property Name="FECREG" Type="varchar" MaxLength="35" />
+          <Property Name="FECENV" Type="varchar" MaxLength="35" />
+          <Property Name="M101" Type="int" />
+          <Property Name="M102" Type="int" />
+          <Property Name="P100_INFM" Type="int" />
+          <Property Name="OBS_CAP100M" Type="nvarchar" MaxLength="500" />
+          <Property Name="P113_1" Type="int" />
+          <Property Name="P113_2" Type="int" />
+          <Property Name="P113_3" Type="int" />
+          <Property Name="P113_4" Type="int" />
+          <Property Name="P113_5" Type="int" />
+          <Property Name="P113_6" Type="int" />
+          <Property Name="P113_7" Type="int" />
+          <Property Name="P113_8" Type="int" />
+          <Property Name="P114_1" Type="int" />
+          <Property Name="P114_2" Type="int" />
+          <Property Name="P114_3" Type="int" />
+          <Property Name="P114_4" Type="int" />
+          <Property Name="P114_4E" Type="varchar" MaxLength="100" />
+          <Property Name="P114_5" Type="int" />
+          <Property Name="digita1" Type="int" />
+          <Property Name="digit" Type="varchar" MaxLength="20" />
+          <Property Name="flag_ree" Type="int" />
+          <Property Name="p12r" Type="int" />
+          <Property Name="P113_7E" Type="varchar" MaxLength="100" />
+          <Property Name="P12BE2" Type="int" />
+          <Property Name="usurecu" Type="varchar" MaxLength="30" />
+        </EntityType>
+        <EntityType Name="T_05_DIG_VISITA">
+          <Key>
+            <PropertyRef Name="ID" />
+            <PropertyRef Name="NROHOGAR" />
+            <PropertyRef Name="NROVIS" />
+          </Key>
+          <Property Name="ID" Type="char" MaxLength="16" Nullable="false" />
+          <Property Name="NROHOGAR" Type="int" Nullable="false" />
+          <Property Name="NROVIS" Type="int" Nullable="false" />
+          <Property Name="EMODO" Type="int" />
+          <Property Name="EFECHA" Type="varchar" MaxLength="20" />
+          <Property Name="EHORADE" Type="varchar" MaxLength="10" />
+          <Property Name="EHORAA" Type="varchar" MaxLength="10" />
+          <Property Name="EPVFECHA" Type="varchar" MaxLength="20" />
+          <Property Name="EPVHORA" Type="varchar" MaxLength="10" />
+          <Property Name="ERESVIS" Type="int" />
+          <Property Name="ERESVIS_O" Type="varchar" MaxLength="100" />
+          <Property Name="SFECHA" Type="varchar" MaxLength="20" />
+          <Property Name="SHORADE" Type="varchar" MaxLength="10" />
+          <Property Name="SHORAA" Type="varchar" MaxLength="10" />
+          <Property Name="SRESVIS" Type="int" />
+          <Property Name="SRESVIS_O" Type="varchar" MaxLength="100" />
+          <Property Name="GPSLATITUDE" Type="varchar" MaxLength="20" />
+          <Property Name="GPSLONGITUDE" Type="varchar" MaxLength="20" />
+          <Property Name="GPSTIME" Type="varchar" MaxLength="35" />
+          <Property Name="GPSSPEED" Type="varchar" MaxLength="20" />
+          <Property Name="GPSACCURACY" Type="varchar" MaxLength="20" />
+          <Property Name="GPSALTITUDE" Type="varchar" MaxLength="20" />
+          <Property Name="GPSBEARING" Type="varchar" MaxLength="20" />
+          <Property Name="USUCRE" Type="varchar" MaxLength="35" />
+          <Property Name="FECCRE" Type="varchar" MaxLength="35" />
+          <Property Name="USUREG" Type="varchar" MaxLength="35" />
+          <Property Name="FECREG" Type="varchar" MaxLength="35" />
+          <Property Name="FECENV" Type="varchar" MaxLength="35" />
+          <Property Name="ERESVIS_O2" Type="varchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="T_05_DIG_VIVIENDA">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="char" MaxLength="16" Nullable="false" />
+          <Property Name="NSELVIV" Type="int" />
+          <Property Name="REEM" Type="int" />
+          <Property Name="P6" Type="int" />
+          <Property Name="P7" Type="int" />
+          <Property Name="P9" Type="int" />
+          <Property Name="P10_1" Type="int" />
+          <Property Name="P10_1_O" Type="varchar" MaxLength="50" />
+          <Property Name="P10_2" Type="varchar" MaxLength="100" />
+          <Property Name="P10_3" Type="varchar" MaxLength="5" />
+          <Property Name="P10_4" Type="varchar" MaxLength="5" />
+          <Property Name="P10_5" Type="varchar" MaxLength="5" />
+          <Property Name="P10_6" Type="varchar" MaxLength="5" />
+          <Property Name="P10_7" Type="varchar" MaxLength="5" />
+          <Property Name="P10_8" Type="varchar" MaxLength="5" />
+          <Property Name="P10_9" Type="varchar" MaxLength="5" />
+          <Property Name="P10_10" Type="varchar" MaxLength="20" />
+          <Property Name="P10_11" Type="varchar" MaxLength="20" />
+          <Property Name="P12_1" Type="varchar" MaxLength="20" />
+          <Property Name="P12_2" Type="int" />
+          <Property Name="P12_2_O" Type="varchar" MaxLength="100" />
+          <Property Name="GPSLATITUDE" Type="varchar" MaxLength="20" />
+          <Property Name="GPSLONGITUDE" Type="varchar" MaxLength="20" />
+          <Property Name="GPSTIME" Type="varchar" MaxLength="35" />
+          <Property Name="GPSSPEED" Type="varchar" MaxLength="20" />
+          <Property Name="GPSACCURACY" Type="varchar" MaxLength="20" />
+          <Property Name="GPSALTITUDE" Type="varchar" MaxLength="20" />
+          <Property Name="GPSBEARING" Type="varchar" MaxLength="20" />
+          <Property Name="VERSION_IMPORTACION" Type="varchar" MaxLength="100" />
+          <Property Name="VERSION_EXPORTACION" Type="varchar" MaxLength="100" />
+          <Property Name="ESTADO_ENVIO" Type="int" />
+          <Property Name="USUCRE" Type="varchar" MaxLength="35" />
+          <Property Name="FECCRE" Type="varchar" MaxLength="35" />
+          <Property Name="USUREG" Type="varchar" MaxLength="35" />
+          <Property Name="FECREG" Type="varchar" MaxLength="35" />
+          <Property Name="FECENV" Type="varchar" MaxLength="35" />
+          <Property Name="OBSERV" Type="varchar" MaxLength="2000" />
+        </EntityType>
+        <EntityType Name="T_MARCO">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="char" MaxLength="16" Nullable="false" />
+          <Property Name="ANIO" Type="char" MaxLength="4" />
+          <Property Name="MES" Type="char" MaxLength="2" />
+          <Property Name="PERIODO" Type="char" MaxLength="1" />
+          <Property Name="CONGLOMERADO" Type="varchar" MaxLength="6" />
+          <Property Name="SUBMUESTRA" Type="char" MaxLength="3" />
+          <Property Name="NSELVIV" Type="int" />
+          <Property Name="P6" Type="int" />
+          <Property Name="NROVIV" Type="int" />
+          <Property Name="VIV_REM" Type="int" />
+          <Property Name="UBIGEO" Type="char" MaxLength="6" />
+          <Property Name="CODCCPP" Type="char" MaxLength="4" />
+          <Property Name="NOMCCPP" Type="varchar" MaxLength="100" />
+          <Property Name="ZONA" Type="char" MaxLength="5" />
+          <Property Name="MANZANA" Type="varchar" MaxLength="5" />
+          <Property Name="VIA" Type="smallint" />
+          <Property Name="AER_INI" Type="char" MaxLength="3" />
+          <Property Name="AER_FIN" Type="char" MaxLength="3" />
+          <Property Name="DIRECC" Type="varchar" MaxLength="60" />
+          <Property Name="PUERTA" Type="varchar" MaxLength="20" />
+          <Property Name="MZ" Type="varchar" MaxLength="20" />
+          <Property Name="LOTE" Type="varchar" MaxLength="20" />
+          <Property Name="PISO" Type="varchar" MaxLength="20" />
+          <Property Name="BLOCK" Type="varchar" MaxLength="20" />
+          <Property Name="INTERIOR" Type="varchar" MaxLength="20" />
+          <Property Name="KM" Type="varchar" MaxLength="20" />
+          <Property Name="TELEFO" Type="varchar" MaxLength="20" />
+          <Property Name="USUCRE" Type="varchar" MaxLength="35" />
+          <Property Name="FECCRE" Type="varchar" MaxLength="35" />
+          <Property Name="USUREG" Type="varchar" MaxLength="35" />
+          <Property Name="FECREG" Type="varchar" MaxLength="35" />
+          <Property Name="FECENV" Type="varchar" MaxLength="35" />
+          <Property Name="KEY" Type="varchar" MaxLength="25" />
+          <Property Name="GPSLAT_M" Type="varchar" MaxLength="60" />
+          <Property Name="GPSLONG_M" Type="varchar" MaxLength="60" />
+          <Property Name="GPSALT_M" Type="varchar" MaxLength="60" />
+          <Property Name="REEMPLAZO" Type="int" />
+          <Property Name="GPSLON_M" Type="varchar" MaxLength="30" />
+        </EntityType>
+        <EntityType Name="T_SEGMENTACION">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" />
+          <Property Name="COD_SEDE_OPERATIVA" Type="char" MaxLength="2" />
+          <Property Name="SEDE_OPERATIVA" Type="varchar" MaxLength="30" />
+          <Property Name="CCDD" Type="char" MaxLength="2" />
+          <Property Name="DEPARTAMENTO" Type="varchar" MaxLength="30" />
+          <Property Name="CCPP" Type="char" MaxLength="2" />
+          <Property Name="PROVINCIA" Type="varchar" MaxLength="30" />
+          <Property Name="CCDI" Type="char" MaxLength="2" />
+          <Property Name="DISTRITO" Type="varchar" MaxLength="40" />
+          <Property Name="UBIGEO" Type="char" MaxLength="6" />
+          <Property Name="JEFE_EQUIPO" Type="char" MaxLength="3" />
+          <Property Name="EQUIPO" Type="char" MaxLength="3" />
+          <Property Name="RUTA" Type="char" MaxLength="3" />
+          <Property Name="COD_SUPNAC" Type="varchar" MaxLength="35" />
+          <Property Name="COD_COR" Type="varchar" MaxLength="35" />
+          <Property Name="COD_JEF" Type="varchar" MaxLength="35" />
+          <Property Name="COD_SUPERVISOR" Type="varchar" MaxLength="35" />
+          <Property Name="COD_ENCUESTADOR" Type="varchar" MaxLength="35" />
+          <Property Name="COD_ENCUESTADOR_2" Type="varchar" MaxLength="35" />
+          <Property Name="PERIODO" Type="char" MaxLength="1" />
+          <Property Name="CONGLOMERADO" Type="char" MaxLength="6" />
+          <Property Name="SUBMUESTRA" Type="char" MaxLength="3" />
+          <Property Name="ANIO" Type="char" MaxLength="4" />
+          <Property Name="MES" Type="char" MaxLength="2" />
+          <Property Name="PANEL" Type="char" MaxLength="1" />
+          <Property Name="ESTRATO" Type="char" MaxLength="1" />
+          <Property Name="USUCRE" Type="varchar" MaxLength="35" />
+          <Property Name="FECCRE" Type="varchar" MaxLength="35" />
+          <Property Name="USUREG" Type="varchar" MaxLength="35" />
+          <Property Name="FECREG" Type="varchar" MaxLength="35" />
+          <Property Name="FECENV" Type="varchar" MaxLength="35" />
+          <Property Name="COD_ANALISTA" Type="varchar" MaxLength="30" />
+        </EntityType>
+        <Association Name="FK__T_05_DIG_HOG__ID__16651999">
+          <End Role="T_05_DIG_VIVIENDA" Type="Self.T_05_DIG_VIVIENDA" Multiplicity="1" />
+          <End Role="T_05_DIG_HOGAR" Type="Self.T_05_DIG_HOGAR" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="T_05_DIG_VIVIENDA">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="T_05_DIG_HOGAR">
+              <PropertyRef Name="ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__T_05_DIG_VIV__ID__184D620B">
+          <End Role="T_MARCO" Type="Self.T_MARCO" Multiplicity="1" />
+          <End Role="T_05_DIG_VIVIENDA" Type="Self.T_05_DIG_VIVIENDA" Multiplicity="0..1" />
+          <ReferentialConstraint>
+            <Principal Role="T_MARCO">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="T_05_DIG_VIVIENDA">
+              <PropertyRef Name="ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="ComunityModelStoreContainer">
+          <EntitySet Name="T_05_DIG_CAP200" EntityType="Self.T_05_DIG_CAP200" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="T_05_DIG_CONFI" EntityType="Self.T_05_DIG_CONFI" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="T_05_DIG_HOGAR" EntityType="Self.T_05_DIG_HOGAR" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="T_05_DIG_VISITA" EntityType="Self.T_05_DIG_VISITA" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="T_05_DIG_VIVIENDA" EntityType="Self.T_05_DIG_VIVIENDA" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="T_MARCO" EntityType="Self.T_MARCO" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="T_SEGMENTACION" EntityType="Self.T_SEGMENTACION" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK__T_05_DIG_HOG__ID__16651999" Association="Self.FK__T_05_DIG_HOG__ID__16651999">
+            <End Role="T_05_DIG_VIVIENDA" EntitySet="T_05_DIG_VIVIENDA" />
+            <End Role="T_05_DIG_HOGAR" EntitySet="T_05_DIG_HOGAR" />
+          </AssociationSet>
+          <AssociationSet Name="FK__T_05_DIG_VIV__ID__184D620B" Association="Self.FK__T_05_DIG_VIV__ID__184D620B">
+            <End Role="T_MARCO" EntitySet="T_MARCO" />
+            <End Role="T_05_DIG_VIVIENDA" EntitySet="T_05_DIG_VIVIENDA" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="ComunityModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="T_05_DIG_CAP200">
+          <Key>
+            <PropertyRef Name="ID" />
+            <PropertyRef Name="NROHOGAR" />
+            <PropertyRef Name="NROPERSONA" />
+          </Key>
+          <Property Name="ID" Type="String" MaxLength="16" FixedLength="true" Unicode="false" Nullable="false" />
+          <Property Name="NROHOGAR" Type="Int32" Nullable="false" />
+          <Property Name="NROPERSONA" Type="Int32" Nullable="false" />
+          <Property Name="NOMBREPERS" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="P200_INF" Type="Int32" />
+          <Property Name="P200PI_DIA" Type="String" MaxLength="2" FixedLength="true" Unicode="false" />
+          <Property Name="P200PI_MES" Type="String" MaxLength="2" FixedLength="true" Unicode="false" />
+          <Property Name="P200PI_ANIO" Type="Int32" />
+          <Property Name="P200PF_DIA" Type="String" MaxLength="2" FixedLength="true" Unicode="false" />
+          <Property Name="P200PF_MES" Type="String" MaxLength="2" FixedLength="true" Unicode="false" />
+          <Property Name="P200PF_ANIO" Type="Int32" />
+          <Property Name="P200A_DIA" Type="String" MaxLength="2" FixedLength="true" Unicode="false" />
+          <Property Name="P200A_MES" Type="String" MaxLength="2" FixedLength="true" Unicode="false" />
+          <Property Name="P200A_ANIO" Type="Int32" />
+          <Property Name="P201" Type="Int32" />
+          <Property Name="P202" Type="Int32" />
+          <Property Name="P203" Type="Int32" />
+          <Property Name="P204_1" Type="Int32" />
+          <Property Name="P204_2" Type="Int32" />
+          <Property Name="P204_3" Type="Int32" />
+          <Property Name="P204_4" Type="Int32" />
+          <Property Name="P204_5" Type="Int32" />
+          <Property Name="P204_6" Type="Int32" />
+          <Property Name="P204_7" Type="Int32" />
+          <Property Name="P204_8" Type="Int32" />
+          <Property Name="P204_9" Type="Int32" />
+          <Property Name="P204_10" Type="Int32" />
+          <Property Name="P204_10_O" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="P204A" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="P204B" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="P205A" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="P206" Type="Int32" />
+          <Property Name="P206_O" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="P206A" Type="Int32" />
+          <Property Name="P206A_O" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="P207_1" Type="Int32" />
+          <Property Name="P207_2" Type="Int32" />
+          <Property Name="P208_DIA" Type="String" MaxLength="2" FixedLength="true" Unicode="false" />
+          <Property Name="P208_MES" Type="String" MaxLength="2" FixedLength="true" Unicode="false" />
+          <Property Name="P208_ANIO" Type="Int32" />
+          <Property Name="P209A_1" Type="Int32" />
+          <Property Name="P209A_2" Type="Int32" />
+          <Property Name="P209A_3" Type="Int32" />
+          <Property Name="P209A_4" Type="Int32" />
+          <Property Name="P209A_5" Type="Int32" />
+          <Property Name="P209A_6" Type="Int32" />
+          <Property Name="P209A_7" Type="Int32" />
+          <Property Name="P209A_8" Type="Int32" />
+          <Property Name="P209A_9" Type="Int32" />
+          <Property Name="P209A_10" Type="Int32" />
+          <Property Name="P209A_11" Type="Int32" />
+          <Property Name="P209A_12" Type="Int32" />
+          <Property Name="P209A_13" Type="Int32" />
+          <Property Name="P209A_14" Type="Int32" />
+          <Property Name="P209A_15" Type="Int32" />
+          <Property Name="P209B" Type="Int32" />
+          <Property Name="P209C" Type="Int32" />
+          <Property Name="P209D" Type="Int32" />
+          <Property Name="P209E" Type="Int32" />
+          <Property Name="P210" Type="Int32" />
+          <Property Name="P211_1" Type="Int32" />
+          <Property Name="P211_2" Type="Int32" />
+          <Property Name="P211D" Type="Int32" />
+          <Property Name="P211E" Type="Int32" />
+          <Property Name="P211F" Type="Int32" />
+          <Property Name="P211O" Type="Int32" />
+          <Property Name="P211_OBS" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+          <Property Name="P212_1" Type="Int32" />
+          <Property Name="P212_2" Type="Int32" />
+          <Property Name="P212D" Type="Int32" />
+          <Property Name="P212E" Type="Int32" />
+          <Property Name="P212F" Type="Int32" />
+          <Property Name="P212O" Type="Int32" />
+          <Property Name="P212_OBS" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+          <Property Name="P212A_1" Type="Int32" />
+          <Property Name="P212A_2" Type="Int32" />
+          <Property Name="P212A_3" Type="Int32" />
+          <Property Name="P212A_4" Type="Int32" />
+          <Property Name="P212A_E" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="P212AD" Type="Int32" />
+          <Property Name="P212AE" Type="Int32" />
+          <Property Name="P212AF" Type="Int32" />
+          <Property Name="P212AO" Type="Int32" />
+          <Property Name="P212A_OBS" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+          <Property Name="P213" Type="Int32" />
+          <Property Name="P214" Type="Int32" />
+          <Property Name="P214_O" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="P215" Type="Int32" />
+          <Property Name="P216" Type="Int32" />
+          <Property Name="P217" Type="Int32" />
+          <Property Name="P217_O" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="P218" Type="Int32" />
+          <Property Name="P218_O" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="P219" Type="Int32" />
+          <Property Name="P220" Type="Int32" />
+          <Property Name="P220A" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="P220B" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="P221_1" Type="Int32" />
+          <Property Name="P221_DIA" Type="String" MaxLength="2" FixedLength="true" Unicode="false" />
+          <Property Name="P221_MES" Type="String" MaxLength="2" FixedLength="true" Unicode="false" />
+          <Property Name="P221_ANIO" Type="Int32" />
+          <Property Name="P221_1_OBS" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="P222" Type="Int32" />
+          <Property Name="P222_O" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="P223_1" Type="Int32" />
+          <Property Name="P223_2" Type="Int32" />
+          <Property Name="P223_3" Type="Int32" />
+          <Property Name="P223_4" Type="Int32" />
+          <Property Name="P223_5" Type="Int32" />
+          <Property Name="P223_6" Type="Int32" />
+          <Property Name="P223_7" Type="Int32" />
+          <Property Name="P224" Type="Int32" />
+          <Property Name="P224_O" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="P225" Type="Int32" />
+          <Property Name="P225_O_1" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="P225_O_2" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="OBS_CAP200_1" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+          <Property Name="OBS_CAP200_2" Type="String" MaxLength="1500" FixedLength="false" Unicode="false" />
+          <Property Name="CTRFECHA" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="CTRDIA" Type="Int32" />
+          <Property Name="CTRMES" Type="Int32" />
+          <Property Name="CTRANIO" Type="Int32" />
+          <Property Name="CTRHOR" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+          <Property Name="CTRRES" Type="Int32" />
+          <Property Name="CTRRES_E" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="CTRRES_OBS" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+          <Property Name="T204A" Type="Int32" />
+          <Property Name="T205A" Type="Int32" />
+          <Property Name="P2DA" Type="Int32" />
+          <Property Name="CTRREE" Type="Int32" />
+          <Property Name="FLGTER200" Type="Int32" />
+          <Property Name="FLGOMISION" Type="Int32" />
+          <Property Name="ESTADO" Type="Int32" />
+          <Property Name="USUCRE" Type="String" MaxLength="35" FixedLength="false" Unicode="false" />
+          <Property Name="FECCRE" Type="String" MaxLength="35" FixedLength="false" Unicode="false" />
+          <Property Name="USUREG" Type="String" MaxLength="35" FixedLength="false" Unicode="false" />
+          <Property Name="FECREG" Type="String" MaxLength="35" FixedLength="false" Unicode="false" />
+          <Property Name="FECENV" Type="String" MaxLength="35" FixedLength="false" Unicode="false" />
+          <Property Name="P206B" Type="Int32" />
+          <Property Name="P211_3" Type="Int32" />
+          <Property Name="P212B" Type="Int32" />
+          <Property Name="P212B_O_1" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="P212B_O_2" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="P222_1" Type="Int32" />
+          <Property Name="P222_2" Type="Int32" />
+          <Property Name="P222_3" Type="Int32" />
+          <Property Name="P222_4" Type="Int32" />
+          <Property Name="P222_5" Type="Int32" />
+          <Property Name="P222_6" Type="Int32" />
+          <Property Name="P222A_1" Type="Int32" />
+          <Property Name="P222A_2" Type="Int32" />
+          <Property Name="P222A_3" Type="Int32" />
+          <Property Name="P222A_4" Type="Int32" />
+          <Property Name="P222A_5" Type="Int32" />
+          <Property Name="P222A_6" Type="Int32" />
+          <Property Name="P222_6_O" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="P222A_6_O" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="P224_O_1" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="P224_O_2" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="P224_O_3" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="P204_11" Type="Int32" />
+          <Property Name="P204_11_O" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="P212B_O_3" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="P200B" Type="Int32" />
+          <Property Name="P200C_0" Type="Int32" />
+          <Property Name="P200C_1" Type="String" MaxLength="2" FixedLength="false" Unicode="true" />
+          <Property Name="P200C_2" Type="String" MaxLength="2" FixedLength="false" Unicode="true" />
+          <Property Name="P200C_3" Type="String" MaxLength="2" FixedLength="false" Unicode="true" />
+          <Property Name="P200C_4" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="P224A" Type="Int32" />
+          <Property Name="P224A_O_1" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="P224A_O_2" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="P225A" Type="Int32" />
+          <Property Name="P225A_O_1" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="P225A_O_2" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="P225A_O_3" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="P204A_COD" Type="Int32" />
+          <Property Name="P204A_COD4" Type="Int32" />
+          <Property Name="P205A_COD4" Type="Int32" />
+          <Property Name="P205B_COD" Type="Int32" />
+          <Property Name="P220A_COD" Type="Int32" />
+          <Property Name="P220A_COD4" Type="Int32" />
+          <Property Name="P220B_COD" Type="Int32" />
+          <Property Name="P220B_COD4" Type="Int32" />
+          <Property Name="P226" Type="Int32" />
+          <Property Name="P227" Type="Int32" />
+          <Property Name="P227E" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="P228" Type="Int32" />
+          <Property Name="P228E" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="P229_1" Type="Int32" />
+          <Property Name="P229_2" Type="Int32" />
+          <Property Name="P229_3" Type="Int32" />
+          <Property Name="P229_3E" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="P230" Type="Int32" />
+          <Property Name="P230E" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="P231" Type="Int32" />
+          <Property Name="P232" Type="Int32" />
+          <Property Name="P233_1" Type="Int32" />
+          <Property Name="P233_2" Type="Int32" />
+          <Property Name="P233_3" Type="Int32" />
+          <Property Name="P233_4" Type="Int32" />
+          <Property Name="P233_5" Type="Int32" />
+          <Property Name="P233_6" Type="Int32" />
+          <Property Name="P233_7" Type="Int32" />
+          <Property Name="P233_8" Type="Int32" />
+          <Property Name="P233_8E" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="OCU200" Type="Int32" />
+          <Property Name="i211a" Type="Int32" />
+          <Property Name="i211b" Type="Int32" />
+          <Property Name="i212a" Type="Int32" />
+          <Property Name="i212b" Type="Int32" />
+          <Property Name="i212c" Type="Int32" />
+          <Property Name="i212d" Type="Int32" />
+          <Property Name="INGTOT" Type="Int32" />
+          <Property Name="INGPRIN" Type="Int32" />
+          <Property Name="DMES" Type="Int32" />
+          <Property Name="DANIO" Type="Int32" />
+          <Property Name="SMES" Type="Int32" />
+          <Property Name="SANIO" Type="Int32" />
+          <Property Name="d211a" Type="Int32" />
+          <Property Name="d211b" Type="Int32" />
+          <Property Name="d212a" Type="Int32" />
+          <Property Name="d212b" Type="Int32" />
+          <Property Name="d212c" Type="Int32" />
+          <Property Name="d212d" Type="Int32" />
+          <Property Name="whora" Type="Int32" />
+          <Property Name="DINGTOT" Type="Int32" />
+          <Property Name="DINGPRIN" Type="Int32" />
+          <Property Name="digita1" Type="Int32" />
+          <Property Name="digit" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="usurecu" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="T_05_DIG_CONFI">
+          <Key>
+            <PropertyRef Name="ID" />
+            <PropertyRef Name="NROHOGAR" />
+            <PropertyRef Name="NROPERSONA" />
+          </Key>
+          <Property Name="ID" Type="String" MaxLength="16" FixedLength="true" Unicode="false" Nullable="false" />
+          <Property Name="NROHOGAR" Type="Int32" Nullable="false" />
+          <Property Name="NROPERSONA" Type="Int32" Nullable="false" />
+          <Property Name="PH223" Type="Int32" />
+          <Property Name="PH223_O" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Name="PH224" Type="Int32" />
+          <Property Name="PH225" Type="Int32" />
+          <Property Name="PH204A" Type="Int32" />
+          <Property Name="PH205A" Type="Int32" />
+          <Property Name="PH206" Type="Int32" />
+          <Property Name="PH209A" Type="Int32" />
+          <Property Name="PH211" Type="Int32" />
+          <Property Name="PHOTR" Type="Int32" />
+          <Property Name="HOTRO" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="HOBS" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+          <Property Name="FLGTERHC" Type="Int32" />
+          <Property Name="USUCRE" Type="String" MaxLength="35" FixedLength="false" Unicode="false" />
+          <Property Name="FECCRE" Type="String" MaxLength="35" FixedLength="false" Unicode="false" />
+          <Property Name="USUREG" Type="String" MaxLength="35" FixedLength="false" Unicode="false" />
+          <Property Name="FECREG" Type="String" MaxLength="35" FixedLength="false" Unicode="false" />
+          <Property Name="FECENV" Type="String" MaxLength="35" FixedLength="false" Unicode="false" />
+          <Property Name="C_FECDIG" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="T_05_DIG_HOGAR">
+          <Key>
+            <PropertyRef Name="ID" />
+            <PropertyRef Name="P8" />
+          </Key>
+          <Property Name="ID" Type="String" MaxLength="16" FixedLength="true" Unicode="false" Nullable="false" />
+          <Property Name="P8" Type="Int32" Nullable="false" />
+          <Property Name="P12_1" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="P12_2" Type="Int32" />
+          <Property Name="P12_2_O" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="P14" Type="Int32" />
+          <Property Name="P15" Type="Int32" />
+          <Property Name="P198" Type="Int32" />
+          <Property Name="P199" Type="Int32" />
+          <Property Name="OBS_CARATULA" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+          <Property Name="P100_INF" Type="Int32" />
+          <Property Name="OBS_CAP100" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+          <Property Name="USUCRE" Type="String" MaxLength="35" FixedLength="false" Unicode="false" />
+          <Property Name="FECCRE" Type="String" MaxLength="35" FixedLength="false" Unicode="false" />
+          <Property Name="USUREG" Type="String" MaxLength="35" FixedLength="false" Unicode="false" />
+          <Property Name="FECREG" Type="String" MaxLength="35" FixedLength="false" Unicode="false" />
+          <Property Name="FECENV" Type="String" MaxLength="35" FixedLength="false" Unicode="false" />
+          <Property Name="M101" Type="Int32" />
+          <Property Name="M102" Type="Int32" />
+          <Property Name="P100_INFM" Type="Int32" />
+          <Property Name="OBS_CAP100M" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="P113_1" Type="Int32" />
+          <Property Name="P113_2" Type="Int32" />
+          <Property Name="P113_3" Type="Int32" />
+          <Property Name="P113_4" Type="Int32" />
+          <Property Name="P113_5" Type="Int32" />
+          <Property Name="P113_6" Type="Int32" />
+          <Property Name="P113_7" Type="Int32" />
+          <Property Name="P113_8" Type="Int32" />
+          <Property Name="P114_1" Type="Int32" />
+          <Property Name="P114_2" Type="Int32" />
+          <Property Name="P114_3" Type="Int32" />
+          <Property Name="P114_4" Type="Int32" />
+          <Property Name="P114_4E" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="P114_5" Type="Int32" />
+          <Property Name="digita1" Type="Int32" />
+          <Property Name="digit" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="flag_ree" Type="Int32" />
+          <Property Name="p12r" Type="Int32" />
+          <Property Name="P113_7E" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="P12BE2" Type="Int32" />
+          <Property Name="usurecu" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="T_05_DIG_VIVIENDA" Relationship="Self.FK__T_05_DIG_HOG__ID__16651999" FromRole="T_05_DIG_HOGAR" ToRole="T_05_DIG_VIVIENDA" />
+        </EntityType>
+        <EntityType Name="T_05_DIG_VISITA">
+          <Key>
+            <PropertyRef Name="ID" />
+            <PropertyRef Name="NROHOGAR" />
+            <PropertyRef Name="NROVIS" />
+          </Key>
+          <Property Name="ID" Type="String" MaxLength="16" FixedLength="true" Unicode="false" Nullable="false" />
+          <Property Name="NROHOGAR" Type="Int32" Nullable="false" />
+          <Property Name="NROVIS" Type="Int32" Nullable="false" />
+          <Property Name="EMODO" Type="Int32" />
+          <Property Name="EFECHA" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="EHORADE" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="EHORAA" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="EPVFECHA" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="EPVHORA" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="ERESVIS" Type="Int32" />
+          <Property Name="ERESVIS_O" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="SFECHA" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="SHORADE" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="SHORAA" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="SRESVIS" Type="Int32" />
+          <Property Name="SRESVIS_O" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="GPSLATITUDE" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="GPSLONGITUDE" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="GPSTIME" Type="String" MaxLength="35" FixedLength="false" Unicode="false" />
+          <Property Name="GPSSPEED" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="GPSACCURACY" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="GPSALTITUDE" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="GPSBEARING" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="USUCRE" Type="String" MaxLength="35" FixedLength="false" Unicode="false" />
+          <Property Name="FECCRE" Type="String" MaxLength="35" FixedLength="false" Unicode="false" />
+          <Property Name="USUREG" Type="String" MaxLength="35" FixedLength="false" Unicode="false" />
+          <Property Name="FECREG" Type="String" MaxLength="35" FixedLength="false" Unicode="false" />
+          <Property Name="FECENV" Type="String" MaxLength="35" FixedLength="false" Unicode="false" />
+          <Property Name="ERESVIS_O2" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="T_05_DIG_VIVIENDA">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="String" MaxLength="16" FixedLength="true" Unicode="false" Nullable="false" />
+          <Property Name="NSELVIV" Type="Int32" />
+          <Property Name="REEM" Type="Int32" />
+          <Property Name="P6" Type="Int32" />
+          <Property Name="P7" Type="Int32" />
+          <Property Name="P9" Type="Int32" />
+          <Property Name="P10_1" Type="Int32" />
+          <Property Name="P10_1_O" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="P10_2" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="P10_3" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+          <Property Name="P10_4" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+          <Property Name="P10_5" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+          <Property Name="P10_6" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+          <Property Name="P10_7" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+          <Property Name="P10_8" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+          <Property Name="P10_9" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+          <Property Name="P10_10" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="P10_11" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="P12_1" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="P12_2" Type="Int32" />
+          <Property Name="P12_2_O" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="GPSLATITUDE" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="GPSLONGITUDE" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="GPSTIME" Type="String" MaxLength="35" FixedLength="false" Unicode="false" />
+          <Property Name="GPSSPEED" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="GPSACCURACY" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="GPSALTITUDE" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="GPSBEARING" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="VERSION_IMPORTACION" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="VERSION_EXPORTACION" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="ESTADO_ENVIO" Type="Int32" />
+          <Property Name="USUCRE" Type="String" MaxLength="35" FixedLength="false" Unicode="false" />
+          <Property Name="FECCRE" Type="String" MaxLength="35" FixedLength="false" Unicode="false" />
+          <Property Name="USUREG" Type="String" MaxLength="35" FixedLength="false" Unicode="false" />
+          <Property Name="FECREG" Type="String" MaxLength="35" FixedLength="false" Unicode="false" />
+          <Property Name="FECENV" Type="String" MaxLength="35" FixedLength="false" Unicode="false" />
+          <Property Name="OBSERV" Type="String" MaxLength="2000" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="T_05_DIG_HOGAR" Relationship="Self.FK__T_05_DIG_HOG__ID__16651999" FromRole="T_05_DIG_VIVIENDA" ToRole="T_05_DIG_HOGAR" />
+          <NavigationProperty Name="T_MARCO" Relationship="Self.FK__T_05_DIG_VIV__ID__184D620B" FromRole="T_05_DIG_VIVIENDA" ToRole="T_MARCO" />
+        </EntityType>
+        <EntityType Name="T_MARCO">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="String" MaxLength="16" FixedLength="true" Unicode="false" Nullable="false" />
+          <Property Name="ANIO" Type="String" MaxLength="4" FixedLength="true" Unicode="false" />
+          <Property Name="MES" Type="String" MaxLength="2" FixedLength="true" Unicode="false" />
+          <Property Name="PERIODO" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+          <Property Name="CONGLOMERADO" Type="String" MaxLength="6" FixedLength="false" Unicode="false" />
+          <Property Name="SUBMUESTRA" Type="String" MaxLength="3" FixedLength="true" Unicode="false" />
+          <Property Name="NSELVIV" Type="Int32" />
+          <Property Name="P6" Type="Int32" />
+          <Property Name="NROVIV" Type="Int32" />
+          <Property Name="VIV_REM" Type="Int32" />
+          <Property Name="UBIGEO" Type="String" MaxLength="6" FixedLength="true" Unicode="false" />
+          <Property Name="CODCCPP" Type="String" MaxLength="4" FixedLength="true" Unicode="false" />
+          <Property Name="NOMCCPP" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="ZONA" Type="String" MaxLength="5" FixedLength="true" Unicode="false" />
+          <Property Name="MANZANA" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+          <Property Name="VIA" Type="Int16" />
+          <Property Name="AER_INI" Type="String" MaxLength="3" FixedLength="true" Unicode="false" />
+          <Property Name="AER_FIN" Type="String" MaxLength="3" FixedLength="true" Unicode="false" />
+          <Property Name="DIRECC" Type="String" MaxLength="60" FixedLength="false" Unicode="false" />
+          <Property Name="PUERTA" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="MZ" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="LOTE" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="PISO" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="BLOCK" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="INTERIOR" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="KM" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="TELEFO" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="USUCRE" Type="String" MaxLength="35" FixedLength="false" Unicode="false" />
+          <Property Name="FECCRE" Type="String" MaxLength="35" FixedLength="false" Unicode="false" />
+          <Property Name="USUREG" Type="String" MaxLength="35" FixedLength="false" Unicode="false" />
+          <Property Name="FECREG" Type="String" MaxLength="35" FixedLength="false" Unicode="false" />
+          <Property Name="FECENV" Type="String" MaxLength="35" FixedLength="false" Unicode="false" />
+          <Property Name="KEY" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+          <Property Name="GPSLAT_M" Type="String" MaxLength="60" FixedLength="false" Unicode="false" />
+          <Property Name="GPSLONG_M" Type="String" MaxLength="60" FixedLength="false" Unicode="false" />
+          <Property Name="GPSALT_M" Type="String" MaxLength="60" FixedLength="false" Unicode="false" />
+          <Property Name="REEMPLAZO" Type="Int32" />
+          <Property Name="GPSLON_M" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="T_05_DIG_VIVIENDA" Relationship="Self.FK__T_05_DIG_VIV__ID__184D620B" FromRole="T_MARCO" ToRole="T_05_DIG_VIVIENDA" />
+        </EntityType>
+        <EntityType Name="T_SEGMENTACION">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" />
+          <Property Name="COD_SEDE_OPERATIVA" Type="String" MaxLength="2" FixedLength="true" Unicode="false" />
+          <Property Name="SEDE_OPERATIVA" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Name="CCDD" Type="String" MaxLength="2" FixedLength="true" Unicode="false" />
+          <Property Name="DEPARTAMENTO" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Name="CCPP" Type="String" MaxLength="2" FixedLength="true" Unicode="false" />
+          <Property Name="PROVINCIA" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Name="CCDI" Type="String" MaxLength="2" FixedLength="true" Unicode="false" />
+          <Property Name="DISTRITO" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+          <Property Name="UBIGEO" Type="String" MaxLength="6" FixedLength="true" Unicode="false" />
+          <Property Name="JEFE_EQUIPO" Type="String" MaxLength="3" FixedLength="true" Unicode="false" />
+          <Property Name="EQUIPO" Type="String" MaxLength="3" FixedLength="true" Unicode="false" />
+          <Property Name="RUTA" Type="String" MaxLength="3" FixedLength="true" Unicode="false" />
+          <Property Name="COD_SUPNAC" Type="String" MaxLength="35" FixedLength="false" Unicode="false" />
+          <Property Name="COD_COR" Type="String" MaxLength="35" FixedLength="false" Unicode="false" />
+          <Property Name="COD_JEF" Type="String" MaxLength="35" FixedLength="false" Unicode="false" />
+          <Property Name="COD_SUPERVISOR" Type="String" MaxLength="35" FixedLength="false" Unicode="false" />
+          <Property Name="COD_ENCUESTADOR" Type="String" MaxLength="35" FixedLength="false" Unicode="false" />
+          <Property Name="COD_ENCUESTADOR_2" Type="String" MaxLength="35" FixedLength="false" Unicode="false" />
+          <Property Name="PERIODO" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+          <Property Name="CONGLOMERADO" Type="String" MaxLength="6" FixedLength="true" Unicode="false" />
+          <Property Name="SUBMUESTRA" Type="String" MaxLength="3" FixedLength="true" Unicode="false" />
+          <Property Name="ANIO" Type="String" MaxLength="4" FixedLength="true" Unicode="false" />
+          <Property Name="MES" Type="String" MaxLength="2" FixedLength="true" Unicode="false" />
+          <Property Name="PANEL" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+          <Property Name="ESTRATO" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+          <Property Name="USUCRE" Type="String" MaxLength="35" FixedLength="false" Unicode="false" />
+          <Property Name="FECCRE" Type="String" MaxLength="35" FixedLength="false" Unicode="false" />
+          <Property Name="USUREG" Type="String" MaxLength="35" FixedLength="false" Unicode="false" />
+          <Property Name="FECREG" Type="String" MaxLength="35" FixedLength="false" Unicode="false" />
+          <Property Name="FECENV" Type="String" MaxLength="35" FixedLength="false" Unicode="false" />
+          <Property Name="COD_ANALISTA" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <Association Name="FK__T_05_DIG_HOG__ID__16651999">
+          <End Role="T_05_DIG_VIVIENDA" Type="Self.T_05_DIG_VIVIENDA" Multiplicity="1" />
+          <End Role="T_05_DIG_HOGAR" Type="Self.T_05_DIG_HOGAR" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="T_05_DIG_VIVIENDA">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="T_05_DIG_HOGAR">
+              <PropertyRef Name="ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__T_05_DIG_VIV__ID__184D620B">
+          <End Role="T_MARCO" Type="Self.T_MARCO" Multiplicity="1" />
+          <End Role="T_05_DIG_VIVIENDA" Type="Self.T_05_DIG_VIVIENDA" Multiplicity="0..1" />
+          <ReferentialConstraint>
+            <Principal Role="T_MARCO">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="T_05_DIG_VIVIENDA">
+              <PropertyRef Name="ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="ComunityEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="T_05_DIG_CAP200" EntityType="Self.T_05_DIG_CAP200" />
+          <EntitySet Name="T_05_DIG_CONFI" EntityType="Self.T_05_DIG_CONFI" />
+          <EntitySet Name="T_05_DIG_HOGAR" EntityType="Self.T_05_DIG_HOGAR" />
+          <EntitySet Name="T_05_DIG_VISITA" EntityType="Self.T_05_DIG_VISITA" />
+          <EntitySet Name="T_05_DIG_VIVIENDA" EntityType="Self.T_05_DIG_VIVIENDA" />
+          <EntitySet Name="T_MARCO" EntityType="Self.T_MARCO" />
+          <EntitySet Name="T_SEGMENTACION" EntityType="Self.T_SEGMENTACION" />
+          <AssociationSet Name="FK__T_05_DIG_HOG__ID__16651999" Association="Self.FK__T_05_DIG_HOG__ID__16651999">
+            <End Role="T_05_DIG_VIVIENDA" EntitySet="T_05_DIG_VIVIENDA" />
+            <End Role="T_05_DIG_HOGAR" EntitySet="T_05_DIG_HOGAR" />
+          </AssociationSet>
+          <AssociationSet Name="FK__T_05_DIG_VIV__ID__184D620B" Association="Self.FK__T_05_DIG_VIV__ID__184D620B">
+            <End Role="T_MARCO" EntitySet="T_MARCO" />
+            <End Role="T_05_DIG_VIVIENDA" EntitySet="T_05_DIG_VIVIENDA" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="ComunityModelStoreContainer" CdmEntityContainer="ComunityEntities">
+          <EntitySetMapping Name="T_05_DIG_CAP200">
+            <EntityTypeMapping TypeName="ComunityModel.T_05_DIG_CAP200">
+              <MappingFragment StoreEntitySet="T_05_DIG_CAP200">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="NROHOGAR" ColumnName="NROHOGAR" />
+                <ScalarProperty Name="NROPERSONA" ColumnName="NROPERSONA" />
+                <ScalarProperty Name="NOMBREPERS" ColumnName="NOMBREPERS" />
+                <ScalarProperty Name="P200_INF" ColumnName="P200_INF" />
+                <ScalarProperty Name="P200PI_DIA" ColumnName="P200PI_DIA" />
+                <ScalarProperty Name="P200PI_MES" ColumnName="P200PI_MES" />
+                <ScalarProperty Name="P200PI_ANIO" ColumnName="P200PI_ANIO" />
+                <ScalarProperty Name="P200PF_DIA" ColumnName="P200PF_DIA" />
+                <ScalarProperty Name="P200PF_MES" ColumnName="P200PF_MES" />
+                <ScalarProperty Name="P200PF_ANIO" ColumnName="P200PF_ANIO" />
+                <ScalarProperty Name="P200A_DIA" ColumnName="P200A_DIA" />
+                <ScalarProperty Name="P200A_MES" ColumnName="P200A_MES" />
+                <ScalarProperty Name="P200A_ANIO" ColumnName="P200A_ANIO" />
+                <ScalarProperty Name="P201" ColumnName="P201" />
+                <ScalarProperty Name="P202" ColumnName="P202" />
+                <ScalarProperty Name="P203" ColumnName="P203" />
+                <ScalarProperty Name="P204_1" ColumnName="P204_1" />
+                <ScalarProperty Name="P204_2" ColumnName="P204_2" />
+                <ScalarProperty Name="P204_3" ColumnName="P204_3" />
+                <ScalarProperty Name="P204_4" ColumnName="P204_4" />
+                <ScalarProperty Name="P204_5" ColumnName="P204_5" />
+                <ScalarProperty Name="P204_6" ColumnName="P204_6" />
+                <ScalarProperty Name="P204_7" ColumnName="P204_7" />
+                <ScalarProperty Name="P204_8" ColumnName="P204_8" />
+                <ScalarProperty Name="P204_9" ColumnName="P204_9" />
+                <ScalarProperty Name="P204_10" ColumnName="P204_10" />
+                <ScalarProperty Name="P204_10_O" ColumnName="P204_10_O" />
+                <ScalarProperty Name="P204A" ColumnName="P204A" />
+                <ScalarProperty Name="P204B" ColumnName="P204B" />
+                <ScalarProperty Name="P205A" ColumnName="P205A" />
+                <ScalarProperty Name="P206" ColumnName="P206" />
+                <ScalarProperty Name="P206_O" ColumnName="P206_O" />
+                <ScalarProperty Name="P206A" ColumnName="P206A" />
+                <ScalarProperty Name="P206A_O" ColumnName="P206A_O" />
+                <ScalarProperty Name="P207_1" ColumnName="P207_1" />
+                <ScalarProperty Name="P207_2" ColumnName="P207_2" />
+                <ScalarProperty Name="P208_DIA" ColumnName="P208_DIA" />
+                <ScalarProperty Name="P208_MES" ColumnName="P208_MES" />
+                <ScalarProperty Name="P208_ANIO" ColumnName="P208_ANIO" />
+                <ScalarProperty Name="P209A_1" ColumnName="P209A_1" />
+                <ScalarProperty Name="P209A_2" ColumnName="P209A_2" />
+                <ScalarProperty Name="P209A_3" ColumnName="P209A_3" />
+                <ScalarProperty Name="P209A_4" ColumnName="P209A_4" />
+                <ScalarProperty Name="P209A_5" ColumnName="P209A_5" />
+                <ScalarProperty Name="P209A_6" ColumnName="P209A_6" />
+                <ScalarProperty Name="P209A_7" ColumnName="P209A_7" />
+                <ScalarProperty Name="P209A_8" ColumnName="P209A_8" />
+                <ScalarProperty Name="P209A_9" ColumnName="P209A_9" />
+                <ScalarProperty Name="P209A_10" ColumnName="P209A_10" />
+                <ScalarProperty Name="P209A_11" ColumnName="P209A_11" />
+                <ScalarProperty Name="P209A_12" ColumnName="P209A_12" />
+                <ScalarProperty Name="P209A_13" ColumnName="P209A_13" />
+                <ScalarProperty Name="P209A_14" ColumnName="P209A_14" />
+                <ScalarProperty Name="P209A_15" ColumnName="P209A_15" />
+                <ScalarProperty Name="P209B" ColumnName="P209B" />
+                <ScalarProperty Name="P209C" ColumnName="P209C" />
+                <ScalarProperty Name="P209D" ColumnName="P209D" />
+                <ScalarProperty Name="P209E" ColumnName="P209E" />
+                <ScalarProperty Name="P210" ColumnName="P210" />
+                <ScalarProperty Name="P211_1" ColumnName="P211_1" />
+                <ScalarProperty Name="P211_2" ColumnName="P211_2" />
+                <ScalarProperty Name="P211D" ColumnName="P211D" />
+                <ScalarProperty Name="P211E" ColumnName="P211E" />
+                <ScalarProperty Name="P211F" ColumnName="P211F" />
+                <ScalarProperty Name="P211O" ColumnName="P211O" />
+                <ScalarProperty Name="P211_OBS" ColumnName="P211_OBS" />
+                <ScalarProperty Name="P212_1" ColumnName="P212_1" />
+                <ScalarProperty Name="P212_2" ColumnName="P212_2" />
+                <ScalarProperty Name="P212D" ColumnName="P212D" />
+                <ScalarProperty Name="P212E" ColumnName="P212E" />
+                <ScalarProperty Name="P212F" ColumnName="P212F" />
+                <ScalarProperty Name="P212O" ColumnName="P212O" />
+                <ScalarProperty Name="P212_OBS" ColumnName="P212_OBS" />
+                <ScalarProperty Name="P212A_1" ColumnName="P212A_1" />
+                <ScalarProperty Name="P212A_2" ColumnName="P212A_2" />
+                <ScalarProperty Name="P212A_3" ColumnName="P212A_3" />
+                <ScalarProperty Name="P212A_4" ColumnName="P212A_4" />
+                <ScalarProperty Name="P212A_E" ColumnName="P212A_E" />
+                <ScalarProperty Name="P212AD" ColumnName="P212AD" />
+                <ScalarProperty Name="P212AE" ColumnName="P212AE" />
+                <ScalarProperty Name="P212AF" ColumnName="P212AF" />
+                <ScalarProperty Name="P212AO" ColumnName="P212AO" />
+                <ScalarProperty Name="P212A_OBS" ColumnName="P212A_OBS" />
+                <ScalarProperty Name="P213" ColumnName="P213" />
+                <ScalarProperty Name="P214" ColumnName="P214" />
+                <ScalarProperty Name="P214_O" ColumnName="P214_O" />
+                <ScalarProperty Name="P215" ColumnName="P215" />
+                <ScalarProperty Name="P216" ColumnName="P216" />
+                <ScalarProperty Name="P217" ColumnName="P217" />
+                <ScalarProperty Name="P217_O" ColumnName="P217_O" />
+                <ScalarProperty Name="P218" ColumnName="P218" />
+                <ScalarProperty Name="P218_O" ColumnName="P218_O" />
+                <ScalarProperty Name="P219" ColumnName="P219" />
+                <ScalarProperty Name="P220" ColumnName="P220" />
+                <ScalarProperty Name="P220A" ColumnName="P220A" />
+                <ScalarProperty Name="P220B" ColumnName="P220B" />
+                <ScalarProperty Name="P221_1" ColumnName="P221_1" />
+                <ScalarProperty Name="P221_DIA" ColumnName="P221_DIA" />
+                <ScalarProperty Name="P221_MES" ColumnName="P221_MES" />
+                <ScalarProperty Name="P221_ANIO" ColumnName="P221_ANIO" />
+                <ScalarProperty Name="P221_1_OBS" ColumnName="P221_1_OBS" />
+                <ScalarProperty Name="P222" ColumnName="P222" />
+                <ScalarProperty Name="P222_O" ColumnName="P222_O" />
+                <ScalarProperty Name="P223_1" ColumnName="P223_1" />
+                <ScalarProperty Name="P223_2" ColumnName="P223_2" />
+                <ScalarProperty Name="P223_3" ColumnName="P223_3" />
+                <ScalarProperty Name="P223_4" ColumnName="P223_4" />
+                <ScalarProperty Name="P223_5" ColumnName="P223_5" />
+                <ScalarProperty Name="P223_6" ColumnName="P223_6" />
+                <ScalarProperty Name="P223_7" ColumnName="P223_7" />
+                <ScalarProperty Name="P224" ColumnName="P224" />
+                <ScalarProperty Name="P224_O" ColumnName="P224_O" />
+                <ScalarProperty Name="P225" ColumnName="P225" />
+                <ScalarProperty Name="P225_O_1" ColumnName="P225_O_1" />
+                <ScalarProperty Name="P225_O_2" ColumnName="P225_O_2" />
+                <ScalarProperty Name="OBS_CAP200_1" ColumnName="OBS_CAP200_1" />
+                <ScalarProperty Name="OBS_CAP200_2" ColumnName="OBS_CAP200_2" />
+                <ScalarProperty Name="CTRFECHA" ColumnName="CTRFECHA" />
+                <ScalarProperty Name="CTRDIA" ColumnName="CTRDIA" />
+                <ScalarProperty Name="CTRMES" ColumnName="CTRMES" />
+                <ScalarProperty Name="CTRANIO" ColumnName="CTRANIO" />
+                <ScalarProperty Name="CTRHOR" ColumnName="CTRHOR" />
+                <ScalarProperty Name="CTRRES" ColumnName="CTRRES" />
+                <ScalarProperty Name="CTRRES_E" ColumnName="CTRRES_E" />
+                <ScalarProperty Name="CTRRES_OBS" ColumnName="CTRRES_OBS" />
+                <ScalarProperty Name="T204A" ColumnName="T204A" />
+                <ScalarProperty Name="T205A" ColumnName="T205A" />
+                <ScalarProperty Name="P2DA" ColumnName="P2DA" />
+                <ScalarProperty Name="CTRREE" ColumnName="CTRREE" />
+                <ScalarProperty Name="FLGTER200" ColumnName="FLGTER200" />
+                <ScalarProperty Name="FLGOMISION" ColumnName="FLGOMISION" />
+                <ScalarProperty Name="ESTADO" ColumnName="ESTADO" />
+                <ScalarProperty Name="USUCRE" ColumnName="USUCRE" />
+                <ScalarProperty Name="FECCRE" ColumnName="FECCRE" />
+                <ScalarProperty Name="USUREG" ColumnName="USUREG" />
+                <ScalarProperty Name="FECREG" ColumnName="FECREG" />
+                <ScalarProperty Name="FECENV" ColumnName="FECENV" />
+                <ScalarProperty Name="P206B" ColumnName="P206B" />
+                <ScalarProperty Name="P211_3" ColumnName="P211_3" />
+                <ScalarProperty Name="P212B" ColumnName="P212B" />
+                <ScalarProperty Name="P212B_O_1" ColumnName="P212B_O_1" />
+                <ScalarProperty Name="P212B_O_2" ColumnName="P212B_O_2" />
+                <ScalarProperty Name="P222_1" ColumnName="P222_1" />
+                <ScalarProperty Name="P222_2" ColumnName="P222_2" />
+                <ScalarProperty Name="P222_3" ColumnName="P222_3" />
+                <ScalarProperty Name="P222_4" ColumnName="P222_4" />
+                <ScalarProperty Name="P222_5" ColumnName="P222_5" />
+                <ScalarProperty Name="P222_6" ColumnName="P222_6" />
+                <ScalarProperty Name="P222A_1" ColumnName="P222A_1" />
+                <ScalarProperty Name="P222A_2" ColumnName="P222A_2" />
+                <ScalarProperty Name="P222A_3" ColumnName="P222A_3" />
+                <ScalarProperty Name="P222A_4" ColumnName="P222A_4" />
+                <ScalarProperty Name="P222A_5" ColumnName="P222A_5" />
+                <ScalarProperty Name="P222A_6" ColumnName="P222A_6" />
+                <ScalarProperty Name="P222_6_O" ColumnName="P222_6_O" />
+                <ScalarProperty Name="P222A_6_O" ColumnName="P222A_6_O" />
+                <ScalarProperty Name="P224_O_1" ColumnName="P224_O_1" />
+                <ScalarProperty Name="P224_O_2" ColumnName="P224_O_2" />
+                <ScalarProperty Name="P224_O_3" ColumnName="P224_O_3" />
+                <ScalarProperty Name="P204_11" ColumnName="P204_11" />
+                <ScalarProperty Name="P204_11_O" ColumnName="P204_11_O" />
+                <ScalarProperty Name="P212B_O_3" ColumnName="P212B_O_3" />
+                <ScalarProperty Name="P200B" ColumnName="P200B" />
+                <ScalarProperty Name="P200C_0" ColumnName="P200C_0" />
+                <ScalarProperty Name="P200C_1" ColumnName="P200C_1" />
+                <ScalarProperty Name="P200C_2" ColumnName="P200C_2" />
+                <ScalarProperty Name="P200C_3" ColumnName="P200C_3" />
+                <ScalarProperty Name="P200C_4" ColumnName="P200C_4" />
+                <ScalarProperty Name="P224A" ColumnName="P224A" />
+                <ScalarProperty Name="P224A_O_1" ColumnName="P224A_O_1" />
+                <ScalarProperty Name="P224A_O_2" ColumnName="P224A_O_2" />
+                <ScalarProperty Name="P225A" ColumnName="P225A" />
+                <ScalarProperty Name="P225A_O_1" ColumnName="P225A_O_1" />
+                <ScalarProperty Name="P225A_O_2" ColumnName="P225A_O_2" />
+                <ScalarProperty Name="P225A_O_3" ColumnName="P225A_O_3" />
+                <ScalarProperty Name="P204A_COD" ColumnName="P204A_COD" />
+                <ScalarProperty Name="P204A_COD4" ColumnName="P204A_COD4" />
+                <ScalarProperty Name="P205A_COD4" ColumnName="P205A_COD4" />
+                <ScalarProperty Name="P205B_COD" ColumnName="P205B_COD" />
+                <ScalarProperty Name="P220A_COD" ColumnName="P220A_COD" />
+                <ScalarProperty Name="P220A_COD4" ColumnName="P220A_COD4" />
+                <ScalarProperty Name="P220B_COD" ColumnName="P220B_COD" />
+                <ScalarProperty Name="P220B_COD4" ColumnName="P220B_COD4" />
+                <ScalarProperty Name="P226" ColumnName="P226" />
+                <ScalarProperty Name="P227" ColumnName="P227" />
+                <ScalarProperty Name="P227E" ColumnName="P227E" />
+                <ScalarProperty Name="P228" ColumnName="P228" />
+                <ScalarProperty Name="P228E" ColumnName="P228E" />
+                <ScalarProperty Name="P229_1" ColumnName="P229_1" />
+                <ScalarProperty Name="P229_2" ColumnName="P229_2" />
+                <ScalarProperty Name="P229_3" ColumnName="P229_3" />
+                <ScalarProperty Name="P229_3E" ColumnName="P229_3E" />
+                <ScalarProperty Name="P230" ColumnName="P230" />
+                <ScalarProperty Name="P230E" ColumnName="P230E" />
+                <ScalarProperty Name="P231" ColumnName="P231" />
+                <ScalarProperty Name="P232" ColumnName="P232" />
+                <ScalarProperty Name="P233_1" ColumnName="P233_1" />
+                <ScalarProperty Name="P233_2" ColumnName="P233_2" />
+                <ScalarProperty Name="P233_3" ColumnName="P233_3" />
+                <ScalarProperty Name="P233_4" ColumnName="P233_4" />
+                <ScalarProperty Name="P233_5" ColumnName="P233_5" />
+                <ScalarProperty Name="P233_6" ColumnName="P233_6" />
+                <ScalarProperty Name="P233_7" ColumnName="P233_7" />
+                <ScalarProperty Name="P233_8" ColumnName="P233_8" />
+                <ScalarProperty Name="P233_8E" ColumnName="P233_8E" />
+                <ScalarProperty Name="OCU200" ColumnName="OCU200" />
+                <ScalarProperty Name="i211a" ColumnName="i211a" />
+                <ScalarProperty Name="i211b" ColumnName="i211b" />
+                <ScalarProperty Name="i212a" ColumnName="i212a" />
+                <ScalarProperty Name="i212b" ColumnName="i212b" />
+                <ScalarProperty Name="i212c" ColumnName="i212c" />
+                <ScalarProperty Name="i212d" ColumnName="i212d" />
+                <ScalarProperty Name="INGTOT" ColumnName="INGTOT" />
+                <ScalarProperty Name="INGPRIN" ColumnName="INGPRIN" />
+                <ScalarProperty Name="DMES" ColumnName="DMES" />
+                <ScalarProperty Name="DANIO" ColumnName="DANIO" />
+                <ScalarProperty Name="SMES" ColumnName="SMES" />
+                <ScalarProperty Name="SANIO" ColumnName="SANIO" />
+                <ScalarProperty Name="d211a" ColumnName="d211a" />
+                <ScalarProperty Name="d211b" ColumnName="d211b" />
+                <ScalarProperty Name="d212a" ColumnName="d212a" />
+                <ScalarProperty Name="d212b" ColumnName="d212b" />
+                <ScalarProperty Name="d212c" ColumnName="d212c" />
+                <ScalarProperty Name="d212d" ColumnName="d212d" />
+                <ScalarProperty Name="whora" ColumnName="whora" />
+                <ScalarProperty Name="DINGTOT" ColumnName="DINGTOT" />
+                <ScalarProperty Name="DINGPRIN" ColumnName="DINGPRIN" />
+                <ScalarProperty Name="digita1" ColumnName="digita1" />
+                <ScalarProperty Name="digit" ColumnName="digit" />
+                <ScalarProperty Name="usurecu" ColumnName="usurecu" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="T_05_DIG_CONFI">
+            <EntityTypeMapping TypeName="ComunityModel.T_05_DIG_CONFI">
+              <MappingFragment StoreEntitySet="T_05_DIG_CONFI">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="NROHOGAR" ColumnName="NROHOGAR" />
+                <ScalarProperty Name="NROPERSONA" ColumnName="NROPERSONA" />
+                <ScalarProperty Name="PH223" ColumnName="PH223" />
+                <ScalarProperty Name="PH223_O" ColumnName="PH223_O" />
+                <ScalarProperty Name="PH224" ColumnName="PH224" />
+                <ScalarProperty Name="PH225" ColumnName="PH225" />
+                <ScalarProperty Name="PH204A" ColumnName="PH204A" />
+                <ScalarProperty Name="PH205A" ColumnName="PH205A" />
+                <ScalarProperty Name="PH206" ColumnName="PH206" />
+                <ScalarProperty Name="PH209A" ColumnName="PH209A" />
+                <ScalarProperty Name="PH211" ColumnName="PH211" />
+                <ScalarProperty Name="PHOTR" ColumnName="PHOTR" />
+                <ScalarProperty Name="HOTRO" ColumnName="HOTRO" />
+                <ScalarProperty Name="HOBS" ColumnName="HOBS" />
+                <ScalarProperty Name="FLGTERHC" ColumnName="FLGTERHC" />
+                <ScalarProperty Name="USUCRE" ColumnName="USUCRE" />
+                <ScalarProperty Name="FECCRE" ColumnName="FECCRE" />
+                <ScalarProperty Name="USUREG" ColumnName="USUREG" />
+                <ScalarProperty Name="FECREG" ColumnName="FECREG" />
+                <ScalarProperty Name="FECENV" ColumnName="FECENV" />
+                <ScalarProperty Name="C_FECDIG" ColumnName="C_FECDIG" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="T_05_DIG_HOGAR">
+            <EntityTypeMapping TypeName="ComunityModel.T_05_DIG_HOGAR">
+              <MappingFragment StoreEntitySet="T_05_DIG_HOGAR">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="P8" ColumnName="P8" />
+                <ScalarProperty Name="P12_1" ColumnName="P12_1" />
+                <ScalarProperty Name="P12_2" ColumnName="P12_2" />
+                <ScalarProperty Name="P12_2_O" ColumnName="P12_2_O" />
+                <ScalarProperty Name="P14" ColumnName="P14" />
+                <ScalarProperty Name="P15" ColumnName="P15" />
+                <ScalarProperty Name="P198" ColumnName="P198" />
+                <ScalarProperty Name="P199" ColumnName="P199" />
+                <ScalarProperty Name="OBS_CARATULA" ColumnName="OBS_CARATULA" />
+                <ScalarProperty Name="P100_INF" ColumnName="P100_INF" />
+                <ScalarProperty Name="OBS_CAP100" ColumnName="OBS_CAP100" />
+                <ScalarProperty Name="USUCRE" ColumnName="USUCRE" />
+                <ScalarProperty Name="FECCRE" ColumnName="FECCRE" />
+                <ScalarProperty Name="USUREG" ColumnName="USUREG" />
+                <ScalarProperty Name="FECREG" ColumnName="FECREG" />
+                <ScalarProperty Name="FECENV" ColumnName="FECENV" />
+                <ScalarProperty Name="M101" ColumnName="M101" />
+                <ScalarProperty Name="M102" ColumnName="M102" />
+                <ScalarProperty Name="P100_INFM" ColumnName="P100_INFM" />
+                <ScalarProperty Name="OBS_CAP100M" ColumnName="OBS_CAP100M" />
+                <ScalarProperty Name="P113_1" ColumnName="P113_1" />
+                <ScalarProperty Name="P113_2" ColumnName="P113_2" />
+                <ScalarProperty Name="P113_3" ColumnName="P113_3" />
+                <ScalarProperty Name="P113_4" ColumnName="P113_4" />
+                <ScalarProperty Name="P113_5" ColumnName="P113_5" />
+                <ScalarProperty Name="P113_6" ColumnName="P113_6" />
+                <ScalarProperty Name="P113_7" ColumnName="P113_7" />
+                <ScalarProperty Name="P113_8" ColumnName="P113_8" />
+                <ScalarProperty Name="P114_1" ColumnName="P114_1" />
+                <ScalarProperty Name="P114_2" ColumnName="P114_2" />
+                <ScalarProperty Name="P114_3" ColumnName="P114_3" />
+                <ScalarProperty Name="P114_4" ColumnName="P114_4" />
+                <ScalarProperty Name="P114_4E" ColumnName="P114_4E" />
+                <ScalarProperty Name="P114_5" ColumnName="P114_5" />
+                <ScalarProperty Name="digita1" ColumnName="digita1" />
+                <ScalarProperty Name="digit" ColumnName="digit" />
+                <ScalarProperty Name="flag_ree" ColumnName="flag_ree" />
+                <ScalarProperty Name="p12r" ColumnName="p12r" />
+                <ScalarProperty Name="P113_7E" ColumnName="P113_7E" />
+                <ScalarProperty Name="P12BE2" ColumnName="P12BE2" />
+                <ScalarProperty Name="usurecu" ColumnName="usurecu" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="T_05_DIG_VISITA">
+            <EntityTypeMapping TypeName="ComunityModel.T_05_DIG_VISITA">
+              <MappingFragment StoreEntitySet="T_05_DIG_VISITA">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="NROHOGAR" ColumnName="NROHOGAR" />
+                <ScalarProperty Name="NROVIS" ColumnName="NROVIS" />
+                <ScalarProperty Name="EMODO" ColumnName="EMODO" />
+                <ScalarProperty Name="EFECHA" ColumnName="EFECHA" />
+                <ScalarProperty Name="EHORADE" ColumnName="EHORADE" />
+                <ScalarProperty Name="EHORAA" ColumnName="EHORAA" />
+                <ScalarProperty Name="EPVFECHA" ColumnName="EPVFECHA" />
+                <ScalarProperty Name="EPVHORA" ColumnName="EPVHORA" />
+                <ScalarProperty Name="ERESVIS" ColumnName="ERESVIS" />
+                <ScalarProperty Name="ERESVIS_O" ColumnName="ERESVIS_O" />
+                <ScalarProperty Name="SFECHA" ColumnName="SFECHA" />
+                <ScalarProperty Name="SHORADE" ColumnName="SHORADE" />
+                <ScalarProperty Name="SHORAA" ColumnName="SHORAA" />
+                <ScalarProperty Name="SRESVIS" ColumnName="SRESVIS" />
+                <ScalarProperty Name="SRESVIS_O" ColumnName="SRESVIS_O" />
+                <ScalarProperty Name="GPSLATITUDE" ColumnName="GPSLATITUDE" />
+                <ScalarProperty Name="GPSLONGITUDE" ColumnName="GPSLONGITUDE" />
+                <ScalarProperty Name="GPSTIME" ColumnName="GPSTIME" />
+                <ScalarProperty Name="GPSSPEED" ColumnName="GPSSPEED" />
+                <ScalarProperty Name="GPSACCURACY" ColumnName="GPSACCURACY" />
+                <ScalarProperty Name="GPSALTITUDE" ColumnName="GPSALTITUDE" />
+                <ScalarProperty Name="GPSBEARING" ColumnName="GPSBEARING" />
+                <ScalarProperty Name="USUCRE" ColumnName="USUCRE" />
+                <ScalarProperty Name="FECCRE" ColumnName="FECCRE" />
+                <ScalarProperty Name="USUREG" ColumnName="USUREG" />
+                <ScalarProperty Name="FECREG" ColumnName="FECREG" />
+                <ScalarProperty Name="FECENV" ColumnName="FECENV" />
+                <ScalarProperty Name="ERESVIS_O2" ColumnName="ERESVIS_O2" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="T_05_DIG_VIVIENDA">
+            <EntityTypeMapping TypeName="ComunityModel.T_05_DIG_VIVIENDA">
+              <MappingFragment StoreEntitySet="T_05_DIG_VIVIENDA">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="NSELVIV" ColumnName="NSELVIV" />
+                <ScalarProperty Name="REEM" ColumnName="REEM" />
+                <ScalarProperty Name="P6" ColumnName="P6" />
+                <ScalarProperty Name="P7" ColumnName="P7" />
+                <ScalarProperty Name="P9" ColumnName="P9" />
+                <ScalarProperty Name="P10_1" ColumnName="P10_1" />
+                <ScalarProperty Name="P10_1_O" ColumnName="P10_1_O" />
+                <ScalarProperty Name="P10_2" ColumnName="P10_2" />
+                <ScalarProperty Name="P10_3" ColumnName="P10_3" />
+                <ScalarProperty Name="P10_4" ColumnName="P10_4" />
+                <ScalarProperty Name="P10_5" ColumnName="P10_5" />
+                <ScalarProperty Name="P10_6" ColumnName="P10_6" />
+                <ScalarProperty Name="P10_7" ColumnName="P10_7" />
+                <ScalarProperty Name="P10_8" ColumnName="P10_8" />
+                <ScalarProperty Name="P10_9" ColumnName="P10_9" />
+                <ScalarProperty Name="P10_10" ColumnName="P10_10" />
+                <ScalarProperty Name="P10_11" ColumnName="P10_11" />
+                <ScalarProperty Name="P12_1" ColumnName="P12_1" />
+                <ScalarProperty Name="P12_2" ColumnName="P12_2" />
+                <ScalarProperty Name="P12_2_O" ColumnName="P12_2_O" />
+                <ScalarProperty Name="GPSLATITUDE" ColumnName="GPSLATITUDE" />
+                <ScalarProperty Name="GPSLONGITUDE" ColumnName="GPSLONGITUDE" />
+                <ScalarProperty Name="GPSTIME" ColumnName="GPSTIME" />
+                <ScalarProperty Name="GPSSPEED" ColumnName="GPSSPEED" />
+                <ScalarProperty Name="GPSACCURACY" ColumnName="GPSACCURACY" />
+                <ScalarProperty Name="GPSALTITUDE" ColumnName="GPSALTITUDE" />
+                <ScalarProperty Name="GPSBEARING" ColumnName="GPSBEARING" />
+                <ScalarProperty Name="VERSION_IMPORTACION" ColumnName="VERSION_IMPORTACION" />
+                <ScalarProperty Name="VERSION_EXPORTACION" ColumnName="VERSION_EXPORTACION" />
+                <ScalarProperty Name="ESTADO_ENVIO" ColumnName="ESTADO_ENVIO" />
+                <ScalarProperty Name="USUCRE" ColumnName="USUCRE" />
+                <ScalarProperty Name="FECCRE" ColumnName="FECCRE" />
+                <ScalarProperty Name="USUREG" ColumnName="USUREG" />
+                <ScalarProperty Name="FECREG" ColumnName="FECREG" />
+                <ScalarProperty Name="FECENV" ColumnName="FECENV" />
+                <ScalarProperty Name="OBSERV" ColumnName="OBSERV" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="T_MARCO">
+            <EntityTypeMapping TypeName="ComunityModel.T_MARCO">
+              <MappingFragment StoreEntitySet="T_MARCO">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="ANIO" ColumnName="ANIO" />
+                <ScalarProperty Name="MES" ColumnName="MES" />
+                <ScalarProperty Name="PERIODO" ColumnName="PERIODO" />
+                <ScalarProperty Name="CONGLOMERADO" ColumnName="CONGLOMERADO" />
+                <ScalarProperty Name="SUBMUESTRA" ColumnName="SUBMUESTRA" />
+                <ScalarProperty Name="NSELVIV" ColumnName="NSELVIV" />
+                <ScalarProperty Name="P6" ColumnName="P6" />
+                <ScalarProperty Name="NROVIV" ColumnName="NROVIV" />
+                <ScalarProperty Name="VIV_REM" ColumnName="VIV_REM" />
+                <ScalarProperty Name="UBIGEO" ColumnName="UBIGEO" />
+                <ScalarProperty Name="CODCCPP" ColumnName="CODCCPP" />
+                <ScalarProperty Name="NOMCCPP" ColumnName="NOMCCPP" />
+                <ScalarProperty Name="ZONA" ColumnName="ZONA" />
+                <ScalarProperty Name="MANZANA" ColumnName="MANZANA" />
+                <ScalarProperty Name="VIA" ColumnName="VIA" />
+                <ScalarProperty Name="AER_INI" ColumnName="AER_INI" />
+                <ScalarProperty Name="AER_FIN" ColumnName="AER_FIN" />
+                <ScalarProperty Name="DIRECC" ColumnName="DIRECC" />
+                <ScalarProperty Name="PUERTA" ColumnName="PUERTA" />
+                <ScalarProperty Name="MZ" ColumnName="MZ" />
+                <ScalarProperty Name="LOTE" ColumnName="LOTE" />
+                <ScalarProperty Name="PISO" ColumnName="PISO" />
+                <ScalarProperty Name="BLOCK" ColumnName="BLOCK" />
+                <ScalarProperty Name="INTERIOR" ColumnName="INTERIOR" />
+                <ScalarProperty Name="KM" ColumnName="KM" />
+                <ScalarProperty Name="TELEFO" ColumnName="TELEFO" />
+                <ScalarProperty Name="USUCRE" ColumnName="USUCRE" />
+                <ScalarProperty Name="FECCRE" ColumnName="FECCRE" />
+                <ScalarProperty Name="USUREG" ColumnName="USUREG" />
+                <ScalarProperty Name="FECREG" ColumnName="FECREG" />
+                <ScalarProperty Name="FECENV" ColumnName="FECENV" />
+                <ScalarProperty Name="KEY" ColumnName="KEY" />
+                <ScalarProperty Name="GPSLAT_M" ColumnName="GPSLAT_M" />
+                <ScalarProperty Name="GPSLONG_M" ColumnName="GPSLONG_M" />
+                <ScalarProperty Name="GPSALT_M" ColumnName="GPSALT_M" />
+                <ScalarProperty Name="REEMPLAZO" ColumnName="REEMPLAZO" />
+                <ScalarProperty Name="GPSLON_M" ColumnName="GPSLON_M" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="T_SEGMENTACION">
+            <EntityTypeMapping TypeName="ComunityModel.T_SEGMENTACION">
+              <MappingFragment StoreEntitySet="T_SEGMENTACION">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="COD_SEDE_OPERATIVA" ColumnName="COD_SEDE_OPERATIVA" />
+                <ScalarProperty Name="SEDE_OPERATIVA" ColumnName="SEDE_OPERATIVA" />
+                <ScalarProperty Name="CCDD" ColumnName="CCDD" />
+                <ScalarProperty Name="DEPARTAMENTO" ColumnName="DEPARTAMENTO" />
+                <ScalarProperty Name="CCPP" ColumnName="CCPP" />
+                <ScalarProperty Name="PROVINCIA" ColumnName="PROVINCIA" />
+                <ScalarProperty Name="CCDI" ColumnName="CCDI" />
+                <ScalarProperty Name="DISTRITO" ColumnName="DISTRITO" />
+                <ScalarProperty Name="UBIGEO" ColumnName="UBIGEO" />
+                <ScalarProperty Name="JEFE_EQUIPO" ColumnName="JEFE_EQUIPO" />
+                <ScalarProperty Name="EQUIPO" ColumnName="EQUIPO" />
+                <ScalarProperty Name="RUTA" ColumnName="RUTA" />
+                <ScalarProperty Name="COD_SUPNAC" ColumnName="COD_SUPNAC" />
+                <ScalarProperty Name="COD_COR" ColumnName="COD_COR" />
+                <ScalarProperty Name="COD_JEF" ColumnName="COD_JEF" />
+                <ScalarProperty Name="COD_SUPERVISOR" ColumnName="COD_SUPERVISOR" />
+                <ScalarProperty Name="COD_ENCUESTADOR" ColumnName="COD_ENCUESTADOR" />
+                <ScalarProperty Name="COD_ENCUESTADOR_2" ColumnName="COD_ENCUESTADOR_2" />
+                <ScalarProperty Name="PERIODO" ColumnName="PERIODO" />
+                <ScalarProperty Name="CONGLOMERADO" ColumnName="CONGLOMERADO" />
+                <ScalarProperty Name="SUBMUESTRA" ColumnName="SUBMUESTRA" />
+                <ScalarProperty Name="ANIO" ColumnName="ANIO" />
+                <ScalarProperty Name="MES" ColumnName="MES" />
+                <ScalarProperty Name="PANEL" ColumnName="PANEL" />
+                <ScalarProperty Name="ESTRATO" ColumnName="ESTRATO" />
+                <ScalarProperty Name="USUCRE" ColumnName="USUCRE" />
+                <ScalarProperty Name="FECCRE" ColumnName="FECCRE" />
+                <ScalarProperty Name="USUREG" ColumnName="USUREG" />
+                <ScalarProperty Name="FECREG" ColumnName="FECREG" />
+                <ScalarProperty Name="FECENV" ColumnName="FECENV" />
+                <ScalarProperty Name="COD_ANALISTA" ColumnName="COD_ANALISTA" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="true" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Ninguno" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
