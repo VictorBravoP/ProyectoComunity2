@@ -38,12 +38,15 @@
       <input type="hidden" name="hdnNROHOGAR" id="hdnNROHOGAR" value="<'%=hdnNROHOGAR %>" />
       <input type="hidden" name="hdnNROPERSONA" id="hdnNROPERSONA" value="<'%=hdnNROPERSONA %>" />
 
- <!--HERE     --->
+        <!--HERE     --->
         <div class="form-group  form-group-marginless" id="P1A" name="P1A">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P1A. ¿Puedo comenzar la entrevista?</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P1A</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-65 grid-border-preg">
+                        <label class="col-form-label"><strong>¿Puedo comenzar la entrevista?</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">
@@ -63,8 +66,11 @@
         <div class="form-group  form-group-marginless" id="P1B" name="P1B">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P1B. Nombre del Entrevistador</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P1B</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-65 grid-border-preg">
+                        <label class="col-form-label"><strong>Nombre del Entrevistador</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">
@@ -79,8 +85,11 @@
         <div class="form-group  form-group-marginless" id="P1_1" name="P1_1">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P1_1. Código del centro</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P1_1</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-65 grid-border-preg">
+                        <label class="col-form-label"><strong>Código del centro</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">
@@ -95,8 +104,11 @@
         <div class="form-group  form-group-marginless" id="P1_1_1" name="P1_1_1">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P1_1_1. Nombre del centro</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P1_1_1</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-65 grid-border-preg">
+                        <label class="col-form-label"><strong>Nombre del centro</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">
@@ -111,8 +123,11 @@
         <div class="form-group  form-group-marginless" id="UBIGEO" name="UBIGEO">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>UBIGEO. Ubigeo</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>UBIGEO</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-65 grid-border-preg">
+                        <label class="col-form-label"><strong>Ubigeo</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">
@@ -127,8 +142,11 @@
         <div class="form-group  form-group-marginless" id="DEPARTAMENTO" name="DEPARTAMENTO">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>DEPARTAMENTO. Departamento</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>DEPARTAMENTO</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-65 grid-border-preg">
+                        <label class="col-form-label"><strong>Departamento</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">
@@ -143,8 +161,11 @@
         <div class="form-group  form-group-marginless" id="PROVINCIA" name="PROVINCIA">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>PROVINCIA. Provincia</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>PROVINCIA</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-65 grid-border-preg">
+                        <label class="col-form-label"><strong>Provincia</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">
@@ -159,8 +180,11 @@
         <div class="form-group  form-group-marginless" id="DISTRITO" name="DISTRITO">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>DISTRITO. Distrito</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>DISTRITO</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-65 grid-border-preg">
+                        <label class="col-form-label"><strong>Distrito</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">
@@ -175,8 +199,11 @@
         <div class="form-group  form-group-marginless" id="P1_2" name="P1_2">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P1_2. ¿Puede confirmar su nombre?</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P1_2</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-65 grid-border-preg">
+                        <label class="col-form-label"><strong>¿Puede confirmar su nombre?</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">
@@ -191,8 +218,11 @@
         <div class="form-group  form-group-marginless" id="P1_3" name="P1_3">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P1_3. ¿Puede confirmar el nombre del centro?</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P1_3</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-65 grid-border-preg">
+                        <label class="col-form-label"><strong>¿Puede confirmar el nombre del centro?</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">
@@ -207,8 +237,11 @@
         <div class="form-group  form-group-marginless" id="P1_4" name="P1_4">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P1_4. ¿Dónde está situado el centro? </strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P1_4</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-65 grid-border-preg">
+                        <label class="col-form-label"><strong>¿Dónde está situado el centro? </strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">
@@ -228,8 +261,11 @@
         <div class="form-group  form-group-marginless" id="P1_5" name="P1_5">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P1_5. ¿Qué tipo de centro es? </strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P1_5</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-65 grid-border-preg">
+                        <label class="col-form-label"><strong>¿Qué tipo de centro es? </strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">
@@ -261,8 +297,11 @@
         <div class="form-group  form-group-marginless" id="P1_6" name="P1_6">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P1_6. ¿Cuál es el órgano encargado de la gestión del centro?</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P1_6</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-65 grid-border-preg">
+                        <label class="col-form-label"><strong>¿Cuál es el órgano encargado de la gestión del centro?</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">
@@ -290,8 +329,11 @@
         <div class="form-group  form-group-marginless" id="P1_7" name="P1_7">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P1_7. ¿Cuál es su cargo o puesto en el centro? </strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P1_7</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-65 grid-border-preg">
+                        <label class="col-form-label"><strong>¿Cuál es su cargo o puesto en el centro? </strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">
@@ -315,8 +357,11 @@
         <div class="form-group  form-group-marginless" id="P1_8" name="P1_8">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P1_8. ¿Cómo se llama el director o gerente del centro?</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P1_8</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-65 grid-border-preg">
+                        <label class="col-form-label"><strong>¿Cómo se llama el director o gerente del centro?</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">
@@ -331,8 +376,11 @@
         <div class="form-group  form-group-marginless" id="P1_9" name="P1_9">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P1_9. ¿Cuál es el número de teléfono del director o gerente del centro?</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P1_9</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-65 grid-border-preg">
+                        <label class="col-form-label"><strong>¿Cuál es el número de teléfono del director o gerente del centro?</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">
@@ -347,8 +395,11 @@
         <div class="form-group  form-group-marginless" id="P1_10_1" name="P1_10_1">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P1_10_1. Fecha de registro de la información (Día)</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P1_10_1</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-65 grid-border-preg">
+                        <label class="col-form-label"><strong>Fecha de registro de la información (Día)</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">
@@ -363,8 +414,11 @@
         <div class="form-group  form-group-marginless" id="P1_10_2" name="P1_10_2">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P1_10_2. Fecha de registro de la información (Mes)</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P1_10_2</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-65 grid-border-preg">
+                        <label class="col-form-label"><strong>Fecha de registro de la información (Mes)</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">
@@ -379,8 +433,11 @@
         <div class="form-group  form-group-marginless" id="P1_10_3" name="P1_10_3">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P1_10_3. Fecha de registro de la información (Año)</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P1_10_3</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-65 grid-border-preg">
+                        <label class="col-form-label"><strong>Fecha de registro de la información (Año)</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">
@@ -392,32 +449,35 @@
                 </div>
             </div>
         </div>
-        <div class="form-group  form-group-marginless" id="P1_11" name="P1_11">
-            <div class="col-lg-12">
-                <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P1_11. ¿Este centro ofrece servicios de hospitalización? </strong></label>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
-                        <div class="kt-portlet__body">
-                            <label class="kt-radio kt-radio--tick kt-radio--brand">
-                                <input type="radio" name="txtP1_11" value="1">
-                                1. Si<span></span>
-                            </label>
-                            <label class="kt-radio kt-radio--tick kt-radio--brand">
-                                <input type="radio" name="txtP1_11" value="2">
-                                2. No<span></span>
-                            </label>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        Mens. 512, Nivel 16, Estado 1, Línea 63
+Subquery returned more than 1 value. This is not permitted when the subquery follows =, !=, <, <= , >, >= or when the subquery is used as an expression.
+ <div class="form-group  form-group-marginless" id="P1_11" name="P1_11">
+     <div class="col-lg-12">
+         <div class="form-group row form-group-marginless kt-margin-t-0">
+             <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                 <label class="col-form-label"><strong>P1_11</strong></label>
+             </div>
+             <div class="col-lg-5 col-md-5 col-sm-5 col-xs-65 grid-border-preg">
+                 <label class="col-form-label"><strong>¿Este centro ofrece servicios de hospitalización? </strong></label>
+             </div>
+             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
+                 <div class="kt-portlet__body">
+                     <div class="col-lg-12">
+                         <input type="text" id="txtP1_11" name="txtP1_11" class="form-control">
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+ </div>
         <div class="form-group  form-group-marginless" id="P1_12" name="P1_12">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P1_12. ¿De cuántas camas para pasar la noche o para hospitalización dispone el centro en total, excluyendo las camas para partos? </strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P1_12</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-65 grid-border-preg">
+                        <label class="col-form-label"><strong>¿De cuántas camas para pasar la noche o para hospitalización dispone el centro en total, excluyendo las camas para partos? </strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">
@@ -432,8 +492,11 @@
         <div class="form-group  form-group-marginless" id="P1_13" name="P1_13">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P1_13. De esas camas de hospitalización, ¿cuántas son camas de la unidad de cuidados intensivos? </strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P1_13</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-65 grid-border-preg">
+                        <label class="col-form-label"><strong>De esas camas de hospitalización, ¿cuántas son camas de la unidad de cuidados intensivos? </strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">
@@ -448,8 +511,11 @@
         <div class="form-group  form-group-marginless" id="P1_14" name="P1_14">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P1_14. ¿Cuenta el centro con los siguientes departamentos y salas o espacios?</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P1_14</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-65 grid-border-preg">
+                        <label class="col-form-label"><strong>¿Cuenta el centro con los siguientes departamentos y salas o espacios?</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">AQUI IRA </div>
@@ -460,8 +526,11 @@
         <div class="form-group  form-group-marginless" id="P1_14_1" name="P1_14_1">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P1_14_1. Servicio de urgencias con personal específico las 24 horas del día</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P1_14_1</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-65 grid-border-preg">
+                        <label class="col-form-label"><strong>Servicio de urgencias con personal específico las 24 horas del día</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">
@@ -469,19 +538,10 @@
                                 <input type="radio" name="txtP1_14_1" value="1">
                                 1. Si<span></span>
                             </label>
-                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                             <label class="kt-radio kt-radio--tick kt-radio--brand">
                                 <input type="radio" name="txtP1_14_1" value="2">
                                 2. No<span></span>
                             </label>
-
-                            <label class="kt-radio kt-radio--tick kt-radio--brand">
-                                <input type="radio" name="txtP1_14_1" value="1">
-                                1. Si <span></span></label>
-                            <label class="kt-radio kt-radio--tick kt-radio--brand">
-                                <input type="radio" name="txtP1_14_2" value="1">
-                                1. Si <span></span></label>
-
-
                         </div>
                     </div>
                 </div>
@@ -490,8 +550,11 @@
         <div class="form-group  form-group-marginless" id="P1_14_2" name="P1_14_2">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P1_14_2. ¿Cuenta el centro con Quirófano ?</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P1_14_2</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-65 grid-border-preg">
+                        <label class="col-form-label"><strong>¿Cuenta el centro con Quirófano ?</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">
@@ -499,7 +562,7 @@
                                 <input type="radio" name="txtP1_14_2" value="1">
                                 1. Si<span></span>
                             </label>
-                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                             <label class="kt-radio kt-radio--tick kt-radio--brand">
                                 <input type="radio" name="txtP1_14_2" value="2">
                                 2. No<span></span>
                             </label>
@@ -508,7 +571,6 @@
                 </div>
             </div>
         </div>
-
         <!--TERMINA -->
 
 

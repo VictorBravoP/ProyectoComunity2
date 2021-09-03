@@ -41,8 +41,11 @@
         <div class="form-group  form-group-marginless" id="P7_1" name="P7_1">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P7_1. ¿Cuántas unidades de los siguientes tipos de equipos están disponibles en cualquier lugar de este centro y cuántas de ellas funcionan actualmente?</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P7_1</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
+                        <label class="col-form-label"><strong>¿Cuántas unidades de los siguientes tipos de equipos están disponibles en cualquier lugar de este centro y cuántas de ellas funcionan actualmente?</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">AQUI IRA </div>
@@ -53,8 +56,11 @@
         <div class="form-group  form-group-marginless" id="P7_1_1" name="P7_1_1">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P7_1_1. Rayos X</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P7_1_1</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
+                        <label class="col-form-label"><strong>Rayos X</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">AQUI IRA </div>
@@ -65,8 +71,11 @@
         <div class="form-group  form-group-marginless" id="P7_1_2" name="P7_1_2">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P7_1_2. Pulsioxímetros (de mesa, portátil o integrado)</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P7_1_2</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
+                        <label class="col-form-label"><strong>Pulsioxímetros (de mesa, portátil o integrado)</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">AQUI IRA </div>
@@ -77,8 +86,11 @@
         <div class="form-group  form-group-marginless" id="P7_1_3" name="P7_1_3">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P7_1_3. "Respirador de unidad de cuidados intensivos (adulto o pediátrico)</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P7_1_3</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
+                        <label class="col-form-label"><strong>"Respirador de unidad de cuidados intensivos (adulto o pediátrico)</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">AQUI IRA </div>
@@ -89,8 +101,11 @@
         <div class="form-group  form-group-marginless" id="P7_1_4" name="P7_1_4">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P7_1_4. Respiradores para ventilación mecánica no invasiva: presión positiva continua en las vías respiratorias (CPAP), bipresión positiva en las vías respiratorias (Bipap) y cánula nasal de alto flujo (CNAF)</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P7_1_4</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
+                        <label class="col-form-label"><strong>Respiradores para ventilación mecánica no invasiva: presión positiva continua en las vías respiratorias (CPAP), bipresión positiva en las vías respiratorias (Bipap) y cánula nasal de alto flujo (CNAF)</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">AQUI IRA </div>
@@ -101,8 +116,11 @@
         <div class="form-group  form-group-marginless" id="P7_1_5" name="P7_1_5">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P7_1_5. ¿Por qué no funciona el respirador de la unidad de cuidados intensivos? </strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P7_1_5</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
+                        <label class="col-form-label"><strong>¿Por qué no funciona el respirador de la unidad de cuidados intensivos? </strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">AQUI IRA </div>
@@ -113,8 +131,11 @@
         <div class="form-group  form-group-marginless" id="P7_1_6" name="P7_1_6">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P7_1_6. ¿Por qué no funciona el respirador para ventilación mecánica no invasiva?</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P7_1_6</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
+                        <label class="col-form-label"><strong>¿Por qué no funciona el respirador para ventilación mecánica no invasiva?</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">AQUI IRA </div>
@@ -125,8 +146,11 @@
         <div class="form-group  form-group-marginless" id="P7_4" name="P7_4">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P7_4. Indique las fuentes de oxígeno medicinal de que dispone el centro:</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P7_4</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
+                        <label class="col-form-label"><strong>Indique las fuentes de oxígeno medicinal de que dispone el centro:</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">AQUI IRA </div>
@@ -137,8 +161,11 @@
         <div class="form-group  form-group-marginless" id="P7_4_1" name="P7_4_1">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P7_4_1. Concentrador de oxígeno</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P7_4_1</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
+                        <label class="col-form-label"><strong>Concentrador de oxígeno</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">AQUI IRA </div>
@@ -149,8 +176,11 @@
         <div class="form-group  form-group-marginless" id="P7_4_2" name="P7_4_2">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P7_4_2. Suministro externo (adquirido a granel)</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P7_4_2</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
+                        <label class="col-form-label"><strong>Suministro externo (adquirido a granel)</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">AQUI IRA </div>
@@ -161,8 +191,11 @@
         <div class="form-group  form-group-marginless" id="P7_4_3" name="P7_4_3">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P7_4_3. Suministro externo (botellas de oxígeno)</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P7_4_3</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
+                        <label class="col-form-label"><strong>Suministro externo (botellas de oxígeno)</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">AQUI IRA </div>
@@ -173,8 +206,11 @@
         <div class="form-group  form-group-marginless" id="P7_4_4" name="P7_4_4">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P7_4_4. Plantas generadoras de oxígeno mediante adsorción por oscilación de la presión u oxígeno líquido </strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P7_4_4</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
+                        <label class="col-form-label"><strong>Plantas generadoras de oxígeno mediante adsorción por oscilación de la presión u oxígeno líquido </strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">AQUI IRA </div>
@@ -185,8 +221,11 @@
         <div class="form-group  form-group-marginless" id="P7_5" name="P7_5">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P7_5. ¿Dispone el centro actualmente de distribución de oxígeno canalizado a las terminales de oxígeno de pared?</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P7_5</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
+                        <label class="col-form-label"><strong>¿Dispone el centro actualmente de distribución de oxígeno canalizado a las terminales de oxígeno de pared?</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">AQUI IRA </div>
@@ -197,8 +236,11 @@
         <div class="form-group  form-group-marginless" id="P7_6" name="P7_6">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P7_6. ¿Dispone actualmente el centro de una bombona de gas medicinal portátil para oxígeno, equipada con válvula y regulador de presión y de flujo?</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P7_6</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
+                        <label class="col-form-label"><strong>¿Dispone actualmente el centro de una bombona de gas medicinal portátil para oxígeno, equipada con válvula y regulador de presión y de flujo?</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">AQUI IRA </div>
@@ -206,6 +248,7 @@
                 </div>
             </div>
         </div>
+
 
         <!--TERMINA -->
 

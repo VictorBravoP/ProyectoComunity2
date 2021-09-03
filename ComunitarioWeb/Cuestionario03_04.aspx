@@ -41,8 +41,11 @@
         <div class="form-group  form-group-marginless" id="P4_1" name="P4_1">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P4_1. Por favor, indique si disponen actualmente de los siguientes medicamentos</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P4_1</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
+                        <label class="col-form-label"><strong>Por favor, indique si disponen actualmente de los siguientes medicamentos</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">AQUI IRA </div>
@@ -53,8 +56,11 @@
         <div class="form-group  form-group-marginless" id="P4_1_1" name="P4_1_1">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P4_1_1. Alcohol (>70% de alcohol en volumen)</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P4_1_1</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
+                        <label class="col-form-label"><strong>Alcohol (>70% de alcohol en volumen)</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">AQUI IRA </div>
@@ -65,8 +71,11 @@
         <div class="form-group  form-group-marginless" id="P4_1_2" name="P4_1_2">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P4_1_2. Hipoclorito cálcico concentrado al 70%</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P4_1_2</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
+                        <label class="col-form-label"><strong>Hipoclorito cálcico concentrado al 70%</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">AQUI IRA </div>
@@ -77,8 +86,11 @@
         <div class="form-group  form-group-marginless" id="P4_1_3" name="P4_1_3">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P4_1_3. Paracetamol (para administración oral)</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P4_1_3</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
+                        <label class="col-form-label"><strong>Paracetamol (para administración oral)</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">AQUI IRA </div>
@@ -89,8 +101,11 @@
         <div class="form-group  form-group-marginless" id="P4_1_4" name="P4_1_4">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P4_1_4. Ampicilina (inyectable)</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P4_1_4</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
+                        <label class="col-form-label"><strong>Ampicilina (inyectable)</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">AQUI IRA </div>
@@ -101,8 +116,11 @@
         <div class="form-group  form-group-marginless" id="P4_1_5" name="P4_1_5">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P4_1_5. Ceftriaxona (inyectable)</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P4_1_5</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
+                        <label class="col-form-label"><strong>Ceftriaxona (inyectable)</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">AQUI IRA </div>
@@ -113,8 +131,11 @@
         <div class="form-group  form-group-marginless" id="P4_1_6" name="P4_1_6">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P4_1_6. Azitromicina (para administración oral)</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P4_1_6</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
+                        <label class="col-form-label"><strong>Azitromicina (para administración oral)</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">AQUI IRA </div>
@@ -125,8 +146,11 @@
         <div class="form-group  form-group-marginless" id="P4_1_7" name="P4_1_7">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P4_1_7. Dexametasona (inyectable)/corticosteroides</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P4_1_7</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
+                        <label class="col-form-label"><strong>Dexametasona (inyectable)/corticosteroides</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">AQUI IRA </div>
@@ -137,8 +161,11 @@
         <div class="form-group  form-group-marginless" id="P4_1_8" name="P4_1_8">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P4_1_8. Tocilizumab/inhibidores de la IL-6 (inyectables)</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P4_1_8</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
+                        <label class="col-form-label"><strong>Tocilizumab/inhibidores de la IL-6 (inyectables)</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">AQUI IRA </div>
@@ -149,8 +176,11 @@
         <div class="form-group  form-group-marginless" id="P4_1_9" name="P4_1_9">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P4_1_9. Tromboprofilaxis: heparina, heparina de bajo peso molecular (inyectable)</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P4_1_9</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
+                        <label class="col-form-label"><strong>Tromboprofilaxis: heparina, heparina de bajo peso molecular (inyectable)</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">AQUI IRA </div>
@@ -161,8 +191,11 @@
         <div class="form-group  form-group-marginless" id="P4_1_10" name="P4_1_10">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P4_1_10. Rocuronio (inyectable) u otro bloqueante neuromuscular </strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P4_1_10</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
+                        <label class="col-form-label"><strong>Rocuronio (inyectable) u otro bloqueante neuromuscular </strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">AQUI IRA </div>
@@ -173,8 +206,11 @@
         <div class="form-group  form-group-marginless" id="P4_1_11" name="P4_1_11">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P4_1_11. Morfina (inyectable) u otro opiáceo </strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P4_1_11</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
+                        <label class="col-form-label"><strong>Morfina (inyectable) u otro opiáceo </strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">AQUI IRA </div>
@@ -185,8 +221,11 @@
         <div class="form-group  form-group-marginless" id="P4_1_12" name="P4_1_12">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P4_1_12. Haloperidol (inyectable)</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P4_1_12</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
+                        <label class="col-form-label"><strong>Haloperidol (inyectable)</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">AQUI IRA </div>
@@ -197,8 +236,11 @@
         <div class="form-group  form-group-marginless" id="P4_1_13" name="P4_1_13">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P4_1_13. Epinefrina o noradrenalina (inyectable)</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P4_1_13</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
+                        <label class="col-form-label"><strong>Epinefrina o noradrenalina (inyectable)</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">AQUI IRA </div>
@@ -209,8 +251,11 @@
         <div class="form-group  form-group-marginless" id="P4_1_14" name="P4_1_14">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P4_1_14. Líquidos intravenosos: solución salina normal o solución de lactato de Ringer/soluciones cristaloides equilibradas</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P4_1_14</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
+                        <label class="col-form-label"><strong>Líquidos intravenosos: solución salina normal o solución de lactato de Ringer/soluciones cristaloides equilibradas</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">AQUI IRA </div>
@@ -221,8 +266,11 @@
         <div class="form-group  form-group-marginless" id="P4_1_15" name="P4_1_15">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P4_1_15. Oxígeno</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P4_1_15</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
+                        <label class="col-form-label"><strong>Oxígeno</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">AQUI IRA </div>
@@ -233,8 +281,11 @@
         <div class="form-group  form-group-marginless" id="P4_2" name="P4_2">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P4_2. Indique si los siguientes productos están actualmente disponibles:</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P4_2</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
+                        <label class="col-form-label"><strong>Indique si los siguientes productos están actualmente disponibles:</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">AQUI IRA </div>
@@ -245,8 +296,11 @@
         <div class="form-group  form-group-marginless" id="P4_2_1" name="P4_2_1">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P4_2_1. Cánulas y equipos de infusión intravenosa </strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P4_2_1</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
+                        <label class="col-form-label"><strong>Cánulas y equipos de infusión intravenosa </strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">AQUI IRA </div>
@@ -257,8 +311,11 @@
         <div class="form-group  form-group-marginless" id="P4_2_2" name="P4_2_2">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P4_2_2. Medio de administración de oxígeno (cánulas nasales)</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P4_2_2</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
+                        <label class="col-form-label"><strong>Medio de administración de oxígeno (cánulas nasales)</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">AQUI IRA </div>
@@ -269,8 +326,11 @@
         <div class="form-group  form-group-marginless" id="P4_2_3" name="P4_2_3">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P4_2_3. Medio de administración de oxígeno (mascarillas respiratorias)</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P4_2_3</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
+                        <label class="col-form-label"><strong>Medio de administración de oxígeno (mascarillas respiratorias)</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">AQUI IRA </div>
@@ -278,7 +338,6 @@
                 </div>
             </div>
         </div>
-
         <!--TERMINA -->
 
 

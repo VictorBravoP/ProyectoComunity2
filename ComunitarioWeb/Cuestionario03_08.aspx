@@ -41,8 +41,11 @@
         <div class="form-group  form-group-marginless" id="P8_1" name="P8_1">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P8_1. ¿Ofrece el centro algún servicio de inmunización para niños?</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P8_1</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
+                        <label class="col-form-label"><strong>¿Ofrece el centro algún servicio de inmunización para niños?</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">AQUI IRA </div>
@@ -53,8 +56,11 @@
         <div class="form-group  form-group-marginless" id="P8_2" name="P8_2">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P8_2. ¿Ofrece el centro algún servicio de inmunización para adultos?</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P8_2</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
+                        <label class="col-form-label"><strong>¿Ofrece el centro algún servicio de inmunización para adultos?</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">AQUI IRA </div>
@@ -65,8 +71,11 @@
         <div class="form-group  form-group-marginless" id="P8_3" name="P8_3">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P8_3. ¿Dispone el centro de un frigorífico para vacunas? En caso afirmativo, ¿funciona?</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P8_3</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
+                        <label class="col-form-label"><strong>¿Dispone el centro de un frigorífico para vacunas? En caso afirmativo, ¿funciona?</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">AQUI IRA </div>
@@ -77,8 +86,11 @@
         <div class="form-group  form-group-marginless" id="P8_4" name="P8_4">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P8_4. ¿Dispone el centro actualmente de un dispositivo de registro continuo de la temperatura? En caso afirmativo, ¿funciona?</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P8_4</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
+                        <label class="col-form-label"><strong>¿Dispone el centro actualmente de un dispositivo de registro continuo de la temperatura? En caso afirmativo, ¿funciona?</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">AQUI IRA </div>
@@ -89,8 +101,11 @@
         <div class="form-group  form-group-marginless" id="P8_5" name="P8_5">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P8_5. ¿Dispone el centro actualmente de neveras portátiles?</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P8_5</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
+                        <label class="col-form-label"><strong>¿Dispone el centro actualmente de neveras portátiles?</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">AQUI IRA </div>
@@ -101,8 +116,11 @@
         <div class="form-group  form-group-marginless" id="P8_6" name="P8_6">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P8_6. ¿Cuántas neveras portátiles tiene el centro?</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P8_6</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
+                        <label class="col-form-label"><strong>¿Cuántas neveras portátiles tiene el centro?</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">AQUI IRA </div>
@@ -113,8 +131,11 @@
         <div class="form-group  form-group-marginless" id="P8_7" name="P8_7">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P8_7. ¿Dispone el establecimiento de un juego completo de bolsas de hielo para las neveras portátiles?</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P8_7</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
+                        <label class="col-form-label"><strong>¿Dispone el establecimiento de un juego completo de bolsas de hielo para las neveras portátiles?</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">AQUI IRA </div>
@@ -125,8 +146,11 @@
         <div class="form-group  form-group-marginless" id="P8_8" name="P8_8">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P8_8. ¿Tiene el centro actualmente algún transportador de vacunas? </strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P8_8</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
+                        <label class="col-form-label"><strong>¿Tiene el centro actualmente algún transportador de vacunas? </strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">AQUI IRA </div>
@@ -137,8 +161,11 @@
         <div class="form-group  form-group-marginless" id="P8_9" name="P8_9">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P8_9. ¿Cuántos transportadores de vacunas tiene el centro? </strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P8_9</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
+                        <label class="col-form-label"><strong>¿Cuántos transportadores de vacunas tiene el centro? </strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">AQUI IRA </div>
@@ -149,8 +176,11 @@
         <div class="form-group  form-group-marginless" id="P8_10" name="P8_10">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P8_10. ¿Dispone el centro de un juego completo de bolsas de hielo para los transportadores de vacunas? </strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P8_10</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
+                        <label class="col-form-label"><strong>¿Dispone el centro de un juego completo de bolsas de hielo para los transportadores de vacunas? </strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">AQUI IRA </div>
@@ -161,8 +191,11 @@
         <div class="form-group  form-group-marginless" id="P8_11" name="P8_11">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P8_11. En un solo día, ¿cuántas bolsas de hielo para neveras portátiles o transportadores de vacunas puede congelar el centro?</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P8_11</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
+                        <label class="col-form-label"><strong>En un solo día, ¿cuántas bolsas de hielo para neveras portátiles o transportadores de vacunas puede congelar el centro?</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">AQUI IRA </div>
@@ -173,8 +206,11 @@
         <div class="form-group  form-group-marginless" id="P8_12" name="P8_12">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P8_12. ¿Dispone el centro de recipientes para objetos punzocortantes («cajas de seguridad»)?</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P8_12</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
+                        <label class="col-form-label"><strong>¿Dispone el centro de recipientes para objetos punzocortantes («cajas de seguridad»)?</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">AQUI IRA </div>
@@ -185,8 +221,11 @@
         <div class="form-group  form-group-marginless" id="P8_13" name="P8_13">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P8_13. ¿Dispone el centro de un kit de tratamiento de evento adverso posvacunal?</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P8_13</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
+                        <label class="col-form-label"><strong>¿Dispone el centro de un kit de tratamiento de evento adverso posvacunal?</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">AQUI IRA </div>
@@ -197,8 +236,11 @@
         <div class="form-group  form-group-marginless" id="P8_14" name="P8_14">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P8_14. ¿Dispone el centro de un sistema para notificar eventos adversos asociados a las vacunas al centro nacional de farmacovigilancia?</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P8_14</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
+                        <label class="col-form-label"><strong>¿Dispone el centro de un sistema para notificar eventos adversos asociados a las vacunas al centro nacional de farmacovigilancia?</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">AQUI IRA </div>
@@ -206,6 +248,7 @@
                 </div>
             </div>
         </div>
+
         <!--TERMINA -->
 
 
