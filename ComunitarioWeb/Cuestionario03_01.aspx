@@ -449,8 +449,7 @@
                 </div>
             </div>
         </div>
-        Mens. 512, Nivel 16, Estado 1, Línea 63
-Subquery returned more than 1 value. This is not permitted when the subquery follows =, !=, <, <= , >, >= or when the subquery is used as an expression.
+
  <div class="form-group  form-group-marginless" id="P1_11" name="P1_11">
      <div class="col-lg-12">
          <div class="form-group row form-group-marginless kt-margin-t-0">

@@ -47,8 +47,25 @@
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>¿Cuántas unidades de los siguientes tipos de equipos están disponibles en cualquier lugar de este centro y cuántas de ellas funcionan actualmente?</strong></label>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
-                        <div class="kt-portlet__body">AQUI IRA </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 grid-border-resp ">
+                        <div class="kt-portlet__body">
+                           <div class="col-lg-12">
+                                <label class="col-form-label">
+                                    <strong>Número total de equipos disponibles
+                                    </strong>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 grid-border-resp ">
+                        <div class="kt-portlet__body">
+                           <div class="col-lg-12">
+                                <label class="col-form-label">
+                                    <strong>Número total de equipos funcionales
+                                    </strong>
+                                </label>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -62,8 +79,19 @@
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Rayos X</strong></label>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
-                        <div class="kt-portlet__body">AQUI IRA </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 grid-border-resp ">
+                        <div class="kt-portlet__body">
+                            <div class="col-lg-12">
+                                <input type="text" id="txtP7_1_1A " name="txtP7_1_1A " class="form-control">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 grid-border-resp ">
+                        <div class="kt-portlet__body">
+                            <div class="col-lg-12">
+                                <input type="text" id="txtP7_1_1B " name="txtP7_1_1B " class="form-control">
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -38,21 +38,47 @@
       <input type="hidden" name="hdnNROPERSONA" id="hdnNROPERSONA" value="<'%=hdnNROPERSONA %>" />
 
  <!--HERE     --->
-        <div class="form-group  form-group-marginless" id="P2_1" name="P2_1">
+        <div class="form-group  form-group-marginless">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P2.1</strong></label>
+                        <label class="col-form-label"><strong>2.1</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
-                        <label class="col-form-label"><strong>Para cada uno de los siguientes empleos, indique el número total de personal y el número de empleados a los que se les ha diagnosticado COVID-19 en los últimos 3 meses.</strong></label>
+                        <label class="col-form-label">
+                            <strong>(Adaptación de la pregunta al contexto nacional: adaptar la lista de personal en función del sistema sanitario del país)
+Para cada uno de los siguientes empleos, indique el número total de personal y el número de empleados a los que se les ha diagnosticado COVID-19 en los últimos 3 meses.
+                            </strong>
+                        </label>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
-                        <div class="kt-portlet__body">AQUI IRA </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 grid-border-resp ">
+                        <div class="kt-portlet__body">
+                            <div class="col-lg-12">
+                                <label class="col-form-label">
+                                    <strong>2.1.1.1 Número de empleados 
+                                    </strong>
+                                </label>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 grid-border-resp ">
+                        <div class="kt-portlet__body">
+                            <div class="col-lg-12">
+                                <label class="col-form-label">
+                                    <strong>2.1.1.2 Número de empleados a los que se les ha diagnosticado COVID-19 en los 3 últimos meses 
+                                    </strong>
+                                </label>
+                            </div>
+
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+
+
+
         <div class="form-group  form-group-marginless" id="P2_1_1" name="P2_1_1">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
@@ -62,8 +88,22 @@
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Médicos</strong></label>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
-                        <div class="kt-portlet__body">AQUI IRA </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 grid-border-resp ">
+                        <div class="kt-portlet__body">
+                            <div class="col-lg-12">
+                                <input type="text" id="txtP2_1_1A " name="txtP2_1_1A " class="form-control">
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 grid-border-resp ">
+                        <div class="kt-portlet__body">
+                            <div class="col-lg-12">
+                                <input type="text" id="txtP2_1_1B " name="txtP2_1_1B " class="form-control">
+                            </div>
+
+                        </div>
                     </div>
                 </div>
             </div>
