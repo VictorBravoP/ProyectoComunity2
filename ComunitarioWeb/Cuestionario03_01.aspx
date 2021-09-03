@@ -45,7 +45,7 @@
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
                         <label class="col-form-label"><strong>P1A</strong></label>
                     </div>
-                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-65 grid-border-preg">
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>¿Puedo comenzar la entrevista?</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
@@ -69,7 +69,7 @@
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
                         <label class="col-form-label"><strong>P1B</strong></label>
                     </div>
-                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-65 grid-border-preg">
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Nombre del Entrevistador</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
@@ -86,9 +86,9 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P1_1</strong></label>
+                        <label class="col-form-label"><strong>P1.1</strong></label>
                     </div>
-                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-65 grid-border-preg">
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Código del centro</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
@@ -105,9 +105,9 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P1_1_1</strong></label>
+                        <label class="col-form-label"><strong>P1.1_1</strong></label>
                     </div>
-                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-65 grid-border-preg">
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Nombre del centro</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
@@ -126,7 +126,7 @@
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
                         <label class="col-form-label"><strong>UBIGEO</strong></label>
                     </div>
-                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-65 grid-border-preg">
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Ubigeo</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
@@ -145,7 +145,7 @@
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
                         <label class="col-form-label"><strong>DEPARTAMENTO</strong></label>
                     </div>
-                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-65 grid-border-preg">
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Departamento</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
@@ -164,7 +164,7 @@
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
                         <label class="col-form-label"><strong>PROVINCIA</strong></label>
                     </div>
-                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-65 grid-border-preg">
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Provincia</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
@@ -183,7 +183,7 @@
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
                         <label class="col-form-label"><strong>DISTRITO</strong></label>
                     </div>
-                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-65 grid-border-preg">
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Distrito</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
@@ -200,9 +200,9 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P1_2</strong></label>
+                        <label class="col-form-label"><strong>P1.2</strong></label>
                     </div>
-                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-65 grid-border-preg">
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>¿Puede confirmar su nombre?</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
@@ -219,9 +219,9 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P1_3</strong></label>
+                        <label class="col-form-label"><strong>P1.3</strong></label>
                     </div>
-                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-65 grid-border-preg">
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>¿Puede confirmar el nombre del centro?</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
@@ -238,9 +238,9 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P1_4</strong></label>
+                        <label class="col-form-label"><strong>P1.4</strong></label>
                     </div>
-                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-65 grid-border-preg">
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>¿Dónde está situado el centro? </strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
@@ -262,9 +262,9 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P1_5</strong></label>
+                        <label class="col-form-label"><strong>P1.5</strong></label>
                     </div>
-                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-65 grid-border-preg">
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>¿Qué tipo de centro es? </strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
@@ -298,9 +298,9 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P1_6</strong></label>
+                        <label class="col-form-label"><strong>P1.6</strong></label>
                     </div>
-                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-65 grid-border-preg">
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>¿Cuál es el órgano encargado de la gestión del centro?</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
@@ -330,9 +330,9 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P1_7</strong></label>
+                        <label class="col-form-label"><strong>P1.7</strong></label>
                     </div>
-                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-65 grid-border-preg">
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>¿Cuál es su cargo o puesto en el centro? </strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
@@ -358,9 +358,9 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P1_8</strong></label>
+                        <label class="col-form-label"><strong>P1.8</strong></label>
                     </div>
-                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-65 grid-border-preg">
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>¿Cómo se llama el director o gerente del centro?</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
@@ -377,9 +377,9 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P1_9</strong></label>
+                        <label class="col-form-label"><strong>P1.9</strong></label>
                     </div>
-                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-65 grid-border-preg">
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>¿Cuál es el número de teléfono del director o gerente del centro?</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
@@ -396,9 +396,9 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P1_10_1</strong></label>
+                        <label class="col-form-label"><strong>P1.10_1</strong></label>
                     </div>
-                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-65 grid-border-preg">
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Fecha de registro de la información (Día)</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
@@ -415,9 +415,9 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P1_10_2</strong></label>
+                        <label class="col-form-label"><strong>P1.10_2</strong></label>
                     </div>
-                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-65 grid-border-preg">
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Fecha de registro de la información (Mes)</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
@@ -434,9 +434,9 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P1_10_3</strong></label>
+                        <label class="col-form-label"><strong>P1.10_3</strong></label>
                     </div>
-                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-65 grid-border-preg">
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Fecha de registro de la información (Año)</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
@@ -455,9 +455,9 @@ Subquery returned more than 1 value. This is not permitted when the subquery fol
      <div class="col-lg-12">
          <div class="form-group row form-group-marginless kt-margin-t-0">
              <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                 <label class="col-form-label"><strong>P1_11</strong></label>
+                 <label class="col-form-label"><strong>P1.11</strong></label>
              </div>
-             <div class="col-lg-5 col-md-5 col-sm-5 col-xs-65 grid-border-preg">
+             <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                  <label class="col-form-label"><strong>¿Este centro ofrece servicios de hospitalización? </strong></label>
              </div>
              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
@@ -474,9 +474,9 @@ Subquery returned more than 1 value. This is not permitted when the subquery fol
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P1_12</strong></label>
+                        <label class="col-form-label"><strong>P1.12</strong></label>
                     </div>
-                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-65 grid-border-preg">
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>¿De cuántas camas para pasar la noche o para hospitalización dispone el centro en total, excluyendo las camas para partos? </strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
@@ -493,9 +493,9 @@ Subquery returned more than 1 value. This is not permitted when the subquery fol
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P1_13</strong></label>
+                        <label class="col-form-label"><strong>P1.13</strong></label>
                     </div>
-                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-65 grid-border-preg">
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>De esas camas de hospitalización, ¿cuántas son camas de la unidad de cuidados intensivos? </strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
@@ -512,9 +512,9 @@ Subquery returned more than 1 value. This is not permitted when the subquery fol
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P1_14</strong></label>
+                        <label class="col-form-label"><strong>P1.14</strong></label>
                     </div>
-                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-65 grid-border-preg">
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>¿Cuenta el centro con los siguientes departamentos y salas o espacios?</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
@@ -527,9 +527,9 @@ Subquery returned more than 1 value. This is not permitted when the subquery fol
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P1_14_1</strong></label>
+                        <label class="col-form-label"><strong>P1.14_1</strong></label>
                     </div>
-                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-65 grid-border-preg">
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Servicio de urgencias con personal específico las 24 horas del día</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
@@ -551,9 +551,9 @@ Subquery returned more than 1 value. This is not permitted when the subquery fol
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P1_14_2</strong></label>
+                        <label class="col-form-label"><strong>P1.14_2</strong></label>
                     </div>
-                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-65 grid-border-preg">
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>¿Cuenta el centro con Quirófano ?</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">

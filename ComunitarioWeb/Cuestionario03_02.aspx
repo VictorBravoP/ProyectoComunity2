@@ -42,7 +42,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P2_1</strong></label>
+                        <label class="col-form-label"><strong>P2.1</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Para cada uno de los siguientes empleos, indique el número total de personal y el número de empleados a los que se les ha diagnosticado COVID-19 en los últimos 3 meses.</strong></label>
@@ -57,7 +57,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P2_1_1</strong></label>
+                        <label class="col-form-label"><strong>P2.1_1</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Médicos</strong></label>
@@ -72,7 +72,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P2_1_2</strong></label>
+                        <label class="col-form-label"><strong>P2.1_2</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Personal de enfermería</strong></label>
@@ -87,7 +87,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P2_1_3</strong></label>
+                        <label class="col-form-label"><strong>P2.1_3</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Personal de partería</strong></label>
@@ -102,7 +102,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P2_1_4</strong></label>
+                        <label class="col-form-label"><strong>P2.1_4</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Demás personal clínico (incluidos los asociados médicos)</strong></label>
@@ -117,7 +117,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P2_1_5</strong></label>
+                        <label class="col-form-label"><strong>P2.1_5</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Personal de laboratorio</strong></label>
@@ -132,7 +132,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P2_1_6</strong></label>
+                        <label class="col-form-label"><strong>P2.1_6</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Radiólogos</strong></label>
@@ -147,7 +147,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P2_1_7</strong></label>
+                        <label class="col-form-label"><strong>P2.1_7</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Farmacéuticos</strong></label>
@@ -162,7 +162,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P2_1_8</strong></label>
+                        <label class="col-form-label"><strong>P2.1_8</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Personal administrativo</strong></label>
@@ -177,7 +177,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P2_1_9</strong></label>
+                        <label class="col-form-label"><strong>P2.1_9</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Personal de apoyo</strong></label>
@@ -192,7 +192,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P2_1_10</strong></label>
+                        <label class="col-form-label"><strong>P2.1_10</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Otro</strong></label>
@@ -207,7 +207,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P2_1A</strong></label>
+                        <label class="col-form-label"><strong>P2.1A</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Ha indicado que en el centro trabajan P2_TOT personas. ¿Alguno de ellos ha recibido la vacuna contra la COVID-19? </strong></label>
@@ -222,7 +222,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P2_1B</strong></label>
+                        <label class="col-form-label"><strong>P2.1B</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>¿Cuántos han recibido la vacuna contra la COVID-19? Cuente a todos los que han recibido al menos una dosis. </strong></label>
@@ -237,7 +237,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P2_1C</strong></label>
+                        <label class="col-form-label"><strong>P2.1C</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>¿Cuántos han recibido todas las dosis necesarias? </strong></label>
@@ -252,7 +252,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P2_2</strong></label>
+                        <label class="col-form-label"><strong>P2.2</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>¿Ha estado algún miembro del personal de baja o ausente en algún momento de los últimos 3 meses?</strong></label>
@@ -267,7 +267,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P2_3</strong></label>
+                        <label class="col-form-label"><strong>P2.3</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Indique los motivos de las bajas o ausencias del personal en los últimos 3 meses.</strong></label>
@@ -282,7 +282,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P2_4</strong></label>
+                        <label class="col-form-label"><strong>P2.4</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>¿Ha realizado el centro algún cambio en la forma de gestionar el personal sanitario en los últimos 3 meses, específicamente debido a cambios en el volumen de pacientes o el tipo de pacientes relacionados con la COVID-19? </strong></label>
@@ -297,7 +297,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P2_5</strong></label>
+                        <label class="col-form-label"><strong>P2.5</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>¿Qué cambios se han realizado?</strong></label>
@@ -312,7 +312,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P2_5_1</strong></label>
+                        <label class="col-form-label"><strong>P2.5_1</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Reasignación a diferentes unidades o de responsabilidades en el centro </strong></label>
@@ -327,7 +327,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P2_5_2</strong></label>
+                        <label class="col-form-label"><strong>P2.5_2</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Aumento de horas del personal a tiempo parcial </strong></label>
@@ -342,7 +342,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P2_5_3</strong></label>
+                        <label class="col-form-label"><strong>P2.5_3</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Aumento de horas extraordinarias del personal a tiempo completo</strong></label>
@@ -357,7 +357,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P2_5_4</strong></label>
+                        <label class="col-form-label"><strong>P2.5_4</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Contratación de nuevo personal para hacer frente al aumento del volumen de pacientes </strong></label>
@@ -372,7 +372,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P2_5_5</strong></label>
+                        <label class="col-form-label"><strong>P2.5_5</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Incorporación de voluntarios para ayudar ante el aumento del volumen de pacientes</strong></label>
@@ -387,7 +387,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P2_5_6</strong></label>
+                        <label class="col-form-label"><strong>P2.5_6</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Recepción de personal temporal cedido por otros centros</strong></label>
@@ -402,7 +402,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P2_5_7</strong></label>
+                        <label class="col-form-label"><strong>P2.5_7</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Cesión temporal a otro centro</strong></label>
@@ -417,7 +417,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P2_5_8</strong></label>
+                        <label class="col-form-label"><strong>P2.5_8</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Despido o permiso no remunerado</strong></label>
@@ -432,7 +432,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P2_6</strong></label>
+                        <label class="col-form-label"><strong>P2.6</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>¿Ha recibido algún miembro del personal del centro formación o apoyo relacionado con la COVID-19 en los últimos 3 meses?</strong></label>
@@ -447,7 +447,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P2_7</strong></label>
+                        <label class="col-form-label"><strong>P2.7</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>¿Qué tipo de formación o apoyo han recibido?</strong></label>
@@ -462,7 +462,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P2_7_1</strong></label>
+                        <label class="col-form-label"><strong>P2.7_1</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Formación sobre el control y la prevención de infecciones </strong></label>
@@ -477,7 +477,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P2_7_2</strong></label>
+                        <label class="col-form-label"><strong>P2.7_2</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Formación sobre el uso adecuado de los equipos de protección personal (EPP)</strong></label>
@@ -492,7 +492,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P2_7_3</strong></label>
+                        <label class="col-form-label"><strong>P2.7_3</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Formación sobre los protocolos de triaje para la gestión de casos de COVID-19</strong></label>
@@ -507,7 +507,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P2_7_4</strong></label>
+                        <label class="col-form-label"><strong>P2.7_4</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Formación sobre la gestión de situaciones de emergencia</strong></label>
@@ -522,7 +522,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P2_7_5</strong></label>
+                        <label class="col-form-label"><strong>P2.7_5</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Formación sobre la prestación de asistencia sanitaria a distancia</strong></label>
@@ -537,7 +537,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P2_7_6</strong></label>
+                        <label class="col-form-label"><strong>P2.7_6</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Salud mental y apoyo psicosocial para el personal en grupo o individualmente, según sea necesario </strong></label>
@@ -552,7 +552,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P2_7_7</strong></label>
+                        <label class="col-form-label"><strong>P2.7_7</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Supervisión de apoyo a la prevención y el control de infecciones </strong></label>
@@ -567,7 +567,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P2_7_8</strong></label>
+                        <label class="col-form-label"><strong>P2.7_8</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Supervisión de apoyo sobre el uso adecuado de los EPP</strong></label>
@@ -582,7 +582,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P2_7_9</strong></label>
+                        <label class="col-form-label"><strong>P2.7_9</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Supervisión de apoyo para la gestión de casos de COVID-19</strong></label>
@@ -597,7 +597,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P2_8</strong></label>
+                        <label class="col-form-label"><strong>P2.8</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>¿En qué fecha se hizo la última supervisión sobre cualquier tema?  Mes</strong></label>
@@ -612,7 +612,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P2_9</strong></label>
+                        <label class="col-form-label"><strong>P2.9</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>¿Ha adoptado el hospital un protocolo o un mandato para el manejo de incidentes o la respuesta a emergencias que comprenda una lista de los miembros del equipo, las actividades que se deben realizar o supervisar y los criterios sobre cuándo y cómo activar el equipo?</strong></label>
@@ -627,7 +627,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P2_10</strong></label>
+                        <label class="col-form-label"><strong>P2.10</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>¿Está activado actualmente el equipo de manejo de incidentes o de apoyo a la respuesta de emergencia del hospital?</strong></label>

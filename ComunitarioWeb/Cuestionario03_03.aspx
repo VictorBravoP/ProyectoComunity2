@@ -42,7 +42,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P3_1</strong></label>
+                        <label class="col-form-label"><strong>P3.1</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>En total, ¿a cuántos pacientes hospitalizados con COVID-19 (moderada, grave y crítica) tiene el hospital capacidad de tratar?</strong></label>
@@ -57,7 +57,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P3_2</strong></label>
+                        <label class="col-form-label"><strong>P3.2</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Del número total, ¿a cuántos pacientes hospitalizados con COVID-19 grave, que no requieran cuidados intensivos, tiene capacidad el hospital de tratar?</strong></label>
@@ -72,7 +72,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P3_3</strong></label>
+                        <label class="col-form-label"><strong>P3.3</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Del número total, ¿a cuántos pacientes hospitalizados con COVID-19 crítica, que requieran cuidados intensivos, tiene capacidad el hospital de tratar?</strong></label>
@@ -87,7 +87,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P3_4</strong></label>
+                        <label class="col-form-label"><strong>P3.4</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Refiriéndonos a esta mañana, ¿cuántos pacientes con diagnóstico presunto o confirmado de COVID-19 habían pasado la noche en el hospital?</strong></label>
@@ -102,7 +102,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P3_5</strong></label>
+                        <label class="col-form-label"><strong>P3.5</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Refiriéndonos a la mañana de ayer, ¿cuántos pacientes con diagnóstico presunto o confirmado de COVID-19 habían pasado la noche en el hospital?</strong></label>
@@ -117,7 +117,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P3_6</strong></label>
+                        <label class="col-form-label"><strong>P3.6</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Del total de camas de hospitalización, ¿cuántas están actualmente preparadas para ser utilizadas como camas de aislamiento respiratorio?</strong></label>
@@ -132,7 +132,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P3_7</strong></label>
+                        <label class="col-form-label"><strong>P3.7</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Si fuera necesario, ¿cuántas camas de hospitalización adicionales podrían convertirse o añadirse para su uso como camas de aislamiento respiratorio?</strong></label>
@@ -147,7 +147,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P3_8</strong></label>
+                        <label class="col-form-label"><strong>P3.8</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Si fuera necesario, ¿cuántas camas de hospitalización adicionales podrían convertirse o añadirse para utilizarlas como camas de UCI?</strong></label>
@@ -162,7 +162,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P3_9</strong></label>
+                        <label class="col-form-label"><strong>P3.9</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Refiriéndonos a esta mañana,  ¿cuántos pacientes en total han pasado la noche en el hospital? </strong></label>
@@ -177,7 +177,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P3_10</strong></label>
+                        <label class="col-form-label"><strong>P3.10</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Refiriéndonos a todo el mes anterior, ¿cuántos pacientes pasaron la noche en el hospital cada día de media? </strong></label>

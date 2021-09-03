@@ -41,7 +41,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P10_1</strong></label>
+                        <label class="col-form-label"><strong>P10.1</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>"Gracias por responder a la entrevista. Nos gustaría volver a hablar con usted en el futuro. </strong></label>
@@ -56,7 +56,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P10_2</strong></label>
+                        <label class="col-form-label"><strong>P10.2</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>¿Cuál es el número más adecuado? </strong></label>
@@ -71,7 +71,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P10_3</strong></label>
+                        <label class="col-form-label"><strong>P10.3</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>¿Puede repetir el número, por favor?</strong></label>
@@ -86,7 +86,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P10_4</strong></label>
+                        <label class="col-form-label"><strong>P10.4</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Registre el resultado de la entrevista.</strong></label>

@@ -42,7 +42,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P8_1</strong></label>
+                        <label class="col-form-label"><strong>P8.1</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>¿Ofrece el centro algún servicio de inmunización para niños?</strong></label>
@@ -57,7 +57,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P8_2</strong></label>
+                        <label class="col-form-label"><strong>P8.2</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>¿Ofrece el centro algún servicio de inmunización para adultos?</strong></label>
@@ -72,7 +72,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P8_3</strong></label>
+                        <label class="col-form-label"><strong>P8.3</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>¿Dispone el centro de un frigorífico para vacunas? En caso afirmativo, ¿funciona?</strong></label>
@@ -87,7 +87,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P8_4</strong></label>
+                        <label class="col-form-label"><strong>P8.4</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>¿Dispone el centro actualmente de un dispositivo de registro continuo de la temperatura? En caso afirmativo, ¿funciona?</strong></label>
@@ -102,7 +102,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P8_5</strong></label>
+                        <label class="col-form-label"><strong>P8.5</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>¿Dispone el centro actualmente de neveras portátiles?</strong></label>
@@ -117,7 +117,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P8_6</strong></label>
+                        <label class="col-form-label"><strong>P8.6</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>¿Cuántas neveras portátiles tiene el centro?</strong></label>
@@ -132,7 +132,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P8_7</strong></label>
+                        <label class="col-form-label"><strong>P8.7</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>¿Dispone el establecimiento de un juego completo de bolsas de hielo para las neveras portátiles?</strong></label>
@@ -147,7 +147,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P8_8</strong></label>
+                        <label class="col-form-label"><strong>P8.8</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>¿Tiene el centro actualmente algún transportador de vacunas? </strong></label>
@@ -162,7 +162,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P8_9</strong></label>
+                        <label class="col-form-label"><strong>P8.9</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>¿Cuántos transportadores de vacunas tiene el centro? </strong></label>
@@ -177,7 +177,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P8_10</strong></label>
+                        <label class="col-form-label"><strong>P8.10</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>¿Dispone el centro de un juego completo de bolsas de hielo para los transportadores de vacunas? </strong></label>
@@ -192,7 +192,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P8_11</strong></label>
+                        <label class="col-form-label"><strong>P8.11</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>En un solo día, ¿cuántas bolsas de hielo para neveras portátiles o transportadores de vacunas puede congelar el centro?</strong></label>
@@ -207,7 +207,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P8_12</strong></label>
+                        <label class="col-form-label"><strong>P8.12</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>¿Dispone el centro de recipientes para objetos punzocortantes («cajas de seguridad»)?</strong></label>
@@ -222,7 +222,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P8_13</strong></label>
+                        <label class="col-form-label"><strong>P8.13</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>¿Dispone el centro de un kit de tratamiento de evento adverso posvacunal?</strong></label>
@@ -237,7 +237,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P8_14</strong></label>
+                        <label class="col-form-label"><strong>P8.14</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>¿Dispone el centro de un sistema para notificar eventos adversos asociados a las vacunas al centro nacional de farmacovigilancia?</strong></label>

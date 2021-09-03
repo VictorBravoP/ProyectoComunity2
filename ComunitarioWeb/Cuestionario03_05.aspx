@@ -39,12 +39,14 @@
       <input type="hidden" name="hdnNROPERSONA" id="hdnNROPERSONA" value="<'%=hdnNROPERSONA %>" />
 
  <!--HERE     --->
-
         <div class="form-group  form-group-marginless" id="P5_1" name="P5_1">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P5_1. ¿Hay una persona designada como punto focal para la prevención y el control de infecciones en el centro?</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P5.1</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
+                        <label class="col-form-label"><strong>¿Hay una persona designada como punto focal para la prevención y el control de infecciones en el centro?</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">AQUI IRA </div>
@@ -55,8 +57,11 @@
         <div class="form-group  form-group-marginless" id="P5_2" name="P5_2">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P5_2. ¿Ha aplicado el centro alguna medida para crear un entorno seguro en relación con la COVID-19? </strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P5.2</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
+                        <label class="col-form-label"><strong>¿Ha aplicado el centro alguna medida para crear un entorno seguro en relación con la COVID-19? </strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">AQUI IRA </div>
@@ -67,8 +72,11 @@
         <div class="form-group  form-group-marginless" id="P5_3" name="P5_3">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P5_3. ¿Cuáles de las siguientes medidas se han aplicado en este centro?</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P5.3</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
+                        <label class="col-form-label"><strong>¿Cuáles de las siguientes medidas se han aplicado en este centro?</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">AQUI IRA </div>
@@ -79,8 +87,11 @@
         <div class="form-group  form-group-marginless" id="P5_3_1" name="P5_3_1">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P5_3_1. Cribado de todos los pacientes y visitantes en una entrada específica</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P5.3_1</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
+                        <label class="col-form-label"><strong>Cribado de todos los pacientes y visitantes en una entrada específica</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">AQUI IRA </div>
@@ -91,8 +102,11 @@
         <div class="form-group  form-group-marginless" id="P5_3_2" name="P5_3_2">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P5_3_2. Entrada específica de personal con fines de cribado</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P5.3_2</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
+                        <label class="col-form-label"><strong>Entrada específica de personal con fines de cribado</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">AQUI IRA </div>
@@ -103,8 +117,11 @@
         <div class="form-group  form-group-marginless" id="P5_3_3" name="P5_3_3">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P5_3_3. Las consultas de pacientes sospechosos de COVID-19 tiene lugar en una sala separada</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P5.3_3</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
+                        <label class="col-form-label"><strong>Las consultas de pacientes sospechosos de COVID-19 tiene lugar en una sala separada</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">AQUI IRA </div>
@@ -115,8 +132,11 @@
         <div class="form-group  form-group-marginless" id="P5_3_4" name="P5_3_4">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P5_3_4. Sistema de triaje que aísla los casos sospechosos y confirmados de COVID-19</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P5.3_4</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
+                        <label class="col-form-label"><strong>Sistema de triaje que aísla los casos sospechosos y confirmados de COVID-19</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">AQUI IRA </div>
@@ -127,8 +147,11 @@
         <div class="form-group  form-group-marginless" id="P5_3_5" name="P5_3_5">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P5_3_5. Zonas de aislamiento de COVID-19 claramente identificadas y separadas de las zonas de pacientes sin COVID-19</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P5.3_5</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
+                        <label class="col-form-label"><strong>Zonas de aislamiento de COVID-19 claramente identificadas y separadas de las zonas de pacientes sin COVID-19</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">AQUI IRA </div>
@@ -139,8 +162,11 @@
         <div class="form-group  form-group-marginless" id="P5_3_6" name="P5_3_6">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P5_3_6. Cribado y triaje de pacientes por sospecha de COVID-19 utilizando directrices actualizadas </strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P5.3_6</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
+                        <label class="col-form-label"><strong>Cribado y triaje de pacientes por sospecha de COVID-19 utilizando directrices actualizadas </strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">AQUI IRA </div>
@@ -151,8 +177,11 @@
         <div class="form-group  form-group-marginless" id="P5_3_7" name="P5_3_7">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P5_3_7. Distancia de al menos 1 metro entre pacientes y visitantes en las salas de espera y otras salas</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P5.3_7</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
+                        <label class="col-form-label"><strong>Distancia de al menos 1 metro entre pacientes y visitantes en las salas de espera y otras salas</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">AQUI IRA </div>
@@ -163,8 +192,11 @@
         <div class="form-group  form-group-marginless" id="P5_3_8" name="P5_3_8">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P5_3_8. Poner en un lugar visible las instrucciones sobre las prácticas de higiene respiratoria y de las manos para los pacientes y los visitantes</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P5.3_8</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
+                        <label class="col-form-label"><strong>Poner en un lugar visible las instrucciones sobre las prácticas de higiene respiratoria y de las manos para los pacientes y los visitantes</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">AQUI IRA </div>
@@ -175,8 +207,11 @@
         <div class="form-group  form-group-marginless" id="P5_3_9" name="P5_3_9">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P5_3_9. Puestos de higiene de manos en todos los puntos de atención</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P5.3_9</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
+                        <label class="col-form-label"><strong>Puestos de higiene de manos en todos los puntos de atención</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">AQUI IRA </div>
@@ -187,8 +222,11 @@
         <div class="form-group  form-group-marginless" id="P5_3_10" name="P5_3_10">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P5_3_10. Uso de los EPP por parte del personal</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P5.3_10</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
+                        <label class="col-form-label"><strong>Uso de los EPP por parte del personal</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">AQUI IRA </div>
@@ -199,8 +237,11 @@
         <div class="form-group  form-group-marginless" id="P5_3_11" name="P5_3_11">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P5_3_11. Limpieza y desinfección del entorno</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P5.3_11</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
+                        <label class="col-form-label"><strong>Limpieza y desinfección del entorno</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">AQUI IRA </div>
@@ -211,8 +252,11 @@
         <div class="form-group  form-group-marginless" id="P5_4" name="P5_4">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P5_4. ¿Dispone el centro de directrices de prevención y control de infecciones para la COVID-19?</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P5.4</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
+                        <label class="col-form-label"><strong>¿Dispone el centro de directrices de prevención y control de infecciones para la COVID-19?</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">AQUI IRA </div>
@@ -223,8 +267,11 @@
         <div class="form-group  form-group-marginless" id="P5_5" name="P5_5">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P5_5. ¿Con cuáles de las siguientes directrices de prevención y control de infecciones cuentan? </strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P5.5</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
+                        <label class="col-form-label"><strong>¿Con cuáles de las siguientes directrices de prevención y control de infecciones cuentan? </strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">AQUI IRA </div>
@@ -235,8 +282,11 @@
         <div class="form-group  form-group-marginless" id="P5_5_1" name="P5_5_1">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P5_5_1. Detección de signos y síntomas de COVID-19 </strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P5.5_1</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
+                        <label class="col-form-label"><strong>Detección de signos y síntomas de COVID-19 </strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">AQUI IRA </div>
@@ -247,8 +297,11 @@
         <div class="form-group  form-group-marginless" id="P5_5_2" name="P5_5_2">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P5_5_2. Gestión de los casos sospechosos y confirmados de COVID-19</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P5.5_2</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
+                        <label class="col-form-label"><strong>Gestión de los casos sospechosos y confirmados de COVID-19</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">AQUI IRA </div>
@@ -259,8 +312,11 @@
         <div class="form-group  form-group-marginless" id="P5_5_3" name="P5_5_3">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P5_5_3. EPP </strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P5.5_3</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
+                        <label class="col-form-label"><strong>EPP </strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">AQUI IRA </div>
@@ -271,8 +327,11 @@
         <div class="form-group  form-group-marginless" id="P5_5_4" name="P5_5_4">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P5_5_4. Vigilancia de la COVID-19 entre el personal sanitario</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P5.5_4</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
+                        <label class="col-form-label"><strong>Vigilancia de la COVID-19 entre el personal sanitario</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">AQUI IRA </div>
@@ -283,8 +342,11 @@
         <div class="form-group  form-group-marginless" id="P5_5_5" name="P5_5_5">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P5_5_5. Disposición de los cadáveres</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P5.5_5</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
+                        <label class="col-form-label"><strong>Disposición de los cadáveres</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">AQUI IRA </div>
@@ -295,8 +357,11 @@
         <div class="form-group  form-group-marginless" id="P5_5_6" name="P5_5_6">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P5_5_6. Control de desechos</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P5.5_6</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
+                        <label class="col-form-label"><strong>Control de desechos</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">AQUI IRA </div>
@@ -307,8 +372,11 @@
         <div class="form-group  form-group-marginless" id="P5_6" name="P5_6">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P5_6. ¿Proporciona este centro habitualmente EPP al personal sanitario? </strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P5.6</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
+                        <label class="col-form-label"><strong>¿Proporciona este centro habitualmente EPP al personal sanitario? </strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">AQUI IRA </div>
@@ -319,8 +387,11 @@
         <div class="form-group  form-group-marginless" id="P5_7" name="P5_7">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P5_7. ¿Disponen actualmente de los siguientes artículos para cada uno de los funcionarios que deben utilizarlos de acuerdo con las directrices aplicables?</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P5.7</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
+                        <label class="col-form-label"><strong>¿Disponen actualmente de los siguientes artículos para cada uno de los funcionarios que deben utilizarlos de acuerdo con las directrices aplicables?</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">AQUI IRA </div>
@@ -331,8 +402,11 @@
         <div class="form-group  form-group-marginless" id="P5_7_1" name="P5_7_1">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P5_7_1. Bata de protección</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P5.7_1</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
+                        <label class="col-form-label"><strong>Bata de protección</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">AQUI IRA </div>
@@ -343,8 +417,11 @@
         <div class="form-group  form-group-marginless" id="P5_7_2" name="P5_7_2">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P5_7_2. Guantes de examen</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P5.7_2</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
+                        <label class="col-form-label"><strong>Guantes de examen</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">AQUI IRA </div>
@@ -355,8 +432,11 @@
         <div class="form-group  form-group-marginless" id="P5_7_3" name="P5_7_3">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P5_7_3. Antiparras de seguridad</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P5.7_3</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
+                        <label class="col-form-label"><strong>Antiparras de seguridad</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">AQUI IRA </div>
@@ -367,8 +447,11 @@
         <div class="form-group  form-group-marginless" id="P5_7_4" name="P5_7_4">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P5_7_4. Pantalla facial</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P5.7_4</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
+                        <label class="col-form-label"><strong>Pantalla facial</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">AQUI IRA </div>
@@ -379,8 +462,11 @@
         <div class="form-group  form-group-marginless" id="P5_7_5" name="P5_7_5">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P5_7_5. Mascarillas respiratorias (es decir, N95, FPP2)</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P5.7_5</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
+                        <label class="col-form-label"><strong>Mascarillas respiratorias (es decir, N95, FPP2)</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">AQUI IRA </div>
@@ -391,8 +477,11 @@
         <div class="form-group  form-group-marginless" id="P5_7_6" name="P5_7_6">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P5_7_6. Mascarilla médica o quirúrgica</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P5.7_6</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
+                        <label class="col-form-label"><strong>Mascarilla médica o quirúrgica</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">AQUI IRA </div>
@@ -403,8 +492,11 @@
         <div class="form-group  form-group-marginless" id="P5_8" name="P5_8">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P5_8. ¿Desecha el centro los EPP usados de forma segura, siguiendo las directrices de la prevención y control de infecciones?</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P5.8</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
+                        <label class="col-form-label"><strong>¿Desecha el centro los EPP usados de forma segura, siguiendo las directrices de la prevención y control de infecciones?</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">AQUI IRA </div>
@@ -415,8 +507,11 @@
         <div class="form-group  form-group-marginless" id="P5_9" name="P5_9">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P5_9. Indique si disponen actualmente de los siguientes artículos o equipos de prevención y control de infecciones:</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P5.9</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
+                        <label class="col-form-label"><strong>Indique si disponen actualmente de los siguientes artículos o equipos de prevención y control de infecciones:</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">AQUI IRA </div>
@@ -427,8 +522,11 @@
         <div class="form-group  form-group-marginless" id="P5_9_1" name="P5_9_1">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P5_9_1. Jabón líquido</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P5.9_1</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
+                        <label class="col-form-label"><strong>Jabón líquido</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">AQUI IRA </div>
@@ -439,8 +537,11 @@
         <div class="form-group  form-group-marginless" id="P5_9_2" name="P5_9_2">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P5_9_2. Gel hidroalcohólico</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P5.9_2</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
+                        <label class="col-form-label"><strong>Gel hidroalcohólico</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">AQUI IRA </div>
@@ -451,8 +552,11 @@
         <div class="form-group  form-group-marginless" id="P5_9_3" name="P5_9_3">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P5_9_3. Bolsa para desechos biopeligrosos</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P5.9_3</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
+                        <label class="col-form-label"><strong>Bolsa para desechos biopeligrosos</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">AQUI IRA </div>
@@ -463,8 +567,11 @@
         <div class="form-group  form-group-marginless" id="P5_9_4" name="P5_9_4">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P5_9_4. Cajas de seguridad</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P5.9_4</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
+                        <label class="col-form-label"><strong>Cajas de seguridad</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">AQUI IRA </div>
@@ -475,8 +582,11 @@
         <div class="form-group  form-group-marginless" id="P5_9_5" name="P5_9_5">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-preg">
-                        <label class="col-form-label"><strong>P5_9_5. Bolsas para cadáveres</strong></label>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
+                        <label class="col-form-label"><strong>P5.9_5</strong></label>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
+                        <label class="col-form-label"><strong>Bolsas para cadáveres</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                         <div class="kt-portlet__body">AQUI IRA </div>
@@ -484,7 +594,6 @@
                 </div>
             </div>
         </div>
-
         <!--TERMINA -->
 
 

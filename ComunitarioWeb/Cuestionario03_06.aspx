@@ -43,7 +43,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
-                        <label class="col-form-label"><strong>P6_1_1</strong></label>
+                        <label class="col-form-label"><strong>P6.1_1</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
                         <label class="col-form-label"><strong>¿Recoge el centro muestras de los pacientes para diagnosticar la COVID-19?</strong></label>
@@ -58,7 +58,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P6_2</strong></label>
+                        <label class="col-form-label"><strong>P6.2</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Indique si disponen actualmente de cada uno de los siguientes elementos para la obtención de muestras:</strong></label>
@@ -73,7 +73,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P6_2_1</strong></label>
+                        <label class="col-form-label"><strong>P6.2_1</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Cajas de embalaje triple para el transporte</strong></label>
@@ -88,7 +88,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P6_2_2</strong></label>
+                        <label class="col-form-label"><strong>P6.2_2</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Medios de transporte para virus con hisopo</strong></label>
@@ -103,7 +103,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P6_3</strong></label>
+                        <label class="col-form-label"><strong>P6.3</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>¿Realiza el centro las siguientes pruebas in situ para diagnosticar la COVID-19?</strong></label>
@@ -118,7 +118,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P6_3_1</strong></label>
+                        <label class="col-form-label"><strong>P6.3_1</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Pruebas de PCR</strong></label>
@@ -133,7 +133,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P6_3_2</strong></label>
+                        <label class="col-form-label"><strong>P6.3_2</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Pruebas rápidas de detección de antígenos </strong></label>
@@ -148,7 +148,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P6_4</strong></label>
+                        <label class="col-form-label"><strong>P6.4</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Ha mencionado que el centro realiza pruebas de PCR. ¿Funciona el termociclador para PCR para el diagnóstico de la COVID-19?</strong></label>
@@ -163,7 +163,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P6_5</strong></label>
+                        <label class="col-form-label"><strong>P6.5</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>¿Por qué no funciona el termociclador? </strong></label>
@@ -178,7 +178,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P6_6</strong></label>
+                        <label class="col-form-label"><strong>P6.6</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>¿Cuántos resultados de pruebas de PCR para el diagnóstico de la COVID-19 suele procesar el centro en un solo día?</strong></label>
@@ -193,7 +193,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P6_7</strong></label>
+                        <label class="col-form-label"><strong>P6.7</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>¿Cuál es el número máximo de resultados de pruebas  por PCR para el diagnóstico de la COVID-19 que el laboratorio del centro puede procesar en un solo día?</strong></label>
@@ -208,7 +208,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P6_8</strong></label>
+                        <label class="col-form-label"><strong>P6.8</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Ha mencionado que el centro realiza pruebas de diagnóstico rápido de detección de antígenos. Indique si disponen actualmente de los siguientes artículos</strong></label>
@@ -223,7 +223,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P6_8_1</strong></label>
+                        <label class="col-form-label"><strong>P6.8_1</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Kits de PDR-Ag </strong></label>
@@ -238,7 +238,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P6_8_2</strong></label>
+                        <label class="col-form-label"><strong>P6.8_2</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Material de control de PDR-Ag</strong></label>
@@ -253,7 +253,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P6_9</strong></label>
+                        <label class="col-form-label"><strong>P6.9</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>¿Cuántos resultados de PDR-Ag para la COVID-19 suele procesar el centro en un solo día?</strong></label>
@@ -268,7 +268,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P6_10</strong></label>
+                        <label class="col-form-label"><strong>P6.10</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>¿Cuál es el número máximo de resultados de PDR-Ag para la COVID-19 que el laboratorio del centro puede procesar en un solo día?</strong></label>
@@ -283,7 +283,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P6_11</strong></label>
+                        <label class="col-form-label"><strong>P6.11</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Para eliminar los desechos de la obtención de muestras o de las pruebas, ¿utiliza el centro suministros de eliminación de desechos de peligros biológicos, como bolsas para residuos infecciosos? </strong></label>
@@ -298,7 +298,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P6_12</strong></label>
+                        <label class="col-form-label"><strong>P6.12</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>¿Disponen de un sistema de transporte de muestras en funcionamiento para enviarlas desde el centro a un laboratorio de referencia?</strong></label>
@@ -313,7 +313,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P6_13</strong></label>
+                        <label class="col-form-label"><strong>P6.13</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>¿Cuál es el tiempo habitual de entrega de los resultados de las pruebas, es decir, el tiempo que transcurre entre la recogida de la muestra en el centro y la recepción del resultado del laboratorio de referencia?</strong></label>
