@@ -45,7 +45,7 @@
   <ItemGroup>
     <Compile Include="Cuestionario03.cs" />
     <Compile Include="Cuestionario02.cs" />
-    <Compile Include="Personas.cs" />
+    <Compile Include="Marco.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="T_05_DIG_CAP100.cs" />
     <Compile Include="Cuestionario01.cs" />
