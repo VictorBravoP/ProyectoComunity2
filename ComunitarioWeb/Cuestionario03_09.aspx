@@ -42,13 +42,23 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P9.1A</strong></label>
+                        <label class="col-form-label"><strong>9.1A</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>¿Dispone el centro de un frigorífico para vacunas?</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
-                        <div class="kt-portlet__body">AQUI IRA </div>
+                        <div class="kt-portlet__body">
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP9_1A" value="1">
+                                1. Sí, funciona <span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP9_1A" value="2">
+                                2. Sí, pero no funciona <span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP9_1A" value="3">
+                                3. No<span></span></label>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -57,13 +67,23 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P9.1B</strong></label>
+                        <label class="col-form-label"><strong>9.1B</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>¿Dispone el centro de un congelador de vacunas que pueda garantizar la temperatura recomendada?</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
-                        <div class="kt-portlet__body">AQUI IRA </div>
+                        <div class="kt-portlet__body">
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP9_1B" value="1">
+                                1. Sí, funciona <span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP9_1B" value="2">
+                                2. Sí, pero no funciona <span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP9_1B" value="3">
+                                3. No<span></span></label>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -72,13 +92,23 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P9.2A</strong></label>
+                        <label class="col-form-label"><strong>9.2A</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>¿Dispone actualmente el centro de un dispositivo de registro continuo de la temperatura para el frigorífico de vacunas?</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
-                        <div class="kt-portlet__body">AQUI IRA </div>
+                        <div class="kt-portlet__body">
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP9_2A" value="1">
+                                1. Sí, funciona <span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP9_2A" value="2">
+                                2. Sí, pero no funciona <span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP9_2A" value="3">
+                                3. No<span></span></label>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -87,13 +117,23 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P9.2B</strong></label>
+                        <label class="col-form-label"><strong>9.2B</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>¿Dispone actualmente el centro de un dispositivo de registro continuo de la temperatura para el congelador de vacunas? </strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
-                        <div class="kt-portlet__body">AQUI IRA </div>
+                        <div class="kt-portlet__body">
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP9_2B" value="1">
+                                1. Sí, funciona <span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP9_2B" value="2">
+                                2. Sí, pero no funciona <span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP9_2B" value="3">
+                                3. No<span></span></label>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -102,13 +142,20 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P9.3</strong></label>
+                        <label class="col-form-label"><strong>9.3</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>¿Ofrece este centro la vacuna contra la COVID-19?</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
-                        <div class="kt-portlet__body">AQUI IRA </div>
+                        <div class="kt-portlet__body">
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP9_3" value="1">
+                                1. Sí <span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP9_3" value="2">
+                                2. No<span></span></label>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -117,13 +164,23 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P9.4_1</strong></label>
+                        <label class="col-form-label"><strong>9.4.1</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Vacuna de Pfizer-BioNTech</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
-                        <div class="kt-portlet__body">AQUI IRA </div>
+                        <div class="kt-portlet__body">
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP9_4_1" value="1">
+                                1. Sí, se administra y está disponible actualmente <span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP9_4_1" value="2">
+                                2. Sí, se administra, pero actualmente no está disponible <span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP9_4_1" value="3">
+                                3. No se administra<span></span></label>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -132,13 +189,23 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P9.4_2</strong></label>
+                        <label class="col-form-label"><strong>9.4.2</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Vacuna Moderna </strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
-                        <div class="kt-portlet__body">AQUI IRA </div>
+                        <div class="kt-portlet__body">
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP9_4_2" value="1">
+                                1. Sí, se administra y está disponible actualmente <span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP9_4_2" value="2">
+                                2. Sí, se administra, pero actualmente no está disponible <span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP9_4_2" value="3">
+                                3. No se administra<span></span></label>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -147,13 +214,23 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P9.4_3</strong></label>
+                        <label class="col-form-label"><strong>9.4.3</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Vacuna AstraZeneca/Oxford COVID-19</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
-                        <div class="kt-portlet__body">AQUI IRA </div>
+                        <div class="kt-portlet__body">
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP9_4_3" value="1">
+                                1. Sí, se administra y está disponible actualmente <span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP9_4_3" value="2">
+                                2. Sí, se administra, pero actualmente no está disponible <span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP9_4_3" value="3">
+                                3. No se administra<span></span></label>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -162,13 +239,23 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P9.4_4</strong></label>
+                        <label class="col-form-label"><strong>9.4.4</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Vacuna de Janssen/Johnson & Johnson </strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
-                        <div class="kt-portlet__body">AQUI IRA </div>
+                        <div class="kt-portlet__body">
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP9_4_4" value="1">
+                                1. Sí, se administra y está disponible actualmente <span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP9_4_4" value="2">
+                                2. Sí, se administra, pero actualmente no está disponible <span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP9_4_4" value="3">
+                                3. No se administra<span></span></label>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -177,13 +264,23 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P9.4_5</strong></label>
+                        <label class="col-form-label"><strong>9.4_5</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Otras vacunas (por ejemplo, Sinopharm, Sinovac u otras)</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
-                        <div class="kt-portlet__body">AQUI IRA </div>
+                        <div class="kt-portlet__body">
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP9_4_5" value="1">
+                                1. Sí, se administra y está disponible actualmente <span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP9_4_5" value="2">
+                                2. Sí, se administra, pero actualmente no está disponible <span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP9_4_5" value="3">
+                                3. No se administra<span></span></label>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -192,13 +289,20 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P9.5_1</strong></label>
+                        <label class="col-form-label"><strong>9.5.1</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Almacenamiento de la vacuna </strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
-                        <div class="kt-portlet__body">AQUI IRA </div>
+                        <div class="kt-portlet__body">
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP9_5_1" value="1">
+                                1. Sí <span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP9_5_1" value="2">
+                                2. No<span></span></label>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -207,13 +311,20 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P9.5_2</strong></label>
+                        <label class="col-form-label"><strong>9.5.2</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Administración de la vacuna</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
-                        <div class="kt-portlet__body">AQUI IRA </div>
+                        <div class="kt-portlet__body">
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP9_5_2" value="1">
+                                1. Sí <span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP9_5_2" value="2">
+                                2. No<span></span></label>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -222,13 +333,20 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P9.5_3</strong></label>
+                        <label class="col-form-label"><strong>9.5.3</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Manejo de los eventos adversos, incluido el choque anafiláctico</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
-                        <div class="kt-portlet__body">AQUI IRA </div>
+                        <div class="kt-portlet__body">
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP9_5_3" value="1">
+                                1. Sí <span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP9_5_3" value="2">
+                                2. No<span></span></label>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -237,13 +355,20 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P9.5_4</strong></label>
+                        <label class="col-form-label"><strong>9.5.4</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Notificación de eventos adversos </strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
-                        <div class="kt-portlet__body">AQUI IRA </div>
+                        <div class="kt-portlet__body">
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP9_5_4" value="1">
+                                1. Sí <span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP9_5_4" value="2">
+                                2. No<span></span></label>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -252,13 +377,20 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P9.6</strong></label>
+                        <label class="col-form-label"><strong>9.6</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>¿Dispone el centro de suficientes jeringuillas para la vacuna contra la COVID-19 suministrada en el centro? </strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
-                        <div class="kt-portlet__body">AQUI IRA </div>
+                        <div class="kt-portlet__body">
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP9_6" value="1">
+                                1. Sí <span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP9_6" value="2">
+                                2. No<span></span></label>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -267,13 +399,20 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P9.7</strong></label>
+                        <label class="col-form-label"><strong>9.7</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>¿Dispone el centro de recipientes para objetos punzocortantes («cajas de seguridad»)?</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
-                        <div class="kt-portlet__body">AQUI IRA </div>
+                        <div class="kt-portlet__body">
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP9_7" value="1">
+                                1. Sí <span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP9_7" value="2">
+                                2. No<span></span></label>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -282,13 +421,20 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P9.8</strong></label>
+                        <label class="col-form-label"><strong>9.8</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>¿El almacenamiento en frío de la vacuna contra la COVID-19 está actualmente en el rango de temperatura recomendado? </strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
-                        <div class="kt-portlet__body">AQUI IRA </div>
+                        <div class="kt-portlet__body">
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP9_8" value="1">
+                                1. Sí <span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP9_8" value="2">
+                                2. No<span></span></label>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -297,13 +443,20 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P9.9</strong></label>
+                        <label class="col-form-label"><strong>9.9</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Durante la última semana, ¿se ha mantenido el almacenamiento en frío de la vacuna contra la COVID-19 siempre en el rango de temperatura recomendado?</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
-                        <div class="kt-portlet__body">AQUI IRA </div>
+                        <div class="kt-portlet__body">
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP9_9" value="1">
+                                1. Sí <span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP9_9" value="2">
+                                2. No<span></span></label>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -312,13 +465,20 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P9.10</strong></label>
+                        <label class="col-form-label"><strong>9.10</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>¿Se informa a las personas vacunadas sobre cuándo deben volver para la próxima dosis?</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
-                        <div class="kt-portlet__body">AQUI IRA </div>
+                        <div class="kt-portlet__body">
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP9_10" value="1">
+                                1. Sí <span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP9_10" value="2">
+                                2. No<span></span></label>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -327,13 +487,20 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P9.11</strong></label>
+                        <label class="col-form-label"><strong>9.11</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>¿Se informa a las personas vacunadas de los posibles efectos secundarios? </strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
-                        <div class="kt-portlet__body">AQUI IRA </div>
+                        <div class="kt-portlet__body">
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP9_11" value="1">
+                                1. Sí <span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP9_11" value="2">
+                                2. No<span></span></label>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -342,13 +509,20 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P9.12</strong></label>
+                        <label class="col-form-label"><strong>9.12</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>¿Se informa a las personas vacunadas sobre qué hacer en caso de que se produzcan eventos adversos tras la inmunización?</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
-                        <div class="kt-portlet__body">AQUI IRA </div>
+                        <div class="kt-portlet__body">
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP9_12" value="1">
+                                1. Sí <span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP9_12" value="2">
+                                2. No<span></span></label>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -357,13 +531,20 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P9.13</strong></label>
+                        <label class="col-form-label"><strong>9.13</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>¿Dispone el centro de un kit de tratamiento de eventos adversos posvacunales?</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
-                        <div class="kt-portlet__body">AQUI IRA </div>
+                        <div class="kt-portlet__body">
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP9_13" value="1">
+                                1. Sí <span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP9_13" value="2">
+                                2. No<span></span></label>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -372,13 +553,20 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P9.14</strong></label>
+                        <label class="col-form-label"><strong>9.14</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>¿Dispone el centro de un sistema para notificar eventos adversos asociados a las vacunas al centro nacional de farmacovigilancia?</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
-                        <div class="kt-portlet__body">AQUI IRA </div>
+                        <div class="kt-portlet__body">
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP9_14" value="1">
+                                1. Sí <span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP9_14" value="2">
+                                2. No<span></span></label>
+                        </div>
                     </div>
                 </div>
             </div>

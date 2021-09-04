@@ -42,7 +42,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P7.1</strong></label>
+                        <label class="col-form-label"><strong>7.1</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>¿Cuántas unidades de los siguientes tipos de equipos están disponibles en cualquier lugar de este centro y cuántas de ellas funcionan actualmente?</strong></label>
@@ -74,7 +74,7 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P7.1_1</strong></label>
+                        <label class="col-form-label"><strong>7.1.1</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Rayos X</strong></label>
@@ -100,13 +100,24 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P7.1_2</strong></label>
+                        <label class="col-form-label"><strong>7.1.2</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Pulsioxímetros (de mesa, portátil o integrado)</strong></label>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
-                        <div class="kt-portlet__body">AQUI IRA </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 grid-border-resp ">
+                        <div class="kt-portlet__body">
+                            <div class="col-lg-12">
+                                <input type="text" id="txtP7_1_2A " name="txtP7_1_2A " class="form-control">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 grid-border-resp ">
+                        <div class="kt-portlet__body">
+                            <div class="col-lg-12">
+                                <input type="text" id="txtP7_1_2B " name="txtP7_1_2B " class="form-control">
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -115,13 +126,24 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P7.1_3</strong></label>
+                        <label class="col-form-label"><strong>7.1.3</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>"Respirador de unidad de cuidados intensivos (adulto o pediátrico)</strong></label>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
-                        <div class="kt-portlet__body">AQUI IRA </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 grid-border-resp ">
+                        <div class="kt-portlet__body">
+                            <div class="col-lg-12">
+                                <input type="text" id="txtP7_1_3A " name="txtP7_1_3A " class="form-control">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 grid-border-resp ">
+                        <div class="kt-portlet__body">
+                            <div class="col-lg-12">
+                                <input type="text" id="txtP7_1_3B " name="txtP7_1_3B " class="form-control">
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -130,13 +152,24 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P7.1_4</strong></label>
+                        <label class="col-form-label"><strong>7.1.4</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Respiradores para ventilación mecánica no invasiva: presión positiva continua en las vías respiratorias (CPAP), bipresión positiva en las vías respiratorias (Bipap) y cánula nasal de alto flujo (CNAF)</strong></label>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
-                        <div class="kt-portlet__body">AQUI IRA </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 grid-border-resp ">
+                        <div class="kt-portlet__body">
+                            <div class="col-lg-12">
+                                <input type="text" id="txtP7_1_4A " name="txtP7_1_4A " class="form-control">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 grid-border-resp ">
+                        <div class="kt-portlet__body">
+                            <div class="col-lg-12">
+                                <input type="text" id="txtP7_1_4B " name="txtP7_1_4B " class="form-control">
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -145,13 +178,32 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P7.1_5</strong></label>
+                        <label class="col-form-label"><strong>7.2</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>¿Por qué no funciona el respirador de la unidad de cuidados intensivos? </strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
-                        <div class="kt-portlet__body">AQUI IRA </div>
+                        <div class="kt-portlet__body">
+                            <label class="kt-checkbox kt-checkbox--tick kt-checkbox--brand">
+                                <input type="checkbox" name="txtP7_2_1" value="1">
+                                1. Todavía no se ha instalado o no se ha impartido formación sobre su uso<span></span></label>
+                            <label class="kt-checkbox kt-checkbox--tick kt-checkbox--brand">
+                                <input type="checkbox" name="txtP7_2_2" value="1">
+                                2. Falta material fungible y accesorios (cables, sensores, pilas)<span></span></label>
+                            <label class="kt-checkbox kt-checkbox--tick kt-checkbox--brand">
+                                <input type="checkbox" name="txtP7_2_3" value="1">
+                                3. Falta personal, formación y herramientas para repararlo en el centro<span></span></label>
+                            <label class="kt-checkbox kt-checkbox--tick kt-checkbox--brand">
+                                <input type="checkbox" name="txtP7_2_4" value="1">
+                                4. Faltan fondos para el mantenimiento externo o repuestos<span></span></label>
+                            <label class="kt-checkbox kt-checkbox--tick kt-checkbox--brand">
+                                <input type="checkbox" name="txtP7_2_5" value="1">
+                                5. Falta una fuente de energía<span></span></label>
+                            <label class="kt-checkbox kt-checkbox--tick kt-checkbox--brand">
+                                <input type="checkbox" name="txtP7_2_6" value="1">
+                                6. Otro<span></span></label>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -160,13 +212,32 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P7.1_6</strong></label>
+                        <label class="col-form-label"><strong>7.3</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>¿Por qué no funciona el respirador para ventilación mecánica no invasiva?</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
-                        <div class="kt-portlet__body">AQUI IRA </div>
+                        <div class="kt-portlet__body">
+                            <label class="kt-checkbox kt-checkbox--tick kt-checkbox--brand">
+                                <input type="checkbox" name="txtP7_3_1" value="1">
+                                1. Todavía no se ha instalado o no se ha impartido formación sobre su uso<span></span></label>
+                            <label class="kt-checkbox kt-checkbox--tick kt-checkbox--brand">
+                                <input type="checkbox" name="txtP7_3_2" value="1">
+                                2. Falta material fungible y accesorios (cables, sensores, pilas)<span></span></label>
+                            <label class="kt-checkbox kt-checkbox--tick kt-checkbox--brand">
+                                <input type="checkbox" name="txtP7_3_3" value="1">
+                                3. Falta personal, formación y herramientas para repararlo en el centro<span></span></label>
+                            <label class="kt-checkbox kt-checkbox--tick kt-checkbox--brand">
+                                <input type="checkbox" name="txtP7_3_4" value="1">
+                                4. Faltan fondos para el mantenimiento externo o repuestos<span></span></label>
+                            <label class="kt-checkbox kt-checkbox--tick kt-checkbox--brand">
+                                <input type="checkbox" name="txtP7_3_5" value="1">
+                                5. Falta una fuente de energía<span></span></label>
+                            <label class="kt-checkbox kt-checkbox--tick kt-checkbox--brand">
+                                <input type="checkbox" name="txtP7_3_6" value="1">
+                                6. Otro<span></span></label>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -175,13 +246,13 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P7.4</strong></label>
+                        <label class="col-form-label"><strong>7.4</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Indique las fuentes de oxígeno medicinal de que dispone el centro:</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
-                        <div class="kt-portlet__body">AQUI IRA </div>
+                        <div class="kt-portlet__body"></div>
                     </div>
                 </div>
             </div>
@@ -190,13 +261,20 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P7.4_1</strong></label>
+                        <label class="col-form-label"><strong>7.4.1</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Concentrador de oxígeno</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
-                        <div class="kt-portlet__body">AQUI IRA </div>
+                        <div class="kt-portlet__body">
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP7_4_1" value="1">
+                                1. Sí <span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP7_4_1" value="2">
+                                2. No<span></span></label>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -205,13 +283,20 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P7.4_2</strong></label>
+                        <label class="col-form-label"><strong>7.4.2</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Suministro externo (adquirido a granel)</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
-                        <div class="kt-portlet__body">AQUI IRA </div>
+                        <div class="kt-portlet__body">
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP7_4_2" value="1">
+                                1. Sí <span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP7_4_2" value="2">
+                                2. No<span></span></label>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -220,13 +305,20 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P7.4_3</strong></label>
+                        <label class="col-form-label"><strong>7.4.3</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Suministro externo (botellas de oxígeno)</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
-                        <div class="kt-portlet__body">AQUI IRA </div>
+                        <div class="kt-portlet__body">
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP7_4_3" value="1">
+                                1. Sí <span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP7_4_3" value="2">
+                                2. No<span></span></label>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -235,13 +327,20 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P7.4_4</strong></label>
+                        <label class="col-form-label"><strong>7.4.4</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Plantas generadoras de oxígeno mediante adsorción por oscilación de la presión u oxígeno líquido </strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
-                        <div class="kt-portlet__body">AQUI IRA </div>
+                        <div class="kt-portlet__body">
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP7_4_4" value="1">
+                                1. Sí <span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP7_4_4" value="2">
+                                2. No<span></span></label>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -250,13 +349,20 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P7.5</strong></label>
+                        <label class="col-form-label"><strong>7.5</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>¿Dispone el centro actualmente de distribución de oxígeno canalizado a las terminales de oxígeno de pared?</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
-                        <div class="kt-portlet__body">AQUI IRA </div>
+                        <div class="kt-portlet__body">
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP7_5" value="1">
+                                1. Sí <span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP7_5" value="2">
+                                2. No<span></span></label>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -265,13 +371,20 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P7.6</strong></label>
+                        <label class="col-form-label"><strong>7.6</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>¿Dispone actualmente el centro de una bombona de gas medicinal portátil para oxígeno, equipada con válvula y regulador de presión y de flujo?</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
-                        <div class="kt-portlet__body">AQUI IRA </div>
+                        <div class="kt-portlet__body">
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP7_6" value="1">
+                                1. Sí <span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP7_6" value="2">
+                                2. No<span></span></label>
+                        </div>
                     </div>
                 </div>
             </div>

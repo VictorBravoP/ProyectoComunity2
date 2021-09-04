@@ -41,13 +41,20 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P10.1</strong></label>
+                        <label class="col-form-label"><strong>10.1</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>"Gracias por responder a la entrevista. Nos gustaría volver a hablar con usted en el futuro. </strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
-                        <div class="kt-portlet__body">AQUI IRA </div>
+                        <div class="kt-portlet__body">
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP10_1" value="1">
+                                1. Sí <span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP10_1" value="2">
+                                2. No<span></span></label>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -56,13 +63,17 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P10.2</strong></label>
+                        <label class="col-form-label"><strong>10.2</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>¿Cuál es el número más adecuado? </strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
-                        <div class="kt-portlet__body">AQUI IRA </div>
+                        <div class="kt-portlet__body">
+                            <div class="col-lg-4">
+                                <input type="text" id="txtP10_2 " name="txtP10_2 " class="form-control">
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -71,13 +82,17 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P10.3</strong></label>
+                        <label class="col-form-label"><strong>10.3</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>¿Puede repetir el número, por favor?</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
-                        <div class="kt-portlet__body">AQUI IRA </div>
+                        <div class="kt-portlet__body">
+                            <div class="col-lg-4">
+                                <input type="text" id="txtP10_3 " name="txtP10_3 " class="form-control">
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -86,13 +101,32 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P10.4</strong></label>
+                        <label class="col-form-label"><strong>10.4</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Registre el resultado de la entrevista.</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
-                        <div class="kt-portlet__body">AQUI IRA </div>
+                        <div class="kt-portlet__body">
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP10_4" value="1">
+                                1. Completada<span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP10_4" value="2">
+                                2. Aplazada<span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP10_4" value="3">
+                                3. Parcialmente completada y aplazada<span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP10_4" value="4">
+                                4. Parcialmente completada<span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP10_4" value="5">
+                                5. Rechazada<span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP10_4" value="5">
+                                6. Otro<span></span></label>
+                        </div>
                     </div>
                 </div>
             </div>
