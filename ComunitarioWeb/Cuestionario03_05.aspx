@@ -38,7 +38,7 @@
       <input type="hidden" name="hdnNROHOGAR" id="hdnNROHOGAR" value="<'%=hdnNROHOGAR %>" />
       <input type="hidden" name="hdnNROPERSONA" id="hdnNROPERSONA" value="<'%=hdnNROPERSONA %>" />
 
- <!--HERE     --->
+        <!--HERE     --->
         <div class="form-group  form-group-marginless" id="P5_1" name="P5_1">
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
@@ -49,7 +49,15 @@
                         <label class="col-form-label"><strong>¿Hay una persona designada como punto focal para la prevención y el control de infecciones en el centro?</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
-                        <div class="kt-portlet__body">AQUI IRA </div>
+                        <div class="kt-portlet__body">
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP5_1" value="1">
+                                1. Sí <span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP5_1" value="2">
+                                2.No<span></span>    </label>
+
+                        </div>
                     </div>
                 </div>
             </div>
@@ -64,7 +72,15 @@
                         <label class="col-form-label"><strong>¿Ha aplicado el centro alguna medida para crear un entorno seguro en relación con la COVID-19? </strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
-                        <div class="kt-portlet__body">AQUI IRA </div>
+                        <div class="kt-portlet__body">
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP5_2" value="1">
+                                1. Sí <span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP5_2" value="2">
+                                2.No<span></span>    </label>
+
+                        </div>
                     </div>
                 </div>
             </div>
@@ -79,7 +95,7 @@
                         <label class="col-form-label"><strong>¿Cuáles de las siguientes medidas se han aplicado en este centro?</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
-                        <div class="kt-portlet__body">AQUI IRA </div>
+                        <div class="kt-portlet__body"></div>
                     </div>
                 </div>
             </div>
@@ -88,13 +104,21 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P5.3_1</strong></label>
+                        <label class="col-form-label"><strong>P5.3.1</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Cribado de todos los pacientes y visitantes en una entrada específica</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
-                        <div class="kt-portlet__body">AQUI IRA </div>
+                        <div class="kt-portlet__body">
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP5_3_1" value="1">
+                                1. Sí <span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP5_3_1" value="2">
+                                2.No<span></span>    </label>
+
+                        </div>
                     </div>
                 </div>
             </div>
@@ -103,13 +127,21 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P5.3_2</strong></label>
+                        <label class="col-form-label"><strong>P5.3.2</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Entrada específica de personal con fines de cribado</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
-                        <div class="kt-portlet__body">AQUI IRA </div>
+                        <div class="kt-portlet__body">
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP5_3_2" value="1">
+                                1. Sí <span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP5_3_2" value="2">
+                                2.No<span></span>    </label>
+
+                        </div>
                     </div>
                 </div>
             </div>
@@ -118,13 +150,21 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P5.3_3</strong></label>
+                        <label class="col-form-label"><strong>P5.3.3</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Las consultas de pacientes sospechosos de COVID-19 tiene lugar en una sala separada</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
-                        <div class="kt-portlet__body">AQUI IRA </div>
+                        <div class="kt-portlet__body">
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP5_3_3" value="1">
+                                1. Sí <span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP5_3_3" value="2">
+                                2.No<span></span>    </label>
+
+                        </div>
                     </div>
                 </div>
             </div>
@@ -133,13 +173,21 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P5.3_4</strong></label>
+                        <label class="col-form-label"><strong>P5.3.4</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Sistema de triaje que aísla los casos sospechosos y confirmados de COVID-19</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
-                        <div class="kt-portlet__body">AQUI IRA </div>
+                        <div class="kt-portlet__body">
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP5_3_4" value="1">
+                                1. Sí <span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP5_3_4" value="2">
+                                2.No<span></span>    </label>
+
+                        </div>
                     </div>
                 </div>
             </div>
@@ -148,13 +196,21 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P5.3_5</strong></label>
+                        <label class="col-form-label"><strong>P5.3.5</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Zonas de aislamiento de COVID-19 claramente identificadas y separadas de las zonas de pacientes sin COVID-19</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
-                        <div class="kt-portlet__body">AQUI IRA </div>
+                        <div class="kt-portlet__body">
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP5_3_5" value="1">
+                                1. Sí <span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP5_3_5" value="2">
+                                2.No<span></span>    </label>
+
+                        </div>
                     </div>
                 </div>
             </div>
@@ -163,13 +219,21 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P5.3_6</strong></label>
+                        <label class="col-form-label"><strong>P5.3.6</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Cribado y triaje de pacientes por sospecha de COVID-19 utilizando directrices actualizadas </strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
-                        <div class="kt-portlet__body">AQUI IRA </div>
+                        <div class="kt-portlet__body">
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP5_3_6" value="1">
+                                1. Sí <span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP5_3_6" value="2">
+                                2.No<span></span>    </label>
+
+                        </div>
                     </div>
                 </div>
             </div>
@@ -178,13 +242,21 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P5.3_7</strong></label>
+                        <label class="col-form-label"><strong>P5.3.7</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Distancia de al menos 1 metro entre pacientes y visitantes en las salas de espera y otras salas</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
-                        <div class="kt-portlet__body">AQUI IRA </div>
+                        <div class="kt-portlet__body">
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP5_3_7" value="1">
+                                1. Sí <span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP5_3_7" value="2">
+                                2.No<span></span>    </label>
+
+                        </div>
                     </div>
                 </div>
             </div>
@@ -193,13 +265,21 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P5.3_8</strong></label>
+                        <label class="col-form-label"><strong>P5.3.8</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Poner en un lugar visible las instrucciones sobre las prácticas de higiene respiratoria y de las manos para los pacientes y los visitantes</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
-                        <div class="kt-portlet__body">AQUI IRA </div>
+                        <div class="kt-portlet__body">
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP5_3_8" value="1">
+                                1. Sí <span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP5_3_8" value="2">
+                                2.No<span></span>    </label>
+
+                        </div>
                     </div>
                 </div>
             </div>
@@ -208,13 +288,21 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P5.3_9</strong></label>
+                        <label class="col-form-label"><strong>P5.3.9</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Puestos de higiene de manos en todos los puntos de atención</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
-                        <div class="kt-portlet__body">AQUI IRA </div>
+                        <div class="kt-portlet__body">
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP5_3_9" value="1">
+                                1. Sí <span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP5_3_9" value="2">
+                                2.No<span></span>    </label>
+
+                        </div>
                     </div>
                 </div>
             </div>
@@ -223,13 +311,21 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P5.3_10</strong></label>
+                        <label class="col-form-label"><strong>P5.3.10</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Uso de los EPP por parte del personal</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
-                        <div class="kt-portlet__body">AQUI IRA </div>
+                        <div class="kt-portlet__body">
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP5_3_10" value="1">
+                                1. Sí <span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP5_3_10" value="2">
+                                2.No<span></span>    </label>
+
+                        </div>
                     </div>
                 </div>
             </div>
@@ -238,13 +334,21 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P5.3_11</strong></label>
+                        <label class="col-form-label"><strong>P5.3.11</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Limpieza y desinfección del entorno</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
-                        <div class="kt-portlet__body">AQUI IRA </div>
+                        <div class="kt-portlet__body">
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP5_3_11" value="1">
+                                1. Sí <span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP5_3_11" value="2">
+                                2.No<span></span>    </label>
+
+                        </div>
                     </div>
                 </div>
             </div>
@@ -259,7 +363,15 @@
                         <label class="col-form-label"><strong>¿Dispone el centro de directrices de prevención y control de infecciones para la COVID-19?</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
-                        <div class="kt-portlet__body">AQUI IRA </div>
+                        <div class="kt-portlet__body">
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP5_4" value="1">
+                                1. Sí <span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP5_4" value="2">
+                                2.No<span></span>    </label>
+
+                        </div>
                     </div>
                 </div>
             </div>
@@ -274,7 +386,8 @@
                         <label class="col-form-label"><strong>¿Con cuáles de las siguientes directrices de prevención y control de infecciones cuentan? </strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
-                        <div class="kt-portlet__body">AQUI IRA </div>
+                        <div class="kt-portlet__body">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -289,7 +402,15 @@
                         <label class="col-form-label"><strong>Detección de signos y síntomas de COVID-19 </strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
-                        <div class="kt-portlet__body">AQUI IRA </div>
+                        <div class="kt-portlet__body">
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP5_5_1" value="1">
+                                1. Sí <span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP5_5_1" value="2">
+                                2.No<span></span>    </label>
+
+                        </div>
                     </div>
                 </div>
             </div>
@@ -304,7 +425,15 @@
                         <label class="col-form-label"><strong>Gestión de los casos sospechosos y confirmados de COVID-19</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
-                        <div class="kt-portlet__body">AQUI IRA </div>
+                        <div class="kt-portlet__body">
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP5_5_2" value="1">
+                                1. Sí <span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP5_5_2" value="2">
+                                2.No<span></span>    </label>
+
+                        </div>
                     </div>
                 </div>
             </div>
@@ -319,7 +448,15 @@
                         <label class="col-form-label"><strong>EPP </strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
-                        <div class="kt-portlet__body">AQUI IRA </div>
+                        <div class="kt-portlet__body">
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP5_5_3" value="1">
+                                1. Sí <span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP5_5_3" value="2">
+                                2.No<span></span>    </label>
+
+                        </div>
                     </div>
                 </div>
             </div>
@@ -334,7 +471,15 @@
                         <label class="col-form-label"><strong>Vigilancia de la COVID-19 entre el personal sanitario</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
-                        <div class="kt-portlet__body">AQUI IRA </div>
+                        <div class="kt-portlet__body">
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP5_5_4" value="1">
+                                1. Sí <span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP5_5_4" value="2">
+                                2.No<span></span>    </label>
+
+                        </div>
                     </div>
                 </div>
             </div>
@@ -349,7 +494,15 @@
                         <label class="col-form-label"><strong>Disposición de los cadáveres</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
-                        <div class="kt-portlet__body">AQUI IRA </div>
+                        <div class="kt-portlet__body">
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP5_5_5" value="1">
+                                1. Sí <span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP5_5_5" value="2">
+                                2.No<span></span>    </label>
+
+                        </div>
                     </div>
                 </div>
             </div>
@@ -364,7 +517,15 @@
                         <label class="col-form-label"><strong>Control de desechos</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
-                        <div class="kt-portlet__body">AQUI IRA </div>
+                        <div class="kt-portlet__body">
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP5_5_6" value="1">
+                                1. Sí <span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP5_5_6" value="2">
+                                2.No<span></span>    </label>
+
+                        </div>
                     </div>
                 </div>
             </div>
@@ -379,7 +540,15 @@
                         <label class="col-form-label"><strong>¿Proporciona este centro habitualmente EPP al personal sanitario? </strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
-                        <div class="kt-portlet__body">AQUI IRA </div>
+                        <div class="kt-portlet__body">
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP5_6" value="1">
+                                1. Sí <span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP5_6" value="2">
+                                2.No<span></span>    </label>
+
+                        </div>
                     </div>
                 </div>
             </div>
@@ -403,13 +572,27 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P5.7_1</strong></label>
+                        <label class="col-form-label"><strong>P5.7.1</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Bata de protección</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
-                        <div class="kt-portlet__body">AQUI IRA </div>
+                        <div class="kt-portlet__body">
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP5_7_1" value="1">
+                                1. Disponible actualmente para todo el personal sanitario <span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP5_7_1" value="2">
+                                2. Disponible actualmente solo para algunos trabajadores sanitarios <span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP5_7_1" value="3">
+                                3. No disponible actualmente para ningún trabajador sanitario <span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP5_7_1" value="4">
+                                4. No se aplica (nunca se ha adquirido o suministrado)<span></span>    </label>
+
+                        </div>
                     </div>
                 </div>
             </div>
@@ -418,13 +601,27 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P5.7_2</strong></label>
+                        <label class="col-form-label"><strong>P5.7.2</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Guantes de examen</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
-                        <div class="kt-portlet__body">AQUI IRA </div>
+                        <div class="kt-portlet__body">
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP5_7_2" value="1">
+                                1. Disponible actualmente para todo el personal sanitario <span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP5_7_2" value="2">
+                                2. Disponible actualmente solo para algunos trabajadores sanitarios <span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP5_7_2" value="3">
+                                3. No disponible actualmente para ningún trabajador sanitario <span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP5_7_2" value="4">
+                                4. No se aplica (nunca se ha adquirido o suministrado)<span></span>    </label>
+
+                        </div>
                     </div>
                 </div>
             </div>
@@ -433,13 +630,27 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P5.7_3</strong></label>
+                        <label class="col-form-label"><strong>P5.7.3</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Antiparras de seguridad</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
-                        <div class="kt-portlet__body">AQUI IRA </div>
+                        <div class="kt-portlet__body">
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP5_7_3" value="1">
+                                1. Disponible actualmente para todo el personal sanitario <span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP5_7_3" value="2">
+                                2. Disponible actualmente solo para algunos trabajadores sanitarios <span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP5_7_3" value="3">
+                                3. No disponible actualmente para ningún trabajador sanitario <span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP5_7_3" value="4">
+                                4. No se aplica (nunca se ha adquirido o suministrado)<span></span>    </label>
+
+                        </div>
                     </div>
                 </div>
             </div>
@@ -448,13 +659,27 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P5.7_4</strong></label>
+                        <label class="col-form-label"><strong>P5.7.4</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Pantalla facial</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
-                        <div class="kt-portlet__body">AQUI IRA </div>
+                        <div class="kt-portlet__body">
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP5_7_4" value="1">
+                                1. Disponible actualmente para todo el personal sanitario <span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP5_7_4" value="2">
+                                2. Disponible actualmente solo para algunos trabajadores sanitarios <span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP5_7_4" value="3">
+                                3. No disponible actualmente para ningún trabajador sanitario <span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP5_7_4" value="4">
+                                4. No se aplica (nunca se ha adquirido o suministrado)<span></span>    </label>
+
+                        </div>
                     </div>
                 </div>
             </div>
@@ -463,13 +688,27 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P5.7_5</strong></label>
+                        <label class="col-form-label"><strong>P5.7.5</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Mascarillas respiratorias (es decir, N95, FPP2)</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
-                        <div class="kt-portlet__body">AQUI IRA </div>
+                        <div class="kt-portlet__body">
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP5_7_5" value="1">
+                                1. Disponible actualmente para todo el personal sanitario <span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP5_7_5" value="2">
+                                2. Disponible actualmente solo para algunos trabajadores sanitarios <span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP5_7_5" value="3">
+                                3. No disponible actualmente para ningún trabajador sanitario <span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP5_7_5" value="4">
+                                4. No se aplica (nunca se ha adquirido o suministrado)<span></span>    </label>
+
+                        </div>
                     </div>
                 </div>
             </div>
@@ -478,13 +717,27 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P5.7_6</strong></label>
+                        <label class="col-form-label"><strong>P5.7.6</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Mascarilla médica o quirúrgica</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
-                        <div class="kt-portlet__body">AQUI IRA </div>
+                        <div class="kt-portlet__body">
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP5_7_6" value="1">
+                                1. Disponible actualmente para todo el personal sanitario <span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP5_7_6" value="2">
+                                2. Disponible actualmente solo para algunos trabajadores sanitarios <span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP5_7_6" value="3">
+                                3. No disponible actualmente para ningún trabajador sanitario <span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP5_7_6" value="4">
+                                4. No se aplica (nunca se ha adquirido o suministrado)<span></span>    </label>
+
+                        </div>
                     </div>
                 </div>
             </div>
@@ -499,7 +752,20 @@
                         <label class="col-form-label"><strong>¿Desecha el centro los EPP usados de forma segura, siguiendo las directrices de la prevención y control de infecciones?</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
-                        <div class="kt-portlet__body">AQUI IRA </div>
+                        <div class="kt-portlet__body">
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP5_8" value="1">
+                                1. Sí<span></span>
+                            </label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP5_8" value="2">
+                                2. No <span></span>
+                            </label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP5_8" value="3">
+                                3.	No lo sé<span></span></label>
+
+                        </div>
                     </div>
                 </div>
             </div>
@@ -514,7 +780,8 @@
                         <label class="col-form-label"><strong>Indique si disponen actualmente de los siguientes artículos o equipos de prevención y control de infecciones:</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
-                        <div class="kt-portlet__body">AQUI IRA </div>
+                        <div class="kt-portlet__body">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -523,13 +790,24 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P5.9_1</strong></label>
+                        <label class="col-form-label"><strong>P5.9.1</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Jabón líquido</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
-                        <div class="kt-portlet__body">AQUI IRA </div>
+                        <div class="kt-portlet__body">
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP5_9_1" value="1">
+                                1. Actualmente disponible <span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP5_9_1" value="2">
+                                2. Actualmente no disponible <span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP5_9_1" value="3">
+                                3. No se aplica (nunca se ha adquirido o suministrado)<span></span>    </label>
+
+                        </div>
                     </div>
                 </div>
             </div>
@@ -538,13 +816,24 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P5.9_2</strong></label>
+                        <label class="col-form-label"><strong>P5.9.2</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Gel hidroalcohólico</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
-                        <div class="kt-portlet__body">AQUI IRA </div>
+                        <div class="kt-portlet__body">
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP5_9_2" value="1">
+                                1. Actualmente disponible <span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP5_9_2" value="2">
+                                2. Actualmente no disponible <span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP5_9_2" value="3">
+                                3. No se aplica (nunca se ha adquirido o suministrado)<span></span>    </label>
+
+                        </div>
                     </div>
                 </div>
             </div>
@@ -553,13 +842,24 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P5.9_3</strong></label>
+                        <label class="col-form-label"><strong>P5.9.3</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Bolsa para desechos biopeligrosos</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
-                        <div class="kt-portlet__body">AQUI IRA </div>
+                        <div class="kt-portlet__body">
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP5_9_3" value="1">
+                                1. Actualmente disponible <span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP5_9_3" value="2">
+                                2. Actualmente no disponible <span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP5_9_3" value="3">
+                                3. No se aplica (nunca se ha adquirido o suministrado)<span></span>    </label>
+
+                        </div>
                     </div>
                 </div>
             </div>
@@ -568,13 +868,24 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P5.9_4</strong></label>
+                        <label class="col-form-label"><strong>P5.9.4</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Cajas de seguridad</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
-                        <div class="kt-portlet__body">AQUI IRA </div>
+                        <div class="kt-portlet__body">
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP5_9_4" value="1">
+                                1. Actualmente disponible <span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP5_9_4" value="2">
+                                2. Actualmente no disponible <span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP5_9_4" value="3">
+                                3. No se aplica (nunca se ha adquirido o suministrado)<span></span>    </label>
+
+                        </div>
                     </div>
                 </div>
             </div>
@@ -583,13 +894,24 @@
             <div class="col-lg-12">
                 <div class="form-group row form-group-marginless kt-margin-t-0">
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                        <label class="col-form-label"><strong>P5.9_5</strong></label>
+                        <label class="col-form-label"><strong>P5.9.5</strong></label>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Bolsas para cadáveres</strong></label>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
-                        <div class="kt-portlet__body">AQUI IRA </div>
+                        <div class="kt-portlet__body">
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP5_9_5" value="1">
+                                1. Actualmente disponible <span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP5_9_5" value="2">
+                                2. Actualmente no disponible <span></span></label>
+                            <label class="kt-radio kt-radio--tick kt-radio--brand">
+                                <input type="radio" name="txtP5_9_5" value="3">
+                                3. No se aplica (nunca se ha adquirido o suministrado)<span></span>    </label>
+
+                        </div>
                     </div>
                 </div>
             </div>
