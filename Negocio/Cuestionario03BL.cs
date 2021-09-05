@@ -13,9 +13,9 @@ namespace Negocio
 
         Cuestionario03DAO cuestionario03 = new Cuestionario03DAO();
 
-        public List<Cuestionario03> cargarCuestionario03_1(Cuestionario03 parametros)
+        public List<Cuestionario03> cargarCuestionario03_1(String id, String seccion, String usuario)
         {
-            return cuestionario03.Cuestionario03_1(parametros);
+            return cuestionario03.Cuestionario03_1(id, seccion, usuario);
         }
 
         public bool GuardarCuestionario03_01(List<Cuestionario03> pDocumento, System.String pUsuario)

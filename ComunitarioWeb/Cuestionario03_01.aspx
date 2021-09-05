@@ -32,9 +32,11 @@
             </div>
         </div>
         <!--begin::Form-->
-        <form class="kt-form kt-form--label-left">
+        <form class="kt-form kt-form--label-left"  runat="server">
             <div class="kt-portlet__body">
-                <input type="hidden" name="hdnCOD_ESTABLECIMIENTO" id="hdnCOD_ESTABLECIMIENTO" value="<'%=hdnCOD_ESTABLECIMIENTO %>" />
+        <asp:HiddenField ID="hdnCod_Establecimiento"  runat="server" />        
+        <asp:HiddenField ID="hdnSeccion" runat="server" />
+        <asp:HiddenField ID="hdnUsuario" runat="server" />
 
                 <!--HERE     --->
                 <div class="form-group  form-group-marginless" id="P1A" name="P1A">
@@ -287,6 +289,7 @@
                                         <input type="radio" name="txtP1_5" value="5">
                                         5. Otro<span></span>
                                     </label>
+                                     <input type="text"  id="txtP1_5_O" name="txtP1_5_O" class="form-control"   placeholder="Especifique"> </label>
                                 </div>
                             </div>
                         </div>
@@ -319,6 +322,7 @@
                                         <input type="radio" name="txtP1_6" value="4">
                                         4. Otro<span></span>
                                     </label>
+                                     <input type="text"  id="txtP1_6_O" name="txtP1_6_O" class="form-control"   placeholder="Especifique"> </label>
                                 </div>
                             </div>
                         </div>
@@ -347,6 +351,7 @@
                                         <input type="radio" name="txtP1_7" value="3">
                                         3. Otro<span></span>
                                     </label>
+                                     <input type="text"  id="txtP1_7_O" name="txtP1_7_O" class="form-control"   placeholder="Especifique"> </label>
                                 </div>
                             </div>
                         </div>
@@ -595,83 +600,78 @@
 
     <script type="text/javascript">
         $(document).ready(function () {
-           
-            console.log("ccccc", $('#hdnCOD_ESTABLECIMIENTO').val());
+
+      
+            console.log("VALOR hdnCOD_ESTABLECIMIENTOx", $('#<%=hdnCod_Establecimiento.ClientID%>').val());
+
             InicializaRep();
 
             function InicializaRep() {
-                console.log("cccxxxxxx");
-                var params = new Array();
+                var params;
 
-                params.push({
-                    'COD_ESTABLECIMIENTO': '1010',
-                    'SECCION': '01',
-                    'USUARIO': 'ADM',
-                });
-
-                console.log("PARAMS", params);
+                var params = {
+                    'cod_establecimiento': $('#<%=hdnCod_Establecimiento.ClientID%>').val(),
+                    'seccion': '01',
+                    'usuario': 'ADM',
+                };
+             
 
                 $.ajax({
-                    //  data: params,
                     type: 'POST',
                     url: 'Cuestionario03_01.aspx/cargarDatos',
-                    contentType: "application/json; charset=utf-8",
-                    data: JSON.stringify({ pDocumento: params }),
-                    dataType: "json",
-                    beforeSend: function () {
-                    },
+                     contentType: "application/json;",
+                    data: JSON.stringify(params),
                     success: function (data) {
-                             alert("holXaa");
-                        //    var dataparser = JSON.parse(data);
-                    //    console.log("dataparser", data.d.data[0]);
-                    //   console.log("data", data);
-                        //$("input[name='txtP1A'][value" = + data.d.data[0].P1A + "]").prop('checked', true);
-                        //$("#txtP1B").val(data.d.data[0].P1B);
-                        //$("#txtP1_1").val(data.d.data[0].P1_1);
-                        //$("#txtP1_1_1").val(data.d.data[0].P1_1_1);
-                        //$("#txtUBIGEO").val(data.d.data[0].UBIGEO);
-                        //$("#txtDEPARTAMENTO").val(data.d.data[0].DEPARTAMENTO);
-                        //$("#txtPROVINCIA").val(data.d.data[0].PROVINCIA);
-                        //$("#txtDISTRITO").val(data.d.data[0].DISTRITO);
-                        //$("#txtP1_2").val(data.d.data[0].P1_2);
-                        //$("#txtP1_3").val(data.d.data[0].P1_3);
-                        //$("input[name='txtP1_4'][value" = + data.d.data[0].P1_4 + "]").prop('checked', true);
-                        //$("input[name='txtP1_5'][value" = + data.d.data[0].P1_5 + "]").prop('checked', true);
-                        //$("#txtP1_5_O").val(data.d.data[0].P1_5_O);
-                        //$("input[name='txtP1_6'][value" = + data.d.data[0].P1_6 + "]").prop('checked', true);
-                        //$("#txtP1_6_O").val(data.d.data[0].P1_6_O);
-                        //$("input[name='txtP1_7'][value" = + data.d.data[0].P1_7 + "]").prop('checked', true);
-                        //$("#txtP1_7_O").val(data.d.data[0].P1_7_O);
-                        //$("#txtP1_8").val(data.d.data[0].P1_8);
-                        //$("#txtP1_9").val(data.d.data[0].P1_9);
-                        //$("#txtP1_10_1").val(data.d.data[0].P1_10_1);
-                        //$("#txtP1_10_2").val(data.d.data[0].P1_10_2);
-                        //$("#txtP1_10_3").val(data.d.data[0].P1_10_3);
-                        //$("input[name='txtP1_11'][value" = + data.d.data[0].P1_11 + "]").prop('checked', true);
-                        //$("#txtP1_12").val(data.d.data[0].P1_12);
-                        //$("#txtP1_13").val(data.d.data[0].P1_13);
-                        //$("input[name='txtP1_14_1'][value" = + data.d.data[0].P1_14_1 + "]").prop('checked', true);
-                        //$("input[name='txtP1_14_2'][value" = + data.d.data[0].P1_14_2 + "]").prop('checked', true);
-
+                        console.log("data.d.data[0].DEPARTAMENTO", data.d.data[0].DEPARTAMENTO);
+                        $("input[name='txtP1A'][value="  + data.d.data[0].P1A + "]").prop('checked', true);
+                        $("#txtP1B").val(data.d.data[0].P1B);
+                        $("#txtP1_1").val(data.d.data[0].P1_1);
+                        $("#txtP1_1_1").val(data.d.data[0].P1_1_1);
+                        $("#txtUBIGEO").val(data.d.data[0].UBIGEO);
+                        $("#txtDEPARTAMENTO").val(data.d.data[0].DEPARTAMENTO);
+                        $("#txtPROVINCIA").val(data.d.data[0].PROVINCIA);
+                        $("#txtDISTRITO").val(data.d.data[0].DISTRITO);
+                        $("#txtP1_2").val(data.d.data[0].P1_2);
+                        $("#txtP1_3").val(data.d.data[0].P1_3);
+                        $("input[name='txtP1_4'][value="  + data.d.data[0].P1_4 + "]").prop('checked', true);
+                        $("input[name='txtP1_5'][value="  + data.d.data[0].P1_5 + "]").prop('checked', true);
+                        $("#txtP1_5_O").val(data.d.data[0].P1_5_O);
+                        $("input[name='txtP1_6'][value="  + data.d.data[0].P1_6 + "]").prop('checked', true);
+                        $("#txtP1_6_O").val(data.d.data[0].P1_6_O);
+                        $("input[name='txtP1_7'][value="  + data.d.data[0].P1_7 + "]").prop('checked', true);
+                        $("#txtP1_7_O").val(data.d.data[0].P1_7_O);
+                        $("#txtP1_8").val(data.d.data[0].P1_8);
+                        $("#txtP1_9").val(data.d.data[0].P1_9);
+                        $("#txtP1_10_1").val(data.d.data[0].P1_10_1);
+                        $("#txtP1_10_2").val(data.d.data[0].P1_10_2);
+                        $("#txtP1_10_3").val(data.d.data[0].P1_10_3);
+                        $("input[name='txtP1_11'][value="  + data.d.data[0].P1_11 + "]").prop('checked', true);
+                        $("#txtP1_12").val(data.d.data[0].P1_12);
+                        $("#txtP1_13").val(data.d.data[0].P1_13);
+                        $("input[name='txtP1_14_1'][value="  + data.d.data[0].P1_14_1 + "]").prop('checked', true);
+                        $("input[name='txtP1_14_2'][value="  + data.d.data[0].P1_14_2 + "]").prop('checked', true);
                     }
                 });
+
             }
 
         });
 
+
+        $("button[name='retroceder']").click(function () {           
+            document.location.href = "../marco.aspx";
+        });
+        
 
         $("button[name='guardar']").click(function () {
             console.log("click");
             saveData();
         });
 
-        function saveData() {
-            console.log("pavita");
-
+        function saveData() {        
             var Formulario = new Array();
-
             Formulario.push({
-                'COD_ESTABLECIMIENTO': "1010",
+                'COD_ESTABLECIMIENTO': $('#<%=hdnCod_Establecimiento.ClientID%>').val(),
                 'P1A': $('input[name="txtP1A"]:checked').val(),
                 'P1B': $('#txtP1B').val(),
                 'P1_1': $('#txtP1_1').val(),
@@ -699,10 +699,9 @@
                 'P1_13': $('#txtP1_13').val(),
                 'P1_14_1': $('input[name="txtP1_14_1"]:checked').val(),
                 'P1_14_2': $('input[name="txtP1_14_2"]:checked').val(),
-
             });
 
-            console.log("form", Formulario);
+            console.log("click en guardado");
 
             $.ajax({
                 type: "POST",
@@ -712,6 +711,7 @@
                 contentType: 'application/json; charset=utf-8',
                 //async: false,
                 success: function (msg) {
+                    console.log("msg", msg);
                     if (msg.d.Mensaje == "Error") {
                         //MensajeAlerta("Ocurrió un error, por favor vuelva a intentar o consulte con el Administrador", 4);
                         return false;
@@ -731,5 +731,7 @@
         }
 
     </script>
+        
+
 
 </asp:Content>

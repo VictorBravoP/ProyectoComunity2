@@ -26,14 +26,21 @@ namespace ComunitarioWeb
         private void CargarDatosIniciales()
         {
             //   CargarPersonas();
+            if (!IsPostBack)
+            {
+               // string hdnCod_Establecimiento = Request.QueryString["hdnCod_Establecimiento"];
+
+                hdnCod_Establecimiento.Value = Request.QueryString["hdnCod_Establecimiento"];
+                hdnUsuario.Value = "ADM";
+            }
         }
 
         [WebMethod(EnableSession = true)]
-        public static object CargarDatos(Model.Cuestionario03 cuest03)
+        public static object CargarDatos(String cod_establecimiento, String seccion , String usuario)
         {
 
             Cuestionario03BL cuestionario03BL = new Cuestionario03BL();
-            List<Model.Cuestionario03> lista = cuestionario03BL.cargarCuestionario03_1(cuest03);
+            List<Model.Cuestionario03> lista = cuestionario03BL.cargarCuestionario03_1(cod_establecimiento, seccion, usuario);
             object json = new { data = lista };
             return json;
         }
@@ -48,10 +55,10 @@ namespace ComunitarioWeb
             String fechaTramite = "";
 
             obl.GuardarCuestionario03_01(pDocumento,  pUsuario);
-            if (numTicket == "Error")
-                strRespuesta = "aaa";
-            else
-                strRespuesta = "bbbb";
+            //if (numTicket == "Error")
+            //    strRespuesta = "aaa";
+            //else
+            //    strRespuesta = "bbbb";
             return   new { Mensaje = strRespuesta };
         }
 

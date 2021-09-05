@@ -8,7 +8,7 @@
             <div class="kt-portlet__head kt-portlet__head--noborder">
                 <div class="kt-portlet__head-label">
                     <span class="kt-portlet__head-icon"></span>
-                    <h3 class="kt-portlet__head-title">Listado de establecimientos de Salud
+                    <h3 class="kt-portlet__head-title">Listado de Establecimientos de Salud
                     </h3>
                 </div>
 
@@ -116,13 +116,13 @@
                 var tipocuest = data.TIPOCUEST;
 
                 if (tipocuest == 1) {
-                    document.location.href = "../cuestionario01_01.aspx?hdnCOD_ESTABLECIMIENTO=" + data.COD_ESTABLECIMIENTO;
+                    document.location.href = "../cuestionario01_01.aspx?hdnCod_Establecimiento=" + data.COD_ESTABLECIMIENTO;
                 }
                 else  if (tipocuest == 2) {
-                    document.location.href = "../cuestionario02_01.aspx?hdnCOD_ESTABLECIMIENTO=" + data.COD_ESTABLECIMIENTO;
+                    document.location.href = "../cuestionario02_01.aspx?hdnCod_Establecimiento=" + data.COD_ESTABLECIMIENTO;
                 }
                 else if (tipocuest == 3) {
-                    document.location.href = "../cuestionario03_01.aspx?hdnCOD_ESTABLECIMIENTO=" + data.COD_ESTABLECIMIENTO;
+                    document.location.href = "../cuestionario03_01.aspx?hdnCod_Establecimiento=" + data.COD_ESTABLECIMIENTO;
                 }
             });
 

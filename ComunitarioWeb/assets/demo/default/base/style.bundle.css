@@ -1601,8 +1601,9 @@ pre {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color:   #050038;  /*color: #495057;*/
-  background-color: #ffffff;
+  background-color: #f5f8fa;
+  border-color: #f5f8fa;
+  color: #5e6278;
   background-clip: padding-box;
   border: 1px solid #E4E6EF;
   border-radius: 0.42rem;
