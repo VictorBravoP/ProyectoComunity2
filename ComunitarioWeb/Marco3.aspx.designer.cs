@@ -11,7 +11,7 @@ namespace ComunitarioWeb
 {
 
 
-    public partial class _Default
+    public partial class Marco2
     {
     }
 }

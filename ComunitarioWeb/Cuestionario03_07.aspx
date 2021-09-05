@@ -30,12 +30,12 @@
 
     </div>
   </div>
-  <!--begin::Form-->
-  <form class="kt-form kt-form--label-left">
-    <div class="kt-portlet__body">
-      <input type="hidden" name="hdnID" id="hdnID" value="<'%=hdnID %>" />
-      <input type="hidden" name="hdnNROHOGAR" id="hdnNROHOGAR" value="<'%=hdnNROHOGAR %>" />
-      <input type="hidden" name="hdnNROPERSONA" id="hdnNROPERSONA" value="<'%=hdnNROPERSONA %>" />
+        <!--begin::Form-->
+        <form class="kt-form kt-form--label-left"  runat="server">
+            <div class="kt-portlet__body">
+        <asp:HiddenField ID="hdnCod_Establecimiento"  runat="server" />        
+        <asp:HiddenField ID="hdnSeccion" runat="server" />
+        <asp:HiddenField ID="hdnUsuario" runat="server" />
 
         <!--HERE     --->
         <div class="form-group  form-group-marginless" id="P7_1" name="P7_1">
@@ -416,7 +416,7 @@
 
 
 
-
+    
     <script type="text/javascript">
         $(document).ready(function () {
 
@@ -430,8 +430,8 @@
 
                 var params = {
                     'cod_establecimiento': $('#<%=hdnCod_Establecimiento.ClientID%>').val(),
-                    'seccion': '01',
-                    'usuario': 'ADM',
+                    'seccion': '07',
+                    'usuario': $('#<%=hdnUsuario.ClientID%>').val() ,
                 };
              
 
@@ -452,7 +452,8 @@
 
 
         $("button[name='retroceder']").click(function () {           
-            document.location.href = "../marco.aspx";
+            document.location.href = "../Cuestionario03_06.aspx?hdnCod_Establecimiento=" + $('#<%=hdnCod_Establecimiento.ClientID%>').val();
+
         });
         
 
@@ -462,36 +463,40 @@
         });
 
         function saveData() {        
-            var Formulario = new Array();
-            Formulario.push({
-                'COD_ESTABLECIMIENTO': $('#<%=hdnCod_Establecimiento.ClientID%>').val(),
+            var params;
 
-            });
-
-            console.log("click en guardado");
+            var params = {
+                'cod_establecimiento': $('#<%=hdnCod_Establecimiento.ClientID%>').val(),
+                'seccion': '07',                   
+                'usuario': $('#<%=hdnUsuario.ClientID%>').val(),
+            };
 
             $.ajax({
-                type: "POST",
-                dataType: 'json',
-                url: "Cuestionario03_07.aspx/GuardarCuestionario03_07",
-                data: JSON.stringify({ pDocumento: Formulario, pUsuario: "1" }),
-                contentType: 'application/json; charset=utf-8',
-                //async: false,
+                //  data: params,
+                type: 'POST',
+                url: 'Cuestionario03_05.aspx/cargarDatos',
+                contentType: "application/json; charset=utf-8",
+                data: JSON.stringify(params),
+                dataType: "json",
                 success: function (msg) {
-                    console.log("msg", msg);
-                    if (msg.d.Mensaje == "Error") {
-                        //MensajeAlerta("Ocurrió un error, por favor vuelva a intentar o consulte con el Administrador", 4);
-                        return false;
+                    console.log("msg", msg.d.mensaje);
+
+                    if (msg.d.mensaje == "Se guardaron los datos") {
+                        alertify.set('notifier', 'position', 'top-center');
+                        alertify.success(msg.d.mensaje);
                     } else {
-                        return false;
+                        alertify.set('notifier', 'position', 'top-center');
+                        alertify.error(msg.d.mensaje);
                     }
+                    document.location.href = "../Cuestionario03_08.aspx?hdnCod_Establecimiento=" + $('#<%=hdnCod_Establecimiento.ClientID%>').val();
 
                 },
                 error: function (jqXHR, textStatus, errorThrown) {
                     console.log('jqXHR:' + jqXHR);
                     console.log('textStatus:' + textStatus);
                     console.log('errorThrown:' + errorThrown);
-                    //MensajeAlerta("Ocurrió un error(500), por favor vuelva a intentar o consulte con el Administrador", 4);
+                    alertify.set('notifier', 'position', 'top-center');
+                    alertify.error("Ocurrió un error(500), por favor vuelva a intentar o consulte con el Administrador");
                     return false;
                 }
             });
