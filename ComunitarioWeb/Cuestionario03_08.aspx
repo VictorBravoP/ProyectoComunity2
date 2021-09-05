@@ -384,9 +384,6 @@
     <script type="text/javascript">
         $(document).ready(function () {
 
-
-            console.log("VALOR hdnCOD_ESTABLECIMIENTOx", $('#<%=hdnCod_Establecimiento.ClientID%>').val());
-
             InicializaRep();
 
             function InicializaRep() {
@@ -406,8 +403,20 @@
                     data: JSON.stringify(params),
                     dataType: "json",
                     success: function (data) {
-                
-
+                        $("input[name='txtP8_1'][value=" + data.d.data[0].P8_1 + "]").prop('checked', true);
+                        $("input[name='txtP8_2'][value=" + data.d.data[0].P8_2 + "]").prop('checked', true);
+                        $("input[name='txtP8_3'][value=" + data.d.data[0].P8_3 + "]").prop('checked', true);
+                        $("input[name='txtP8_4'][value=" + data.d.data[0].P8_4 + "]").prop('checked', true);
+                        $("input[name='txtP8_5'][value=" + data.d.data[0].P8_5 + "]").prop('checked', true);
+                        $("#txtP8_6").val(data.d.data[0].P8_6);
+                        $("input[name='txtP8_7'][value=" + data.d.data[0].P8_7 + "]").prop('checked', true);
+                        $("input[name='txtP8_8'][value=" + data.d.data[0].P8_8 + "]").prop('checked', true);
+                        $("#txtP8_9").val(data.d.data[0].P8_9);
+                        $("input[name='txtP8_10'][value=" + data.d.data[0].P8_10 + "]").prop('checked', true);
+                        $("input[name='txtP8_11'][value=" + data.d.data[0].P8_11 + "]").prop('checked', true);
+                        $("input[name='txtP8_12'][value=" + data.d.data[0].P8_12 + "]").prop('checked', true);
+                        $("input[name='txtP8_13'][value=" + data.d.data[0].P8_13 + "]").prop('checked', true);
+                        $("input[name='txtP8_14'][value=" + data.d.data[0].P8_14 + "]").prop('checked', true);
                     }
                 });
 
@@ -423,28 +432,39 @@
         
 
         $("button[name='guardar']").click(function () {
-            console.log("click");
             saveData();
         });
 
         function saveData() {        
-            var Formulario = new Array();
-            Formulario.push({
-                'COD_ESTABLECIMIENTO': $('#<%=hdnCod_Establecimiento.ClientID%>').val(),
-
-            });
-
-            console.log("click en guardado");
+            var params = {
+                'cod_establecimiento': $('#<%=hdnCod_Establecimiento.ClientID%>').val(),
+                'seccion': '08',                   
+                'usuario': $('#<%=hdnUsuario.ClientID%>').val(),
+                'P8_1': $('input[name="txtP8_1"]:checked').val(),
+                'P8_2': $('input[name="txtP8_2"]:checked').val(),
+                'P8_3': $('input[name="txtP8_3"]:checked').val(),
+                'P8_4': $('input[name="txtP8_4"]:checked').val(),
+                'P8_5': $('input[name="txtP8_5"]:checked').val(),
+                'P8_6': $('#txtP8_6').val(),
+                'P8_7': $('input[name="txtP8_7"]:checked').val(),
+                'P8_8': $('input[name="txtP8_8"]:checked').val(),
+                'P8_9': $('#txtP8_9').val(),
+                'P8_10': $('input[name="txtP8_10"]:checked').val(),
+                'P8_11': $('input[name="txtP8_11"]:checked').val(),
+                'P8_12': $('input[name="txtP8_12"]:checked').val(),
+                'P8_13': $('input[name="txtP8_13"]:checked').val(),
+                'P8_14': $('input[name="txtP8_14"]:checked').val(),
+            };
 
             $.ajax({
                 type: "POST",
                 dataType: 'json',
                 url: "Cuestionario03_08.aspx/GuardarCuestionario03_08",
-                data: JSON.stringify({ pDocumento: Formulario, pUsuario: $('#<%=hdnUsuario.ClientID%>').val() }),
+                //data: JSON.stringify({ pDocumento: Formulario, pUsuario: $('#<%=hdnUsuario.ClientID%>').val() }),
+                data: JSON.stringify(params),
                 contentType: 'application/json; charset=utf-8',
                 //async: false,
                 success: function (msg) {
-                    console.log("msg", msg.d.mensaje);
 
                     if (msg.d.mensaje == "Se guardaron los datos") {
                         alertify.set('notifier', 'position', 'top-center');
@@ -457,9 +477,7 @@
 
                 },
                 error: function (jqXHR, textStatus, errorThrown) {
-                    console.log('jqXHR:' + jqXHR);
-                    console.log('textStatus:' + textStatus);
-                    console.log('errorThrown:' + errorThrown);
+                    console.log('jqXHR:', jqXHR, ',textStatus:', textStatus, ',errorThrown:', errorThrown);
                     alertify.set('notifier', 'position', 'top-center');
                     alertify.error("Ocurrió un error(500), por favor vuelva a intentar o consulte con el Administrador");
                     return false;

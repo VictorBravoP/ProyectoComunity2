@@ -161,9 +161,6 @@
     <script type="text/javascript">
         $(document).ready(function () {
 
-
-            console.log("VALOR hdnCOD_ESTABLECIMIENTOx", $('#<%=hdnCod_Establecimiento.ClientID%>').val());
-
             InicializaRep();
 
             function InicializaRep() {
@@ -182,8 +179,11 @@
                      contentType: "application/json;",
                     data: JSON.stringify(params),
                     success: function (data) {
-                
-
+                        $("input[name='txtP10_1'][value=" + data.d.data[0].P10_1 + "]").prop('checked', true);
+                        $("#txtP10_2").val(data.d.data[0].P10_2);
+                        $("#txtP10_3").val(data.d.data[0].P10_3);
+                        $("input[name='txtP10_4'][value=" + data.d.data[0].P10_4 + "]").prop('checked', true);
+                        $("#txtP10_4_O").val(data.d.data[0].P10_4_O);
                     }
                 });
 
@@ -198,28 +198,30 @@
         
 
         $("button[name='guardar']").click(function () {
-            console.log("click");
             saveData();
         });
 
         function saveData() {        
-            var Formulario = new Array();
-            Formulario.push({
-                'COD_ESTABLECIMIENTO': $('#<%=hdnCod_Establecimiento.ClientID%>').val(),
-
-            });
-
-            console.log("click en guardado");
+            var params = {
+                'cod_establecimiento': $('#<%=hdnCod_Establecimiento.ClientID%>').val(),
+                'seccion': '08',                   
+                'usuario': $('#<%=hdnUsuario.ClientID%>').val(),
+                'P10_1': $('input[name="txtP10_1"]:checked').val(),
+                'P10_2': $('#txtP10_2').val(),
+                'P10_3': $('#txtP10_3').val(),
+                'P10_4': $('input[name="txtP10_4"]:checked').val(),
+                'P10_4_O': $('#txtP10_4_O').val(),
+            };
 
             $.ajax({
                 type: "POST",
                 dataType: 'json',
                 url: "Cuestionario03_10.aspx/GuardarCuestionario03_10",
-                data: JSON.stringify({ pDocumento: Formulario, pUsuario: $('#<%=hdnUsuario.ClientID%>').val() }),
+                //data: JSON.stringify({ pDocumento: Formulario, pUsuario: $('#<%=hdnUsuario.ClientID%>').val() }),
+                data: JSON.stringify(params),
                 contentType: 'application/json; charset=utf-8',
                 //async: false,
                 success: function (msg) {
-                    console.log("msg", msg.d.mensaje);
 
                     if (msg.d.mensaje == "Se guardaron los datos") {
                         alertify.set('notifier', 'position', 'top-center');
@@ -228,12 +230,10 @@
                         alertify.set('notifier', 'position', 'top-center');
                         alertify.error(msg.d.mensaje);
                     }
-                    document.location.href = "../Marco3.aspx;
+                    document.location.href = "../Marco3.aspx";
                 },
                 error: function (jqXHR, textStatus, errorThrown) {
-                    console.log('jqXHR:' + jqXHR);
-                    console.log('textStatus:' + textStatus);
-                    console.log('errorThrown:' + errorThrown);
+                    console.log('jqXHR:', jqXHR, ',textStatus:', textStatus, ',errorThrown:', errorThrown);
                     alertify.set('notifier', 'position', 'top-center');
                     alertify.error("Ocurrió un error(500), por favor vuelva a intentar o consulte con el Administrador");
                     return false;

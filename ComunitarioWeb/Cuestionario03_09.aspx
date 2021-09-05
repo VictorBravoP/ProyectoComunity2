@@ -600,9 +600,6 @@
     <script type="text/javascript">
         $(document).ready(function () {
 
-
-            console.log("VALOR hdnCOD_ESTABLECIMIENTOx", $('#<%=hdnCod_Establecimiento.ClientID%>').val());
-
             InicializaRep();
 
             function InicializaRep() {
@@ -622,7 +619,29 @@
                     data: JSON.stringify(params),
                     dataType: "json",
                     success: function (data) {                
-
+                        $("input[name='txtP9_1A'][value=" + data.d.data[0].P9_1A + "]").prop('checked', true);
+                        $("input[name='txtP9_1B'][value=" + data.d.data[0].P9_1B + "]").prop('checked', true);
+                        $("input[name='txtP9_2A'][value=" + data.d.data[0].P9_2A + "]").prop('checked', true);
+                        $("input[name='txtP9_2B'][value=" + data.d.data[0].P9_2B + "]").prop('checked', true);
+                        $("input[name='txtP9_3'][value=" + data.d.data[0].P9_3 + "]").prop('checked', true);
+                        $("input[name='txtP9_4_1'][value=" + data.d.data[0].P9_4_1 + "]").prop('checked', true);
+                        $("input[name='txtP9_4_2'][value=" + data.d.data[0].P9_4_2 + "]").prop('checked', true);
+                        $("input[name='txtP9_4_3'][value=" + data.d.data[0].P9_4_3 + "]").prop('checked', true);
+                        $("input[name='txtP9_4_4'][value=" + data.d.data[0].P9_4_4 + "]").prop('checked', true);
+                        $("input[name='txtP9_4_5'][value=" + data.d.data[0].P9_4_5 + "]").prop('checked', true);
+                        $("input[name='txtP9_5_1'][value=" + data.d.data[0].P9_5_1 + "]").prop('checked', true);
+                        $("input[name='txtP9_5_2'][value=" + data.d.data[0].P9_5_2 + "]").prop('checked', true);
+                        $("input[name='txtP9_5_3'][value=" + data.d.data[0].P9_5_3 + "]").prop('checked', true);
+                        $("input[name='txtP9_5_4'][value=" + data.d.data[0].P9_5_4 + "]").prop('checked', true);
+                        $("input[name='txtP9_6'][value=" + data.d.data[0].P9_6 + "]").prop('checked', true);
+                        $("input[name='txtP9_7'][value=" + data.d.data[0].P9_7 + "]").prop('checked', true);
+                        $("input[name='txtP9_8'][value=" + data.d.data[0].P9_8 + "]").prop('checked', true);
+                        $("input[name='txtP9_9'][value=" + data.d.data[0].P9_9 + "]").prop('checked', true);
+                        $("input[name='txtP9_10'][value=" + data.d.data[0].P9_10 + "]").prop('checked', true);
+                        $("input[name='txtP9_11'][value=" + data.d.data[0].P9_11 + "]").prop('checked', true);
+                        $("input[name='txtP9_12'][value=" + data.d.data[0].P9_12 + "]").prop('checked', true);
+                        $("input[name='txtP9_13'][value=" + data.d.data[0].P9_13 + "]").prop('checked', true);
+                        $("input[name='txtP9_14'][value=" + data.d.data[0].P9_14 + "]").prop('checked', true);
                     }
                 });
 
@@ -637,28 +656,48 @@
         
 
         $("button[name='guardar']").click(function () {
-            console.log("click");
             saveData();
         });
 
         function saveData() {        
-            var Formulario = new Array();
-            Formulario.push({
-                'COD_ESTABLECIMIENTO': $('#<%=hdnCod_Establecimiento.ClientID%>').val(),
-
-            });
-
-            console.log("click en guardado");
+            var params = {
+                'cod_establecimiento': $('#<%=hdnCod_Establecimiento.ClientID%>').val(),
+                'seccion': '08',                   
+                'usuario': $('#<%=hdnUsuario.ClientID%>').val(),
+                'P9_1A': $('input[name="txtP9_1A"]:checked').val(),
+                'P9_1B': $('input[name="txtP9_1B"]:checked').val(),
+                'P9_2A': $('input[name="txtP9_2A"]:checked').val(),
+                'P9_2B': $('input[name="txtP9_2B"]:checked').val(),
+                'P9_3': $('input[name="txtP9_3"]:checked').val(),
+                'P9_4_1': $('input[name="txtP9_4_1"]:checked').val(),
+                'P9_4_2': $('input[name="txtP9_4_2"]:checked').val(),
+                'P9_4_3': $('input[name="txtP9_4_3"]:checked').val(),
+                'P9_4_4': $('input[name="txtP9_4_4"]:checked').val(),
+                'P9_4_5': $('input[name="txtP9_4_5"]:checked').val(),
+                'P9_5_1': $('input[name="txtP9_5_1"]:checked').val(),
+                'P9_5_2': $('input[name="txtP9_5_2"]:checked').val(),
+                'P9_5_3': $('input[name="txtP9_5_3"]:checked').val(),
+                'P9_5_4': $('input[name="txtP9_5_4"]:checked').val(),
+                'P9_6': $('input[name="txtP9_6"]:checked').val(),
+                'P9_7': $('input[name="txtP9_7"]:checked').val(),
+                'P9_8': $('input[name="txtP9_8"]:checked').val(),
+                'P9_9': $('input[name="txtP9_9"]:checked').val(),
+                'P9_10': $('input[name="txtP9_10"]:checked').val(),
+                'P9_11': $('input[name="txtP9_11"]:checked').val(),
+                'P9_12': $('input[name="txtP9_12"]:checked').val(),
+                'P9_13': $('input[name="txtP9_13"]:checked').val(),
+                'P9_14': $('input[name="txtP9_14"]:checked').val(),
+            };
 
             $.ajax({
                 type: "POST",
                 dataType: 'json',
                 url: "Cuestionario03_09.aspx/GuardarCuestionario03_09",
-                data: JSON.stringify({ pDocumento: Formulario, pUsuario: $('#<%=hdnUsuario.ClientID%>').val()  }),
+                //data: JSON.stringify({ pDocumento: Formulario, pUsuario: $('#<%=hdnUsuario.ClientID%>').val() }),
+                data: JSON.stringify(params),
                 contentType: 'application/json; charset=utf-8',
                 //async: false,
                 success: function (msg) {
-                    console.log("msg", msg.d.mensaje);
 
                     if (msg.d.mensaje == "Se guardaron los datos") {
                         alertify.set('notifier', 'position', 'top-center');
@@ -671,9 +710,7 @@
 
                 },
                 error: function (jqXHR, textStatus, errorThrown) {
-                    console.log('jqXHR:' + jqXHR);
-                    console.log('textStatus:' + textStatus);
-                    console.log('errorThrown:' + errorThrown);
+                    console.log('jqXHR:', jqXHR, ',textStatus:', textStatus, ',errorThrown:', errorThrown);
                     alertify.set('notifier', 'position', 'top-center');
                     alertify.error("Ocurrió un error(500), por favor vuelva a intentar o consulte con el Administrador");
                     return false;
