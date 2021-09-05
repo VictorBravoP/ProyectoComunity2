@@ -523,8 +523,10 @@
                      contentType: "application/json;",
                     data: JSON.stringify(params),
                     success: function (data) {
-                
-
+                        //XXXX
+                        // Columnas AMARILLAS
+                        // Cuando es RADIO o CHECK ---> columna M
+                        // else columna L
                     }
                 });
 
@@ -547,7 +549,10 @@
             var Formulario = new Array();
             Formulario.push({
                 'COD_ESTABLECIMIENTO': $('#<%=hdnCod_Establecimiento.ClientID%>').val(),
-
+                //XXXX
+                // Columnas NARANJAS
+                // Cuando es RADIO o CHECK ---> columna M
+                // else columna L
             });
 
             console.log("click en guardado");
