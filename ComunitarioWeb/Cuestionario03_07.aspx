@@ -463,21 +463,21 @@
         });
 
         function saveData() {        
-            var Formulario = new Array();
-            Formulario.push({
-                'COD_ESTABLECIMIENTO': $('#<%=hdnCod_Establecimiento.ClientID%>').val(),
+            var params;
 
-            });
-
-            console.log("click en guardado");
+            var params = {
+                'cod_establecimiento': $('#<%=hdnCod_Establecimiento.ClientID%>').val(),
+                'seccion': '07',                   
+                'usuario': $('#<%=hdnUsuario.ClientID%>').val(),
+            };
 
             $.ajax({
-                type: "POST",
-                dataType: 'json',
-                url: "Cuestionario03_07.aspx/GuardarCuestionario03_07",
-                data: JSON.stringify({ pDocumento: Formulario, pUsuario: $('#<%=hdnUsuario.ClientID%>').val()   }),
-                contentType: 'application/json; charset=utf-8',
-                //async: false,
+                //  data: params,
+                type: 'POST',
+                url: 'Cuestionario03_05.aspx/cargarDatos',
+                contentType: "application/json; charset=utf-8",
+                data: JSON.stringify(params),
+                dataType: "json",
                 success: function (msg) {
                     console.log("msg", msg.d.mensaje);
 

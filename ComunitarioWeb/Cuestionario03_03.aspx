@@ -290,13 +290,13 @@
 
             function InicializaRep() {
 
-                var params = new Array();
+                var params;
 
-                params.push({
-                    'COD_ESTABLECIMIENTO': $('#<%=hdnCod_Establecimiento.ClientID%>').val(),
-                    'SECCION': '03',
-                    'USUARIO': $('#<%=hdnUsuario.ClientID%>').val(),
-                });
+                var params = {
+                    'cod_establecimiento': $('#<%=hdnCod_Establecimiento.ClientID%>').val(),
+                    'seccion': '03',                   
+                    'usuario': $('#<%=hdnUsuario.ClientID%>').val(),
+                };
 
 
                 $.ajax({
@@ -304,7 +304,7 @@
                     type: 'POST',
                     url: 'Cuestionario03_03.aspx/cargarDatos',
                     contentType: "application/json; charset=utf-8",
-                    data: JSON.stringify({ pDocumento: params }),
+                    data: JSON.stringify(params),
                     dataType: "json",
                     beforeSend: function () {
                     },

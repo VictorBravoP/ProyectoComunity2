@@ -394,16 +394,17 @@
 
                 var params = {
                     'cod_establecimiento': $('#<%=hdnCod_Establecimiento.ClientID%>').val(),
-                    'seccion': '08',
-                    'usuario': $('#<%=hdnUsuario.ClientID%>').val() ,
+                    'seccion': '08',                   
+                    'usuario': $('#<%=hdnUsuario.ClientID%>').val(),
                 };
-             
 
                 $.ajax({
+                    //  data: params,
                     type: 'POST',
                     url: 'Cuestionario03_08.aspx/cargarDatos',
-                     contentType: "application/json;",
+                    contentType: "application/json; charset=utf-8",
                     data: JSON.stringify(params),
+                    dataType: "json",
                     success: function (data) {
                 
 

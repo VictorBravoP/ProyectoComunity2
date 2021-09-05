@@ -511,16 +511,17 @@
 
                 var params = {
                     'cod_establecimiento': $('#<%=hdnCod_Establecimiento.ClientID%>').val(),
-                    'seccion': '06',
-                    'usuario': $('#<%=hdnUsuario.ClientID%>').val()
+                    'seccion': '06',                   
+                    'usuario': $('#<%=hdnUsuario.ClientID%>').val(),
                 };
-             
 
                 $.ajax({
+                    //  data: params,
                     type: 'POST',
                     url: 'Cuestionario03_06.aspx/cargarDatos',
-                     contentType: "application/json;",
+                    contentType: "application/json; charset=utf-8",
                     data: JSON.stringify(params),
+                    dataType: "json",
                     success: function (data) {
                 
 
@@ -543,11 +544,13 @@
         });
 
         function saveData() {        
-            var Formulario = new Array();
-            Formulario.push({
-                'COD_ESTABLECIMIENTO': $('#<%=hdnCod_Establecimiento.ClientID%>').val(),
+            var params;
 
-            });
+            var params = {
+                'cod_establecimiento': $('#<%=hdnCod_Establecimiento.ClientID%>').val(),
+                    'seccion': '06',                   
+                    'usuario': $('#<%=hdnUsuario.ClientID%>').val(),
+                };
 
             console.log("click en guardado");
 

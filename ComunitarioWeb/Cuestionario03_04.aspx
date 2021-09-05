@@ -34,9 +34,9 @@
         <!--begin::Form-->
         <form class="kt-form kt-form--label-left"  runat="server">
             <div class="kt-portlet__body">
-        <asp:HiddenField ID="HiddenField1"  runat="server" />        
-        <asp:HiddenField ID="HiddenField2" runat="server" />
-        <asp:HiddenField ID="HiddenField3" runat="server" />
+        <asp:HiddenField ID="hdnCod_Establecimiento"  runat="server" />        
+        <asp:HiddenField ID="hdnSeccion" runat="server" />
+        <asp:HiddenField ID="hdnUsuario" runat="server" />
 
                 <!--HERE     --->
                 <div class="form-group  form-group-marginless" id="P4_1" name="P4_1">
@@ -571,21 +571,20 @@
 
             function InicializaRep() {
 
-                var params = new Array();
+                var params;
 
-                params.push({
-                    'COD_ESTABLECIMIENTO': $('#<%=hdnCod_Establecimiento.ClientID%>').val(),
-                    'SECCION': '04',
-                    'USUARIO': $('#<%=hdnUsuario.ClientID%>').val(),
-                });
-
+                var params = {
+                    'cod_establecimiento': $('#<%=hdnCod_Establecimiento.ClientID%>').val(),
+                    'seccion': '04',                   
+                    'usuario': $('#<%=hdnUsuario.ClientID%>').val(),
+                };
 
                 $.ajax({
                     //  data: params,
                     type: 'POST',
                     url: 'Cuestionario03_04.aspx/cargarDatos',
                     contentType: "application/json; charset=utf-8",
-                    data: JSON.stringify({ pDocumento: params }),
+                    data: JSON.stringify(params),
                     dataType: "json",
                     beforeSend: function () {
                     },

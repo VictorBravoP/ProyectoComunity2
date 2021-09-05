@@ -289,7 +289,7 @@
                                         <input type="radio" name="txtP1_5" value="5">
                                         5. Otro<span></span>
                                     </label>
-                                     <input type="text"  id="txtP1_5_O" name="txtP1_5_O" class="form-control"   placeholder="Especifique"> </label>
+                                     <input type="text"  id="txtP1_5_O" name="txtP1_5_O" class="form-control"   placeholder="Especifique"> 
                                 </div>
                             </div>
                         </div>
@@ -520,7 +520,7 @@
                                 <label class="col-form-label"><strong>¿Cuenta el centro con los siguientes departamentos y salas o espacios?</strong></label>
                             </div>
                             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
-                                <div class="kt-portlet__body">AQUI IRA </div>
+                                
                             </div>
                         </div>
                     </div>
