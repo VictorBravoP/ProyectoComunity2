@@ -380,73 +380,70 @@
 </div>
 
 
+    
+
     <script type="text/javascript">
         $(document).ready(function () {
-           
+
+
+            console.log("VALOR hdnCOD_ESTABLECIMIENTOx", $('#<%=hdnCod_Establecimiento.ClientID%>').val());
+
             InicializaRep();
 
             function InicializaRep() {
+                var params;
 
-                var params = new Array();
-
-                params.push({
-                    'COD_ESTABLECIMIENTO': $.trim($('#hdnCOD_ESTABLECIMIENTO').val()),
-                    'SECCION': '01',
-                    'USUARIO': $('#hdnUSUARIO').val(),
-                });
-                      
+                var params = {
+                    'cod_establecimiento': $('#<%=hdnCod_Establecimiento.ClientID%>').val(),
+                    'seccion': '01',
+                    'usuario': 'ADM',
+                };
+             
 
                 $.ajax({
-                  //  data: params,
                     type: 'POST',
-                    url: 'Cuestionario03_01.aspx/cargarDatos',                   
-                    contentType: "application/json; charset=utf-8",
-                    data: JSON.stringify({ pDocumento: params }),
-                    dataType: "json",
-                    beforeSend: function () {                      
-                    },
+                    url: 'Cuestionario03_08.aspx/cargarDatos',
+                     contentType: "application/json;",
+                    data: JSON.stringify(params),
                     success: function (data) {
-                   //     alert("holXaa");
-                        //    var dataparser = JSON.parse(data);
-                        console.log("dataparser", data.d.data[0]);
-                        console.log("data", data );
-                      //  console.log("P1_1", data.d.data[0].P1_1 + "");
-
+                
 
                     }
                 });
+
             }
 
         });
 
+
+        $("button[name='retroceder']").click(function () {           
+            document.location.href = "../marco.aspx";
+        });
+        
 
         $("button[name='guardar']").click(function () {
             console.log("click");
             saveData();
         });
 
-        function saveData() {
-            console.log("pavita");
-
+        function saveData() {        
             var Formulario = new Array();
-
             Formulario.push({
-                'COD_ESTABLECIMIENTO' : "1010",
-                'P1_A': $('input[name="txtP1_A"]:checked').val(),
-                'P1_B': $('#txtP1_B').val(),
-              
+                'COD_ESTABLECIMIENTO': $('#<%=hdnCod_Establecimiento.ClientID%>').val(),
+
             });
 
-            console.log("form", Formulario);
+            console.log("click en guardado");
 
             $.ajax({
                 type: "POST",
                 dataType: 'json',
-                url:  "Cuestionario03_01.aspx/GuardarCuestionario03_01" ,
+                url: "Cuestionario03_08.aspx/GuardarCuestionario03_08",
                 data: JSON.stringify({ pDocumento: Formulario, pUsuario: "1" }),
                 contentType: 'application/json; charset=utf-8',
                 //async: false,
                 success: function (msg) {
+                    console.log("msg", msg);
                     if (msg.d.Mensaje == "Error") {
                         //MensajeAlerta("Ocurrió un error, por favor vuelva a intentar o consulte con el Administrador", 4);
                         return false;
@@ -466,5 +463,7 @@
         }
 
     </script>
+        
 
- </asp:Content>
+
+</asp:Content>

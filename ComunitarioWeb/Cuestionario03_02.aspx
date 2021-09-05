@@ -34,9 +34,9 @@
         <!--begin::Form-->
         <form class="kt-form kt-form--label-left">
             <div class="kt-portlet__body">
-                <input type="hidden" name="hdnID" id="hdnID" value="<'%=hdnID %>" />
-                <input type="hidden" name="hdnNROHOGAR" id="hdnNROHOGAR" value="<'%=hdnNROHOGAR %>" />
-                <input type="hidden" name="hdnNROPERSONA" id="hdnNROPERSONA" value="<'%=hdnNROPERSONA %>" />
+        <asp:HiddenField ID="hdnCod_Establecimiento"  runat="server" />        
+        <asp:HiddenField ID="hdnSeccion" runat="server" />
+        <asp:HiddenField ID="hdnUsuario" runat="server" />
 
                 <!--HERE     --->
                 <div class="form-group  form-group-marginless">
@@ -1110,186 +1110,60 @@ Para cada uno de los siguientes empleos, indique el número total de personal y 
     </div>
 
 
+  
+
     <script type="text/javascript">
         $(document).ready(function () {
+
+
+            console.log("VALOR hdnCOD_ESTABLECIMIENTOx", $('#<%=hdnCod_Establecimiento.ClientID%>').val());
 
             InicializaRep();
 
             function InicializaRep() {
+                var params;
 
-                var params = new Array();
-
-                params.push({
-                    'COD_ESTABLECIMIENTO': $.trim($('#hdnCOD_ESTABLECIMIENTO').val()),
-                    'SECCION': '01',
-                    'USUARIO': $('#hdnUSUARIO').val(),
-                });
-
+                var params = {
+                    'cod_establecimiento': $('#<%=hdnCod_Establecimiento.ClientID%>').val(),
+                    'seccion': '01',
+                    'usuario': 'ADM',
+                };
+             
 
                 $.ajax({
-                    //  data: params,
                     type: 'POST',
-                    url: 'Cuestionario03_02.aspx/cargarDatos',
-                    contentType: "application/json; charset=utf-8",
-                    data: JSON.stringify({ pDocumento: params }),
-                    dataType: "json",
-                    beforeSend: function () {
-                    },
+                    url: 'Cuestionario03_01.aspx/cargarDatos',
+                     contentType: "application/json;",
+                    data: JSON.stringify(params),
                     success: function (data) {
-                        //     alert("holXaa");
-                        //    var dataparser = JSON.parse(data);
-                        console.log("dataparser", data.d.data[0]);
-                        console.log("data", data);
-                        $("#txtP2_1_1A").val(data.d.data[0].P2_1_1A);
-                        $("#txtP2_1_1B").val(data.d.data[0].P2_1_1B);
-                        $("#txtP2_1_2A").val(data.d.data[0].P2_1_2A);
-                        $("#txtP2_1_2B").val(data.d.data[0].P2_1_2B);
-                        $("#txtP2_1_3A").val(data.d.data[0].P2_1_3A);
-                        $("#txtP2_1_3B").val(data.d.data[0].P2_1_3B);
-                        $("#txtP2_1_4A").val(data.d.data[0].P2_1_4A);
-                        $("#txtP2_1_4B").val(data.d.data[0].P2_1_4B);
-                        $("#txtP2_1_5A").val(data.d.data[0].P2_1_5A);
-                        $("#txtP2_1_5B").val(data.d.data[0].P2_1_5B);
-                        $("#txtP2_1_6A").val(data.d.data[0].P2_1_6A);
-                        $("#txtP2_1_6B").val(data.d.data[0].P2_1_6B);
-                        $("#txtP2_1_7A").val(data.d.data[0].P2_1_7A);
-                        $("#txtP2_1_7B").val(data.d.data[0].P2_1_7B);
-                        $("#txtP2_1_8A").val(data.d.data[0].P2_1_8A);
-                        $("#txtP2_1_8B").val(data.d.data[0].P2_1_8B);
-                        $("#txtP2_1_9A").val(data.d.data[0].P2_1_9A);
-                        $("#txtP2_1_9B").val(data.d.data[0].P2_1_9B);
-                        $("#txtP2_1_10A").val(data.d.data[0].P2_1_10A);
-                        $("#txtP2_1_10B").val(data.d.data[0].P2_1_10B);
-                        $("#txtP2_TOT").val(data.d.data[0].P2_TOT);
-                        $("input[name='txtP2_1A'][value="  +data.d.data[0].P2_1A + "]").prop('checked', true);
-                        $("#txtP2_1B").val(data.d.data[0].P2_1B);
-                        $("#txtP2_1C").val(data.d.data[0].P2_1C);
-                        $("input[name='txtP2_2'][value="  +data.d.data[0].P2_2 + "]").prop('checked', true);
-                        $("input[name='txtP2_3_1'][value="  +data.d.data[0].P2_3_1 + "]").prop('checked', true);
-                        $("input[name='txtP2_3_2'][value="  +data.d.data[0].P2_3_2 + "]").prop('checked', true);
-                        $("input[name='txtP2_3_3'][value="  +data.d.data[0].P2_3_3 + "]").prop('checked', true);
-                        $("input[name='txtP2_3_4'][value="  +data.d.data[0].P2_3_4 + "]").prop('checked', true);
-                        $("input[name='txtP2_3_5'][value="  +data.d.data[0].P2_3_5 + "]").prop('checked', true);
-                        $("input[name='txtP2_3_6'][value="  +data.d.data[0].P2_3_6 + "]").prop('checked', true);
-                        $("input[name='txtP2_3_7'][value="  +data.d.data[0].P2_3_7 + "]").prop('checked', true);
-                        $("input[name='txtP2_3_8'][value="  +data.d.data[0].P2_3_8 + "]").prop('checked', true);
-                        $("input[name='txtP2_3_9'][value="  +data.d.data[0].P2_3_9 + "]").prop('checked', true);
-                        $("input[name='txtP2_3_10'][value="  +data.d.data[0].P2_3_10 + "]").prop('checked', true);
-                        $("input[name='txtP2_3_11'][value="  +data.d.data[0].P2_3_11 + "]").prop('checked', true);
-                        $("input[name='txtP2_3_12'][value="  +data.d.data[0].P2_3_12 + "]").prop('checked', true);
-                        $("#txtP2_3_12_O").val(data.d.data[0].P2_3_12_O);
-                        $("input[name='txtP2_3_13'][value="  +data.d.data[0].P2_3_13 + "]").prop('checked', true);
-                        $("#txtP2_4").val(data.d.data[0].P2_4);
-                        $("input[name='txtP2_5_1'][value="  +data.d.data[0].P2_5_1 + "]").prop('checked', true);
-                        $("input[name='txtP2_5_2'][value="  +data.d.data[0].P2_5_2 + "]").prop('checked', true);
-                        $("input[name='txtP2_5_3'][value="  +data.d.data[0].P2_5_3 + "]").prop('checked', true);
-                        $("input[name='txtP2_5_4'][value="  +data.d.data[0].P2_5_4 + "]").prop('checked', true);
-                        $("input[name='txtP2_5_5'][value="  +data.d.data[0].P2_5_5 + "]").prop('checked', true);
-                        $("input[name='txtP2_5_6'][value="  +data.d.data[0].P2_5_6 + "]").prop('checked', true);
-                        $("input[name='txtP2_5_7'][value="  +data.d.data[0].P2_5_7 + "]").prop('checked', true);
-                        $("input[name='txtP2_5_8'][value="  +data.d.data[0].P2_5_8 + "]").prop('checked', true);
-                        $("input[name='txtP2_6'][value="  +data.d.data[0].P2_6 + "]").prop('checked', true);
-                        $("input[name='txtP2_7_1'][value="  +data.d.data[0].P2_7_1 + "]").prop('checked', true);
-                        $("input[name='txtP2_7_2'][value="  +data.d.data[0].P2_7_2 + "]").prop('checked', true);
-                        $("input[name='txtP2_7_3'][value="  +data.d.data[0].P2_7_3 + "]").prop('checked', true);
-                        $("input[name='txtP2_7_4'][value="  +data.d.data[0].P2_7_4 + "]").prop('checked', true);
-                        $("input[name='txtP2_7_5'][value="  +data.d.data[0].P2_7_5 + "]").prop('checked', true);
-                        $("input[name='txtP2_7_6'][value="  +data.d.data[0].P2_7_6 + "]").prop('checked', true);
-                        $("input[name='txtP2_7_7'][value="  +data.d.data[0].P2_7_7 + "]").prop('checked', true);
-                        $("input[name='txtP2_7_8'][value="  +data.d.data[0].P2_7_8 + "]").prop('checked', true);
-                        $("input[name='txtP2_7_9'][value="  +data.d.data[0].P2_7_9 + "]").prop('checked', true);
-                        $("#txtP2_8_1").val(data.d.data[0].P2_8_1);
-                        $("#txtP2_8_2").val(data.d.data[0].P2_8_2);
-                        $("input[name='txtP2_9'][value="  +data.d.data[0].P2_9 + "]").prop('checked', true);
-                        $("input[name='txtP2_10'][value="  +data.d.data[0].P2_10 + "]").prop('checked', true);
-
+                
 
                     }
                 });
+
             }
 
         });
 
+
+        $("button[name='retroceder']").click(function () {           
+            document.location.href = "../marco.aspx";
+        });
+        
 
         $("button[name='guardar']").click(function () {
             console.log("click");
             saveData();
         });
 
-        function saveData() {
-            console.log("pavita");
-
+        function saveData() {        
             var Formulario = new Array();
-
             Formulario.push({
-                'COD_ESTABLECIMIENTO': "1010",
-                'P2_1_1A': $('#txtP2_1_1A').val(),
-                'P2_1_1B': $('#txtP2_1_1B').val(),
-                'P2_1_2A': $('#txtP2_1_2A').val(),
-                'P2_1_2B': $('#txtP2_1_2B').val(),
-                'P2_1_3A': $('#txtP2_1_3A').val(),
-                'P2_1_3B': $('#txtP2_1_3B').val(),
-                'P2_1_4A': $('#txtP2_1_4A').val(),
-                'P2_1_4B': $('#txtP2_1_4B').val(),
-                'P2_1_5A': $('#txtP2_1_5A').val(),
-                'P2_1_5B': $('#txtP2_1_5B').val(),
-                'P2_1_6A': $('#txtP2_1_6A').val(),
-                'P2_1_6B': $('#txtP2_1_6B').val(),
-                'P2_1_7A': $('#txtP2_1_7A').val(),
-                'P2_1_7B': $('#txtP2_1_7B').val(),
-                'P2_1_8A': $('#txtP2_1_8A').val(),
-                'P2_1_8B': $('#txtP2_1_8B').val(),
-                'P2_1_9A': $('#txtP2_1_9A').val(),
-                'P2_1_9B': $('#txtP2_1_9B').val(),
-                'P2_1_10A': $('#txtP2_1_10A').val(),
-                'P2_1_10B': $('#txtP2_1_10B').val(),
-                'P2_TOT': $('#txtP2_TOT').val(),
-                'P2_1A': $('input[name="txtP2_1A"]:checked').val(),
-                'P2_1B': $('#txtP2_1B').val(),
-                'P2_1C': $('#txtP2_1C').val(),
-                'P2_2': $('input[name="txtP2_2"]:checked').val(),
-                'P2_3_1': $('input[name="txtP2_3_1"]:checked').val(),
-                'P2_3_2': $('input[name="txtP2_3_2"]:checked').val(),
-                'P2_3_3': $('input[name="txtP2_3_3"]:checked').val(),
-                'P2_3_4': $('input[name="txtP2_3_4"]:checked').val(),
-                'P2_3_5': $('input[name="txtP2_3_5"]:checked').val(),
-                'P2_3_6': $('input[name="txtP2_3_6"]:checked').val(),
-                'P2_3_7': $('input[name="txtP2_3_7"]:checked').val(),
-                'P2_3_8': $('input[name="txtP2_3_8"]:checked').val(),
-                'P2_3_9': $('input[name="txtP2_3_9"]:checked').val(),
-                'P2_3_10': $('input[name="txtP2_3_10"]:checked').val(),
-                'P2_3_11': $('input[name="txtP2_3_11"]:checked').val(),
-                'P2_3_12': $('input[name="txtP2_3_12"]:checked').val(),
-                'P2_3_12_O': $('#txtP2_3_12_O').val(),
-                'P2_3_13': $('input[name="txtP2_3_13"]:checked').val(),
-                'P2_4': $('input[name="txtP2_4"]:checked').val(),
-                'P2_5_1': $('input[name="txtP2_5_1"]:checked').val(),
-                'P2_5_2': $('input[name="txtP2_5_2"]:checked').val(),
-                'P2_5_3': $('input[name="txtP2_5_3"]:checked').val(),
-                'P2_5_4': $('input[name="txtP2_5_4"]:checked').val(),
-                'P2_5_5': $('input[name="txtP2_5_5"]:checked').val(),
-                'P2_5_6': $('input[name="txtP2_5_6"]:checked').val(),
-                'P2_5_7': $('input[name="txtP2_5_7"]:checked').val(),
-                'P2_5_8': $('input[name="txtP2_5_8"]:checked').val(),
-                'P2_6': $('input[name="txtP2_6"]:checked').val(),
-                'P2_7_1': $('input[name="txtP2_7_1"]:checked').val(),
-                'P2_7_2': $('input[name="txtP2_7_2"]:checked').val(),
-                'P2_7_3': $('input[name="txtP2_7_3"]:checked').val(),
-                'P2_7_4': $('input[name="txtP2_7_4"]:checked').val(),
-                'P2_7_5': $('input[name="txtP2_7_5"]:checked').val(),
-                'P2_7_6': $('input[name="txtP2_7_6"]:checked').val(),
-                'P2_7_7': $('input[name="txtP2_7_7"]:checked').val(),
-                'P2_7_8': $('input[name="txtP2_7_8"]:checked').val(),
-                'P2_7_9': $('input[name="txtP2_7_9"]:checked').val(),
-                'P2_8_1': $('#txtP2_8_1').val(),
-                'P2_8_2': $('#txtP2_8_2').val(),
-                'P2_9': $('input[name="txtP2_9"]:checked').val(),
-                'P2_10': $('input[name="txtP2_10"]:checked').val(),
-
+                'COD_ESTABLECIMIENTO': $('#<%=hdnCod_Establecimiento.ClientID%>').val(),
 
             });
 
-            console.log("form", Formulario);
+            console.log("click en guardado");
 
             $.ajax({
                 type: "POST",
@@ -1299,6 +1173,7 @@ Para cada uno de los siguientes empleos, indique el número total de personal y 
                 contentType: 'application/json; charset=utf-8',
                 //async: false,
                 success: function (msg) {
+                    console.log("msg", msg);
                     if (msg.d.Mensaje == "Error") {
                         //MensajeAlerta("Ocurrió un error, por favor vuelva a intentar o consulte con el Administrador", 4);
                         return false;
@@ -1318,5 +1193,7 @@ Para cada uno de los siguientes empleos, indique el número total de personal y 
         }
 
     </script>
+        
+
 
 </asp:Content>
