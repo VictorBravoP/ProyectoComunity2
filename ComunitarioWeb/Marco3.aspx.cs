@@ -10,7 +10,7 @@ using System.Web.Services;
 
 namespace ComunitarioWeb
 {
-    public partial class Marco : System.Web.UI.Page
+    public partial class Marco2 : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -38,7 +38,7 @@ namespace ComunitarioWeb
         [WebMethod(EnableSession = true)]
         private void CargarDatosIniciales()
         {
-           //   CargarMarco();
+            //   CargarMarco();
         }
 
         [WebMethod(EnableSession = true)]

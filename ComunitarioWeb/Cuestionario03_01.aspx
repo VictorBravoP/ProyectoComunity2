@@ -601,7 +601,6 @@
     <script type="text/javascript">
         $(document).ready(function () {
 
-      
             console.log("VALOR hdnCOD_ESTABLECIMIENTOx", $('#<%=hdnCod_Establecimiento.ClientID%>').val());
 
             InicializaRep();
@@ -659,7 +658,7 @@
 
 
         $("button[name='retroceder']").click(function () {           
-            document.location.href = "../marco.aspx";
+            document.location.href = "../Marco3.aspx";
         });
         
 
@@ -711,20 +710,24 @@
                 contentType: 'application/json; charset=utf-8',
                 //async: false,
                 success: function (msg) {
-                    console.log("msg", msg);
-                    if (msg.d.Mensaje == "Error") {
-                        //MensajeAlerta("Ocurrió un error, por favor vuelva a intentar o consulte con el Administrador", 4);
-                        return false;
+                    console.log("msg", msg.d.mensaje);
+
+                    if (msg.d.mensaje == "Se guardaron los datos") {
+                        alertify.set('notifier', 'position', 'top-center');
+                        alertify.success(msg.d.mensaje);
                     } else {
-                        return false;
+                        alertify.set('notifier', 'position', 'top-center');
+                        alertify.error(msg.d.mensaje);
                     }
+                    document.location.href = "../Cuestionario03_02.aspx?hdnCod_Establecimiento=" + $('#<%=hdnCod_Establecimiento.ClientID%>').val();
 
                 },
                 error: function (jqXHR, textStatus, errorThrown) {
                     console.log('jqXHR:' + jqXHR);
                     console.log('textStatus:' + textStatus);
                     console.log('errorThrown:' + errorThrown);
-                    //MensajeAlerta("Ocurrió un error(500), por favor vuelva a intentar o consulte con el Administrador", 4);
+                    alertify.set('notifier', 'position', 'top-center');
+                    alertify.error("Ocurrió un error(500), por favor vuelva a intentar o consulte con el Administrador");
                     return false;
                 }
             });

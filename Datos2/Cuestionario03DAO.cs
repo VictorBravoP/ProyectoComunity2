@@ -12,7 +12,7 @@ namespace Datos2
     public class Cuestionario03DAO
     {
 
-        public List<Cuestionario03> Cuestionario03_1(String cod_establecimiento, String seccion, String usuario)
+        public List<Cuestionario03> Cuestionario03_01(String cod_establecimiento, String seccion, String usuario)
         {
             SqlConnection cn = new SqlConnection(Conexion.strConexion);
             SqlCommand cmd = null;
@@ -75,7 +75,7 @@ namespace Datos2
             return Lista;
         }
 
-        public List<Cuestionario03> Cuestionario03_2(String cod_establecimiento, String seccion, String usuario)
+        public List<Cuestionario03> Cuestionario03_02(String cod_establecimiento, String seccion, String usuario)
         {
             SqlConnection cn = new SqlConnection(Conexion.strConexion);
             SqlCommand cmd = null;
@@ -173,7 +173,7 @@ namespace Datos2
             return Lista;
         }
 
-        public List<Cuestionario03> Cuestionario03_3(String cod_establecimiento, String seccion, String usuario)
+        public List<Cuestionario03> Cuestionario03_03(String cod_establecimiento, String seccion, String usuario)
         {
             SqlConnection cn = new SqlConnection(Conexion.strConexion);
             SqlCommand cmd = null;
@@ -219,7 +219,7 @@ namespace Datos2
             return Lista;
         }
 
-        public List<Cuestionario03> Cuestionario03_4(String cod_establecimiento, String seccion, String usuario)
+        public List<Cuestionario03> Cuestionario03_04(String cod_establecimiento, String seccion, String usuario)
         {
             SqlConnection cn = new SqlConnection(Conexion.strConexion);
             SqlCommand cmd = null;
@@ -273,7 +273,7 @@ namespace Datos2
             return Lista;
         }
 
-        public List<Cuestionario03> Cuestionario03_5(String cod_establecimiento, String seccion, String usuario)
+        public List<Cuestionario03> Cuestionario03_05(String cod_establecimiento, String seccion, String usuario)
         {
             SqlConnection cn = new SqlConnection(Conexion.strConexion);
             SqlCommand cmd = null;
@@ -342,7 +342,7 @@ namespace Datos2
             return Lista;
         }
 
-        public List<Cuestionario03> Cuestionario03_6(String cod_establecimiento, String seccion, String usuario)
+        public List<Cuestionario03> Cuestionario03_06(String cod_establecimiento, String seccion, String usuario)
         {
             SqlConnection cn = new SqlConnection(Conexion.strConexion);
             SqlCommand cmd = null;
@@ -405,7 +405,7 @@ namespace Datos2
             return Lista;
         }
 
-        public List<Cuestionario03> Cuestionario03_7(String cod_establecimiento, String seccion, String usuario)
+        public List<Cuestionario03> Cuestionario03_07(String cod_establecimiento, String seccion, String usuario)
         {
             SqlConnection cn = new SqlConnection(Conexion.strConexion);
             SqlCommand cmd = null;
@@ -469,7 +469,7 @@ namespace Datos2
             return Lista;
         }
 
-        public List<Cuestionario03> Cuestionario03_8(String cod_establecimiento, String seccion, String usuario)
+        public List<Cuestionario03> Cuestionario03_08(String cod_establecimiento, String seccion, String usuario)
         {
             SqlConnection cn = new SqlConnection(Conexion.strConexion);
             SqlCommand cmd = null;
@@ -519,7 +519,7 @@ namespace Datos2
             return Lista;
         }
 
-        public List<Cuestionario03> Cuestionario03_9(String cod_establecimiento, String seccion, String usuario)
+        public List<Cuestionario03> Cuestionario03_09(String cod_establecimiento, String seccion, String usuario)
         {
             SqlConnection cn = new SqlConnection(Conexion.strConexion);
             SqlCommand cmd = null;
@@ -604,7 +604,6 @@ namespace Datos2
                     if (!rd.IsDBNull(rd.GetOrdinal("P10_4"))) c.P10_4 = rd.GetInt32(rd.GetOrdinal("P10_4"));
                     if (!rd.IsDBNull(rd.GetOrdinal("P10_4_O"))) c.P10_4_O = rd.GetString(rd.GetOrdinal("P10_4_O"));
 
-
                     Lista.Add(c);
                 }
             }
@@ -629,6 +628,7 @@ namespace Datos2
             cmd.CommandType = CommandType.StoredProcedure;
             //  SqlTransaction tx = cmd.Connection.BeginTransaction();
             //  cmd.Transaction = tx;
+            int fila = 0;
 
             cmd.Parameters.AddWithValue("@COD_ESTABLECIMIENTO", pDocumento[0].COD_ESTABLECIMIENTO);
             cmd.Parameters.AddWithValue("@P1A", pDocumento[0].P1A);
@@ -664,7 +664,7 @@ namespace Datos2
 
                 try
                 {
-                    int fila = cmd.ExecuteNonQuery();
+                    fila = cmd.ExecuteNonQuery();
                     if (fila > 0)
                     {
                         respuesta = true;
@@ -698,13 +698,71 @@ namespace Datos2
             //  cmd.Transaction = tx;
 
             cmd.Parameters.AddWithValue("@COD_ESTABLECIMIENTO", pDocumento[0].COD_ESTABLECIMIENTO);
-            cmd.Parameters.AddWithValue("@P1A", pDocumento[0].P1A);
-            cmd.Parameters.AddWithValue("@P1B", pDocumento[0].P1B);
-
+            cmd.Parameters.AddWithValue("@P2_1_1A", pDocumento[0].P2_1_1A);
+            cmd.Parameters.AddWithValue("@P2_1_1B", pDocumento[0].P2_1_1B);
+            cmd.Parameters.AddWithValue("@P2_1_2A", pDocumento[0].P2_1_2A);
+            cmd.Parameters.AddWithValue("@P2_1_2B", pDocumento[0].P2_1_2B);
+            cmd.Parameters.AddWithValue("@P2_1_3A", pDocumento[0].P2_1_3A);
+            cmd.Parameters.AddWithValue("@P2_1_3B", pDocumento[0].P2_1_3B);
+            cmd.Parameters.AddWithValue("@P2_1_4A", pDocumento[0].P2_1_4A);
+            cmd.Parameters.AddWithValue("@P2_1_4B", pDocumento[0].P2_1_4B);
+            cmd.Parameters.AddWithValue("@P2_1_5A", pDocumento[0].P2_1_5A);
+            cmd.Parameters.AddWithValue("@P2_1_5B", pDocumento[0].P2_1_5B);
+            cmd.Parameters.AddWithValue("@P2_1_6A", pDocumento[0].P2_1_6A);
+            cmd.Parameters.AddWithValue("@P2_1_6B", pDocumento[0].P2_1_6B);
+            cmd.Parameters.AddWithValue("@P2_1_7A", pDocumento[0].P2_1_7A);
+            cmd.Parameters.AddWithValue("@P2_1_7B", pDocumento[0].P2_1_7B);
+            cmd.Parameters.AddWithValue("@P2_1_8A", pDocumento[0].P2_1_8A);
+            cmd.Parameters.AddWithValue("@P2_1_8B", pDocumento[0].P2_1_8B);
+            cmd.Parameters.AddWithValue("@P2_1_9A", pDocumento[0].P2_1_9A);
+            cmd.Parameters.AddWithValue("@P2_1_9B", pDocumento[0].P2_1_9B);
+            cmd.Parameters.AddWithValue("@P2_1_10A", pDocumento[0].P2_1_10A);
+            cmd.Parameters.AddWithValue("@P2_1_10B", pDocumento[0].P2_1_10B);
+            cmd.Parameters.AddWithValue("@P2_TOT", pDocumento[0].P2_TOT);
+            cmd.Parameters.AddWithValue("@P2_1A", pDocumento[0].P2_1A);
+            cmd.Parameters.AddWithValue("@P2_1B", pDocumento[0].P2_1B);
+            cmd.Parameters.AddWithValue("@P2_1C", pDocumento[0].P2_1C);
+            cmd.Parameters.AddWithValue("@P2_2", pDocumento[0].P2_2);
+            cmd.Parameters.AddWithValue("@P2_3_1", pDocumento[0].P2_3_1);
+            cmd.Parameters.AddWithValue("@P2_3_2", pDocumento[0].P2_3_2);
+            cmd.Parameters.AddWithValue("@P2_3_3", pDocumento[0].P2_3_3);
+            cmd.Parameters.AddWithValue("@P2_3_4", pDocumento[0].P2_3_4);
+            cmd.Parameters.AddWithValue("@P2_3_5", pDocumento[0].P2_3_5);
+            cmd.Parameters.AddWithValue("@P2_3_6", pDocumento[0].P2_3_6);
+            cmd.Parameters.AddWithValue("@P2_3_7", pDocumento[0].P2_3_7);
+            cmd.Parameters.AddWithValue("@P2_3_8", pDocumento[0].P2_3_8);
+            cmd.Parameters.AddWithValue("@P2_3_9", pDocumento[0].P2_3_9);
+            cmd.Parameters.AddWithValue("@P2_3_10", pDocumento[0].P2_3_10);
+            cmd.Parameters.AddWithValue("@P2_3_11", pDocumento[0].P2_3_11);
+            cmd.Parameters.AddWithValue("@P2_3_12", pDocumento[0].P2_3_12);
+            cmd.Parameters.AddWithValue("@P2_3_12_O", pDocumento[0].P2_3_12_O);
+            cmd.Parameters.AddWithValue("@P2_3_13", pDocumento[0].P2_3_13);
+            cmd.Parameters.AddWithValue("@P2_4", pDocumento[0].P2_4);
+            cmd.Parameters.AddWithValue("@P2_5_1", pDocumento[0].P2_5_1);
+            cmd.Parameters.AddWithValue("@P2_5_2", pDocumento[0].P2_5_2);
+            cmd.Parameters.AddWithValue("@P2_5_3", pDocumento[0].P2_5_3);
+            cmd.Parameters.AddWithValue("@P2_5_4", pDocumento[0].P2_5_4);
+            cmd.Parameters.AddWithValue("@P2_5_5", pDocumento[0].P2_5_5);
+            cmd.Parameters.AddWithValue("@P2_5_6", pDocumento[0].P2_5_6);
+            cmd.Parameters.AddWithValue("@P2_5_7", pDocumento[0].P2_5_7);
+            cmd.Parameters.AddWithValue("@P2_5_8", pDocumento[0].P2_5_8);
+            cmd.Parameters.AddWithValue("@P2_6", pDocumento[0].P2_6);
+            cmd.Parameters.AddWithValue("@P2_7_1", pDocumento[0].P2_7_1);
+            cmd.Parameters.AddWithValue("@P2_7_2", pDocumento[0].P2_7_2);
+            cmd.Parameters.AddWithValue("@P2_7_3", pDocumento[0].P2_7_3);
+            cmd.Parameters.AddWithValue("@P2_7_4", pDocumento[0].P2_7_4);
+            cmd.Parameters.AddWithValue("@P2_7_5", pDocumento[0].P2_7_5);
+            cmd.Parameters.AddWithValue("@P2_7_6", pDocumento[0].P2_7_6);
+            cmd.Parameters.AddWithValue("@P2_7_7", pDocumento[0].P2_7_7);
+            cmd.Parameters.AddWithValue("@P2_7_8", pDocumento[0].P2_7_8);
+            cmd.Parameters.AddWithValue("@P2_7_9", pDocumento[0].P2_7_9);
+            cmd.Parameters.AddWithValue("@P2_8_1", pDocumento[0].P2_8_1);
+            cmd.Parameters.AddWithValue("@P2_8_2", pDocumento[0].P2_8_2);
+            cmd.Parameters.AddWithValue("@P2_9", pDocumento[0].P2_9);
+            cmd.Parameters.AddWithValue("@P2_10", pDocumento[0].P2_10);
             cmd.Parameters.AddWithValue("@USUARIO", pUsuario);
 
             cn.Open();
-
             try
             {
                 int fila = cmd.ExecuteNonQuery();
@@ -712,6 +770,468 @@ namespace Datos2
                 {
                     respuesta = true;
                 }                  
+            }
+            catch (Exception _ex)
+            {
+                throw _ex;
+            }
+            finally
+            {
+                if ((cmd.Connection.State == ConnectionState.Open))
+                {
+                    cmd.Connection.Close();
+                }
+            }
+            return respuesta;
+        }
+
+        public bool GuardarCuestionario03_03(List<Cuestionario03> pDocumento, System.String pUsuario)
+        {
+            bool respuesta = false;
+            SqlConnection cn = new SqlConnection(Conexion.strConexion);
+            SqlCommand cmd = null;
+
+            cmd = new SqlCommand("USP_SAVEWEB_CUESTIONARIO03_03", cn);
+            cmd.CommandType = CommandType.StoredProcedure;
+            //  SqlTransaction tx = cmd.Connection.BeginTransaction();
+            //  cmd.Transaction = tx;
+
+            cmd.Parameters.AddWithValue("@COD_ESTABLECIMIENTO", pDocumento[0].COD_ESTABLECIMIENTO);
+            cmd.Parameters.AddWithValue("@P3_1", pDocumento[0].P3_1);
+            cmd.Parameters.AddWithValue("@P3_2", pDocumento[0].P3_2);
+            cmd.Parameters.AddWithValue("@P3_3", pDocumento[0].P3_3);
+            cmd.Parameters.AddWithValue("@P3_4", pDocumento[0].P3_4);
+            cmd.Parameters.AddWithValue("@P3_5", pDocumento[0].P3_5);
+            cmd.Parameters.AddWithValue("@P3_6", pDocumento[0].P3_6);
+            cmd.Parameters.AddWithValue("@P3_7", pDocumento[0].P3_7);
+            cmd.Parameters.AddWithValue("@P3_8", pDocumento[0].P3_8);
+            cmd.Parameters.AddWithValue("@P3_9", pDocumento[0].P3_9);
+            cmd.Parameters.AddWithValue("@P3_10", pDocumento[0].P3_10);
+
+            cmd.Parameters.AddWithValue("@USUARIO", pUsuario);
+
+            cn.Open();
+            try
+            {
+                int fila = cmd.ExecuteNonQuery();
+                if (fila > 0)
+                {
+                    respuesta = true;
+                }
+            }
+            catch (Exception _ex)
+            {
+                throw _ex;
+            }
+            finally
+            {
+                if ((cmd.Connection.State == ConnectionState.Open))
+                {
+                    cmd.Connection.Close();
+                }
+            }
+            return respuesta;
+        }
+
+        public bool GuardarCuestionario03_04(List<Cuestionario03> pDocumento, System.String pUsuario)
+        {
+            bool respuesta = false;
+            SqlConnection cn = new SqlConnection(Conexion.strConexion);
+            SqlCommand cmd = null;
+
+            cmd = new SqlCommand("USP_SAVEWEB_CUESTIONARIO03_04", cn);
+            cmd.CommandType = CommandType.StoredProcedure;
+            //  SqlTransaction tx = cmd.Connection.BeginTransaction();
+            //  cmd.Transaction = tx;
+
+            cmd.Parameters.AddWithValue("@COD_ESTABLECIMIENTO", pDocumento[0].COD_ESTABLECIMIENTO);
+            cmd.Parameters.AddWithValue("@P4_1_1", pDocumento[0].P4_1_1);
+            cmd.Parameters.AddWithValue("@P4_1_2", pDocumento[0].P4_1_2);
+            cmd.Parameters.AddWithValue("@P4_1_3", pDocumento[0].P4_1_3);
+            cmd.Parameters.AddWithValue("@P4_1_4", pDocumento[0].P4_1_4);
+            cmd.Parameters.AddWithValue("@P4_1_5", pDocumento[0].P4_1_5);
+            cmd.Parameters.AddWithValue("@P4_1_6", pDocumento[0].P4_1_6);
+            cmd.Parameters.AddWithValue("@P4_1_7", pDocumento[0].P4_1_7);
+            cmd.Parameters.AddWithValue("@P4_1_8", pDocumento[0].P4_1_8);
+            cmd.Parameters.AddWithValue("@P4_1_9", pDocumento[0].P4_1_9);
+            cmd.Parameters.AddWithValue("@P4_1_10", pDocumento[0].P4_1_10);
+            cmd.Parameters.AddWithValue("@P4_1_11", pDocumento[0].P4_1_11);
+            cmd.Parameters.AddWithValue("@P4_1_12", pDocumento[0].P4_1_12);
+            cmd.Parameters.AddWithValue("@P4_1_13", pDocumento[0].P4_1_13);
+            cmd.Parameters.AddWithValue("@P4_1_14", pDocumento[0].P4_1_14);
+            cmd.Parameters.AddWithValue("@P4_1_15", pDocumento[0].P4_1_15);
+            cmd.Parameters.AddWithValue("@P4_2_1", pDocumento[0].P4_2_1);
+            cmd.Parameters.AddWithValue("@P4_2_2", pDocumento[0].P4_2_2);
+            cmd.Parameters.AddWithValue("@P4_2_3", pDocumento[0].P4_2_3);
+
+            cmd.Parameters.AddWithValue("@USUARIO", pUsuario);
+
+            cn.Open();
+            try
+            {
+                int fila = cmd.ExecuteNonQuery();
+                if (fila > 0)
+                {
+                    respuesta = true;
+                }
+            }
+            catch (Exception _ex)
+            {
+                throw _ex;
+            }
+            finally
+            {
+                if ((cmd.Connection.State == ConnectionState.Open))
+                {
+                    cmd.Connection.Close();
+                }
+            }
+            return respuesta;
+        }
+
+        public bool GuardarCuestionario03_05(List<Cuestionario03> pDocumento, System.String pUsuario)
+        {
+            bool respuesta = false;
+            SqlConnection cn = new SqlConnection(Conexion.strConexion);
+            SqlCommand cmd = null;
+
+            cmd = new SqlCommand("USP_SAVEWEB_CUESTIONARIO03_05", cn);
+            cmd.CommandType = CommandType.StoredProcedure;
+            //  SqlTransaction tx = cmd.Connection.BeginTransaction();
+            //  cmd.Transaction = tx;
+
+            cmd.Parameters.AddWithValue("@COD_ESTABLECIMIENTO", pDocumento[0].COD_ESTABLECIMIENTO);
+            cmd.Parameters.AddWithValue("@P5_1", pDocumento[0].P5_1);
+            cmd.Parameters.AddWithValue("@P5_2", pDocumento[0].P5_2);
+            cmd.Parameters.AddWithValue("@P5_3_1", pDocumento[0].P5_3_1);
+            cmd.Parameters.AddWithValue("@P5_3_2", pDocumento[0].P5_3_2);
+            cmd.Parameters.AddWithValue("@P5_3_3", pDocumento[0].P5_3_3);
+            cmd.Parameters.AddWithValue("@P5_3_4", pDocumento[0].P5_3_4);
+            cmd.Parameters.AddWithValue("@P5_3_5", pDocumento[0].P5_3_5);
+            cmd.Parameters.AddWithValue("@P5_3_6", pDocumento[0].P5_3_6);
+            cmd.Parameters.AddWithValue("@P5_3_7", pDocumento[0].P5_3_7);
+            cmd.Parameters.AddWithValue("@P5_3_8", pDocumento[0].P5_3_8);
+            cmd.Parameters.AddWithValue("@P5_3_9", pDocumento[0].P5_3_9);
+            cmd.Parameters.AddWithValue("@P5_3_10", pDocumento[0].P5_3_10);
+            cmd.Parameters.AddWithValue("@P5_3_11", pDocumento[0].P5_3_11);
+            cmd.Parameters.AddWithValue("@P5_4", pDocumento[0].P5_4);
+            cmd.Parameters.AddWithValue("@P5_5_1", pDocumento[0].P5_5_1);
+            cmd.Parameters.AddWithValue("@P5_5_2", pDocumento[0].P5_5_2);
+            cmd.Parameters.AddWithValue("@P5_5_3", pDocumento[0].P5_5_3);
+            cmd.Parameters.AddWithValue("@P5_5_4", pDocumento[0].P5_5_4);
+            cmd.Parameters.AddWithValue("@P5_5_5", pDocumento[0].P5_5_5);
+            cmd.Parameters.AddWithValue("@P5_5_6", pDocumento[0].P5_5_6);
+            cmd.Parameters.AddWithValue("@P5_6", pDocumento[0].P5_6);
+            cmd.Parameters.AddWithValue("@P5_7_1", pDocumento[0].P5_7_1);
+            cmd.Parameters.AddWithValue("@P5_7_2", pDocumento[0].P5_7_2);
+            cmd.Parameters.AddWithValue("@P5_7_3", pDocumento[0].P5_7_3);
+            cmd.Parameters.AddWithValue("@P5_7_4", pDocumento[0].P5_7_4);
+            cmd.Parameters.AddWithValue("@P5_7_5", pDocumento[0].P5_7_5);
+            cmd.Parameters.AddWithValue("@P5_7_6", pDocumento[0].P5_7_6);
+            cmd.Parameters.AddWithValue("@P5_8", pDocumento[0].P5_8);
+            cmd.Parameters.AddWithValue("@P5_9_1", pDocumento[0].P5_9_1);
+            cmd.Parameters.AddWithValue("@P5_9_2", pDocumento[0].P5_9_2);
+            cmd.Parameters.AddWithValue("@P5_9_3", pDocumento[0].P5_9_3);
+            cmd.Parameters.AddWithValue("@P5_9_4", pDocumento[0].P5_9_4);
+            cmd.Parameters.AddWithValue("@P5_9_5", pDocumento[0].P5_9_5);
+
+            cmd.Parameters.AddWithValue("@USUARIO", pUsuario);
+
+            cn.Open();
+            try
+            {
+                int fila = cmd.ExecuteNonQuery();
+                if (fila > 0)
+                {
+                    respuesta = true;
+                }
+            }
+            catch (Exception _ex)
+            {
+                throw _ex;
+            }
+            finally
+            {
+                if ((cmd.Connection.State == ConnectionState.Open))
+                {
+                    cmd.Connection.Close();
+                }
+            }
+            return respuesta;
+        }
+
+        public bool GuardarCuestionario03_06(List<Cuestionario03> pDocumento, System.String pUsuario)
+        {
+            bool respuesta = false;
+            SqlConnection cn = new SqlConnection(Conexion.strConexion);
+            SqlCommand cmd = null;
+
+            cmd = new SqlCommand("USP_SAVEWEB_CUESTIONARIO03_06", cn);
+            cmd.CommandType = CommandType.StoredProcedure;
+            //  SqlTransaction tx = cmd.Connection.BeginTransaction();
+            //  cmd.Transaction = tx;
+
+            cmd.Parameters.AddWithValue("@COD_ESTABLECIMIENTO", pDocumento[0].COD_ESTABLECIMIENTO);
+            cmd.Parameters.AddWithValue("@P6_1", pDocumento[0].P6_1);
+            cmd.Parameters.AddWithValue("@P6_2_1", pDocumento[0].P6_2_1);
+            cmd.Parameters.AddWithValue("@P6_2_2", pDocumento[0].P6_2_2);
+            cmd.Parameters.AddWithValue("@P6_3_1", pDocumento[0].P6_3_1);
+            cmd.Parameters.AddWithValue("@P6_3_2", pDocumento[0].P6_3_2);
+            cmd.Parameters.AddWithValue("@P6_4", pDocumento[0].P6_4);
+            cmd.Parameters.AddWithValue("@P6_5_1", pDocumento[0].P6_5_1);
+            cmd.Parameters.AddWithValue("@P6_5_2", pDocumento[0].P6_5_2);
+            cmd.Parameters.AddWithValue("@P6_5_3", pDocumento[0].P6_5_3);
+            cmd.Parameters.AddWithValue("@P6_5_4", pDocumento[0].P6_5_4);
+            cmd.Parameters.AddWithValue("@P6_5_5", pDocumento[0].P6_5_5);
+            cmd.Parameters.AddWithValue("@P6_5_6", pDocumento[0].P6_5_6);
+            cmd.Parameters.AddWithValue("@P6_5_7", pDocumento[0].P6_5_7);
+            cmd.Parameters.AddWithValue("@P6_5_7_O", pDocumento[0].P6_5_7_O);
+            cmd.Parameters.AddWithValue("@P6_6", pDocumento[0].P6_6);
+            cmd.Parameters.AddWithValue("@P6_6_1", pDocumento[0].P6_6_1);
+            cmd.Parameters.AddWithValue("@P6_7", pDocumento[0].P6_7);
+            cmd.Parameters.AddWithValue("@P6_7_1", pDocumento[0].P6_7_1);
+            cmd.Parameters.AddWithValue("@P6_8_1", pDocumento[0].P6_8_1);
+            cmd.Parameters.AddWithValue("@P6_8_2", pDocumento[0].P6_8_2);
+            cmd.Parameters.AddWithValue("@P6_9", pDocumento[0].P6_9);
+            cmd.Parameters.AddWithValue("@P6_9_1", pDocumento[0].P6_9_1);
+            cmd.Parameters.AddWithValue("@P6_10", pDocumento[0].P6_10);
+            cmd.Parameters.AddWithValue("@P6_10_1", pDocumento[0].P6_10_1);
+            cmd.Parameters.AddWithValue("@P6_11", pDocumento[0].P6_11);
+            cmd.Parameters.AddWithValue("@P6_12", pDocumento[0].P6_12);
+            cmd.Parameters.AddWithValue("@P6_13", pDocumento[0].P6_13);
+
+            cmd.Parameters.AddWithValue("@USUARIO", pUsuario);
+
+            cn.Open();
+            try
+            {
+                int fila = cmd.ExecuteNonQuery();
+                if (fila > 0)
+                {
+                    respuesta = true;
+                }
+            }
+            catch (Exception _ex)
+            {
+                throw _ex;
+            }
+            finally
+            {
+                if ((cmd.Connection.State == ConnectionState.Open))
+                {
+                    cmd.Connection.Close();
+                }
+            }
+            return respuesta;
+        }
+
+        public bool GuardarCuestionario03_07(List<Cuestionario03> pDocumento, System.String pUsuario)
+        {
+            bool respuesta = false;
+            SqlConnection cn = new SqlConnection(Conexion.strConexion);
+            SqlCommand cmd = null;
+
+            cmd = new SqlCommand("USP_SAVEWEB_CUESTIONARIO03_07", cn);
+            cmd.CommandType = CommandType.StoredProcedure;
+            //  SqlTransaction tx = cmd.Connection.BeginTransaction();
+            //  cmd.Transaction = tx;
+
+            cmd.Parameters.AddWithValue("@COD_ESTABLECIMIENTO", pDocumento[0].COD_ESTABLECIMIENTO);
+            cmd.Parameters.AddWithValue("@P7_1_1A", pDocumento[0].P7_1_1A);
+            cmd.Parameters.AddWithValue("@P7_1_1B", pDocumento[0].P7_1_1B);
+            cmd.Parameters.AddWithValue("@P7_1_2A", pDocumento[0].P7_1_2A);
+            cmd.Parameters.AddWithValue("@P7_1_2B", pDocumento[0].P7_1_2B);
+            cmd.Parameters.AddWithValue("@P7_1_3A", pDocumento[0].P7_1_3A);
+            cmd.Parameters.AddWithValue("@P7_1_3B", pDocumento[0].P7_1_3B);
+            cmd.Parameters.AddWithValue("@P7_1_4A", pDocumento[0].P7_1_4A);
+            cmd.Parameters.AddWithValue("@P7_1_4B", pDocumento[0].P7_1_4B);
+            cmd.Parameters.AddWithValue("@P7_2_1", pDocumento[0].P7_2_1);
+            cmd.Parameters.AddWithValue("@P7_2_2", pDocumento[0].P7_2_2);
+            cmd.Parameters.AddWithValue("@P7_2_3", pDocumento[0].P7_2_3);
+            cmd.Parameters.AddWithValue("@P7_2_4", pDocumento[0].P7_2_4);
+            cmd.Parameters.AddWithValue("@P7_2_5", pDocumento[0].P7_2_5);
+            cmd.Parameters.AddWithValue("@P7_2_6", pDocumento[0].P7_2_6);
+            cmd.Parameters.AddWithValue("@P7_2_6_O", pDocumento[0].P7_2_6_O);
+            cmd.Parameters.AddWithValue("@P7_3_1", pDocumento[0].P7_3_1);
+            cmd.Parameters.AddWithValue("@P7_3_2", pDocumento[0].P7_3_2);
+            cmd.Parameters.AddWithValue("@P7_3_3", pDocumento[0].P7_3_3);
+            cmd.Parameters.AddWithValue("@P7_3_4", pDocumento[0].P7_3_4);
+            cmd.Parameters.AddWithValue("@P7_3_5", pDocumento[0].P7_3_5);
+            cmd.Parameters.AddWithValue("@P7_3_6", pDocumento[0].P7_3_6);
+            cmd.Parameters.AddWithValue("@P7_3_6_O", pDocumento[0].P7_3_6_O);
+            cmd.Parameters.AddWithValue("@P7_4_1", pDocumento[0].P7_4_1);
+            cmd.Parameters.AddWithValue("@P7_4_2", pDocumento[0].P7_4_2);
+            cmd.Parameters.AddWithValue("@P7_4_3", pDocumento[0].P7_4_3);
+            cmd.Parameters.AddWithValue("@P7_4_4", pDocumento[0].P7_4_4);
+            cmd.Parameters.AddWithValue("@P7_5", pDocumento[0].P7_5);
+            cmd.Parameters.AddWithValue("@P7_6", pDocumento[0].P7_6);
+
+            cmd.Parameters.AddWithValue("@USUARIO", pUsuario);
+
+            cn.Open();
+            try
+            {
+                int fila = cmd.ExecuteNonQuery();
+                if (fila > 0)
+                {
+                    respuesta = true;
+                }
+            }
+            catch (Exception _ex)
+            {
+                throw _ex;
+            }
+            finally
+            {
+                if ((cmd.Connection.State == ConnectionState.Open))
+                {
+                    cmd.Connection.Close();
+                }
+            }
+            return respuesta;
+        }
+
+        public bool GuardarCuestionario03_08(List<Cuestionario03> pDocumento, System.String pUsuario)
+        {
+            bool respuesta = false;
+            SqlConnection cn = new SqlConnection(Conexion.strConexion);
+            SqlCommand cmd = null;
+
+            cmd = new SqlCommand("USP_SAVEWEB_CUESTIONARIO03_08", cn);
+            cmd.CommandType = CommandType.StoredProcedure;
+            //  SqlTransaction tx = cmd.Connection.BeginTransaction();
+            //  cmd.Transaction = tx;
+
+            cmd.Parameters.AddWithValue("@COD_ESTABLECIMIENTO", pDocumento[0].COD_ESTABLECIMIENTO);
+            cmd.Parameters.AddWithValue("@P8_1", pDocumento[0].P8_1);
+            cmd.Parameters.AddWithValue("@P8_2", pDocumento[0].P8_2);
+            cmd.Parameters.AddWithValue("@P8_3", pDocumento[0].P8_3);
+            cmd.Parameters.AddWithValue("@P8_4", pDocumento[0].P8_4);
+            cmd.Parameters.AddWithValue("@P8_5", pDocumento[0].P8_5);
+            cmd.Parameters.AddWithValue("@P8_6", pDocumento[0].P8_6);
+            cmd.Parameters.AddWithValue("@P8_7", pDocumento[0].P8_7);
+            cmd.Parameters.AddWithValue("@P8_8", pDocumento[0].P8_8);
+            cmd.Parameters.AddWithValue("@P8_9", pDocumento[0].P8_9);
+            cmd.Parameters.AddWithValue("@P8_10", pDocumento[0].P8_10);
+            cmd.Parameters.AddWithValue("@P8_11", pDocumento[0].P8_11);
+            cmd.Parameters.AddWithValue("@P8_12", pDocumento[0].P8_12);
+            cmd.Parameters.AddWithValue("@P8_13", pDocumento[0].P8_13);
+            cmd.Parameters.AddWithValue("@P8_14", pDocumento[0].P8_14);
+
+            cmd.Parameters.AddWithValue("@USUARIO", pUsuario);
+
+            cn.Open();
+            try
+            {
+                int fila = cmd.ExecuteNonQuery();
+                if (fila > 0)
+                {
+                    respuesta = true;
+                }
+            }
+            catch (Exception _ex)
+            {
+                throw _ex;
+            }
+            finally
+            {
+                if ((cmd.Connection.State == ConnectionState.Open))
+                {
+                    cmd.Connection.Close();
+                }
+            }
+            return respuesta;
+        }
+
+        public bool GuardarCuestionario03_09(List<Cuestionario03> pDocumento, System.String pUsuario)
+        {
+            bool respuesta = false;
+            SqlConnection cn = new SqlConnection(Conexion.strConexion);
+            SqlCommand cmd = null;
+
+            cmd = new SqlCommand("USP_SAVEWEB_CUESTIONARIO03_09", cn);
+            cmd.CommandType = CommandType.StoredProcedure;
+            //  SqlTransaction tx = cmd.Connection.BeginTransaction();
+            //  cmd.Transaction = tx;
+
+            cmd.Parameters.AddWithValue("@COD_ESTABLECIMIENTO", pDocumento[0].COD_ESTABLECIMIENTO);
+            cmd.Parameters.AddWithValue("@P9_1A", pDocumento[0].P9_1A);
+            cmd.Parameters.AddWithValue("@P9_1B", pDocumento[0].P9_1B);
+            cmd.Parameters.AddWithValue("@P9_2A", pDocumento[0].P9_2A);
+            cmd.Parameters.AddWithValue("@P9_2B", pDocumento[0].P9_2B);
+            cmd.Parameters.AddWithValue("@P9_3", pDocumento[0].P9_3);
+            cmd.Parameters.AddWithValue("@P9_4_1", pDocumento[0].P9_4_1);
+            cmd.Parameters.AddWithValue("@P9_4_2", pDocumento[0].P9_4_2);
+            cmd.Parameters.AddWithValue("@P9_4_3", pDocumento[0].P9_4_3);
+            cmd.Parameters.AddWithValue("@P9_4_4", pDocumento[0].P9_4_4);
+            cmd.Parameters.AddWithValue("@P9_4_5", pDocumento[0].P9_4_5);
+            cmd.Parameters.AddWithValue("@P9_5_1", pDocumento[0].P9_5_1);
+            cmd.Parameters.AddWithValue("@P9_5_2", pDocumento[0].P9_5_2);
+            cmd.Parameters.AddWithValue("@P9_5_3", pDocumento[0].P9_5_3);
+            cmd.Parameters.AddWithValue("@P9_5_4", pDocumento[0].P9_5_4);
+            cmd.Parameters.AddWithValue("@P9_6", pDocumento[0].P9_6);
+            cmd.Parameters.AddWithValue("@P9_7", pDocumento[0].P9_7);
+            cmd.Parameters.AddWithValue("@P9_8", pDocumento[0].P9_8);
+            cmd.Parameters.AddWithValue("@P9_9", pDocumento[0].P9_9);
+            cmd.Parameters.AddWithValue("@P9_10", pDocumento[0].P9_10);
+            cmd.Parameters.AddWithValue("@P9_11", pDocumento[0].P9_11);
+            cmd.Parameters.AddWithValue("@P9_12", pDocumento[0].P9_12);
+            cmd.Parameters.AddWithValue("@P9_13", pDocumento[0].P9_13);
+            cmd.Parameters.AddWithValue("@P9_14", pDocumento[0].P9_14);
+
+            cmd.Parameters.AddWithValue("@USUARIO", pUsuario);
+
+            cn.Open();
+            try
+            {
+                int fila = cmd.ExecuteNonQuery();
+                if (fila > 0)
+                {
+                    respuesta = true;
+                }
+            }
+            catch (Exception _ex)
+            {
+                throw _ex;
+            }
+            finally
+            {
+                if ((cmd.Connection.State == ConnectionState.Open))
+                {
+                    cmd.Connection.Close();
+                }
+            }
+            return respuesta;
+        }
+
+        public bool GuardarCuestionario03_10(List<Cuestionario03> pDocumento, System.String pUsuario)
+        {
+            bool respuesta = false;
+            SqlConnection cn = new SqlConnection(Conexion.strConexion);
+            SqlCommand cmd = null;
+
+            cmd = new SqlCommand("USP_SAVEWEB_CUESTIONARIO03_10", cn);
+            cmd.CommandType = CommandType.StoredProcedure;
+            //  SqlTransaction tx = cmd.Connection.BeginTransaction();
+            //  cmd.Transaction = tx;
+
+            cmd.Parameters.AddWithValue("@COD_ESTABLECIMIENTO", pDocumento[0].COD_ESTABLECIMIENTO);
+            cmd.Parameters.AddWithValue("@P10_1", pDocumento[0].P10_1);
+            cmd.Parameters.AddWithValue("@P10_2", pDocumento[0].P10_2);
+            cmd.Parameters.AddWithValue("@P10_3", pDocumento[0].P10_3);
+            cmd.Parameters.AddWithValue("@P10_4", pDocumento[0].P10_4);
+            cmd.Parameters.AddWithValue("@P10_4_O", pDocumento[0].P10_4_O);
+
+            cmd.Parameters.AddWithValue("@USUARIO", pUsuario);
+
+            cn.Open();
+            try
+            {
+                int fila = cmd.ExecuteNonQuery();
+                if (fila > 0)
+                {
+                    respuesta = true;
+                }
             }
             catch (Exception _ex)
             {

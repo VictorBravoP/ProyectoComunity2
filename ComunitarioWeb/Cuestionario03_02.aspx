@@ -32,7 +32,7 @@
             </div>
         </div>
         <!--begin::Form-->
-        <form class="kt-form kt-form--label-left">
+        <form class="kt-form kt-form--label-left"  runat="server">
             <div class="kt-portlet__body">
         <asp:HiddenField ID="hdnCod_Establecimiento"  runat="server" />        
         <asp:HiddenField ID="hdnSeccion" runat="server" />
@@ -1125,8 +1125,8 @@ Para cada uno de los siguientes empleos, indique el número total de personal y 
 
                 var params = {
                     'cod_establecimiento': $('#<%=hdnCod_Establecimiento.ClientID%>').val(),
-                    'seccion': '01',
-                    'usuario': 'ADM',
+                    'seccion': '02',
+                    'usuario': $('#<%=hdnUsuario.ClientID%>').val() ,
                 };
              
 
@@ -1145,9 +1145,8 @@ Para cada uno de los siguientes empleos, indique el número total de personal y 
 
         });
 
-
-        $("button[name='retroceder']").click(function () {           
-            document.location.href = "../marco.aspx";
+        $("button[name='retroceder']").click(function () {
+            document.location.href = "../Cuestionario03_01.aspx?hdnCod_Establecimiento=" + $('#<%=hdnCod_Establecimiento.ClientID%>').val();
         });
         
 
@@ -1169,24 +1168,28 @@ Para cada uno de los siguientes empleos, indique el número total de personal y 
                 type: "POST",
                 dataType: 'json',
                 url: "Cuestionario03_02.aspx/GuardarCuestionario03_02",
-                data: JSON.stringify({ pDocumento: Formulario, pUsuario: "1" }),
+                data: JSON.stringify({ pDocumento: Formulario, pUsuario: $('#<%=hdnUsuario.ClientID%>').val() }),
                 contentType: 'application/json; charset=utf-8',
                 //async: false,
                 success: function (msg) {
-                    console.log("msg", msg);
-                    if (msg.d.Mensaje == "Error") {
-                        //MensajeAlerta("Ocurrió un error, por favor vuelva a intentar o consulte con el Administrador", 4);
-                        return false;
+                    console.log("msg", msg.d.mensaje);
+
+                    if (msg.d.mensaje == "Se guardaron los datos") {
+                        alertify.set('notifier', 'position', 'top-center');
+                        alertify.success(msg.d.mensaje);
                     } else {
-                        return false;
+                        alertify.set('notifier', 'position', 'top-center');
+                        alertify.error(msg.d.mensaje);
                     }
+                    document.location.href = "../Cuestionario03_03.aspx?hdnCod_Establecimiento=" + $('#<%=hdnCod_Establecimiento.ClientID%>').val();
 
                 },
                 error: function (jqXHR, textStatus, errorThrown) {
                     console.log('jqXHR:' + jqXHR);
                     console.log('textStatus:' + textStatus);
                     console.log('errorThrown:' + errorThrown);
-                    //MensajeAlerta("Ocurrió un error(500), por favor vuelva a intentar o consulte con el Administrador", 4);
+                    alertify.set('notifier', 'position', 'top-center');
+                    alertify.error("Ocurrió un error(500), por favor vuelva a intentar o consulte con el Administrador");
                     return false;
                 }
             });

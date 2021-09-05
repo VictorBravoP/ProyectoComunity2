@@ -40,7 +40,7 @@ namespace ComunitarioWeb
         {
 
             Cuestionario03BL cuestionario03BL = new Cuestionario03BL();
-            List<Model.Cuestionario03> lista = cuestionario03BL.cargarCuestionario03_1(cod_establecimiento, seccion, usuario);
+            List<Model.Cuestionario03> lista = cuestionario03BL.cargarCuestionario03_01(cod_establecimiento, seccion, usuario);
             object json = new { data = lista };
             return json;
         }
@@ -49,17 +49,11 @@ namespace ComunitarioWeb
         public static object GuardarCuestionario03_01(List<Model.Cuestionario03> pDocumento, System.String pUsuario)
         {
             Cuestionario03BL obl = new Cuestionario03BL();
-            String numTicket = "";
-            String strRespuesta = "";
-            String anioCUT = "";
-            String fechaTramite = "";
 
-            obl.GuardarCuestionario03_01(pDocumento,  pUsuario);
-            //if (numTicket == "Error")
-            //    strRespuesta = "aaa";
-            //else
-            //    strRespuesta = "bbbb";
-            return   new { Mensaje = strRespuesta };
+            bool respuesta = obl.GuardarCuestionario03_01(pDocumento, pUsuario);
+            var informacion = "";
+            informacion = respuesta ? "Se guardaron los datos" : "No se guardaron los datos";
+            return new { mensaje = informacion };
         }
 
     }

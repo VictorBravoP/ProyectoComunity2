@@ -32,11 +32,11 @@
             </div>
         </div>
         <!--begin::Form-->
-        <form class="kt-form kt-form--label-left">
+        <form class="kt-form kt-form--label-left"  runat="server">
             <div class="kt-portlet__body">
-                <input type="hidden" name="hdnID" id="hdnID" value="<'%=hdnID %>" />
-                <input type="hidden" name="hdnNROHOGAR" id="hdnNROHOGAR" value="<'%=hdnNROHOGAR %>" />
-                <input type="hidden" name="hdnNROPERSONA" id="hdnNROPERSONA" value="<'%=hdnNROPERSONA %>" />
+        <asp:HiddenField ID="hdnCod_Establecimiento"  runat="server" />        
+        <asp:HiddenField ID="hdnSeccion" runat="server" />
+        <asp:HiddenField ID="hdnUsuario" runat="server" />
 
                 <!--HERE     --->
                 <div class="form-group  form-group-marginless">
@@ -293,9 +293,9 @@
                 var params = new Array();
 
                 params.push({
-                    'COD_ESTABLECIMIENTO': $.trim($('#hdnCOD_ESTABLECIMIENTO').val()),
-                    'SECCION': '01',
-                    'USUARIO': $('#hdnUSUARIO').val(),
+                    'COD_ESTABLECIMIENTO': $('#<%=hdnCod_Establecimiento.ClientID%>').val(),
+                    'SECCION': '03',
+                    'USUARIO': $('#<%=hdnUsuario.ClientID%>').val(),
                 });
 
 
@@ -332,6 +332,9 @@
 
         });
 
+        $("button[name='retroceder']").click(function () {
+            document.location.href = "../Cuestionario03_02.aspx?hdnCod_Establecimiento=" + $('#<%=hdnCod_Establecimiento.ClientID%>').val();
+        });
 
         $("button[name='guardar']").click(function () {
             console.log("click");
@@ -339,12 +342,11 @@
         });
 
         function saveData() {
-            console.log("pavita");
 
             var Formulario = new Array();
 
             Formulario.push({
-                'COD_ESTABLECIMIENTO': "1010",
+                'COD_ESTABLECIMIENTO': $('#<%=hdnCod_Establecimiento.ClientID%>').val(),
                 'P3_1': $('#txtP3_1').val(),
                 'P3_2': $('#txtP3_2').val(),
                 'P3_3': $('#txtP3_3').val(),
@@ -364,23 +366,28 @@
                 type: "POST",
                 dataType: 'json',
                 url: "Cuestionario03_03.aspx/GuardarCuestionario03_03",
-                data: JSON.stringify({ pDocumento: Formulario, pUsuario: "1" }),
+                data: JSON.stringify({ pDocumento: Formulario, pUsuario: $('#<%=hdnUsuario.ClientID%>').val() }),
                 contentType: 'application/json; charset=utf-8',
                 //async: false,
                 success: function (msg) {
-                    if (msg.d.Mensaje == "Error") {
-                        //MensajeAlerta("Ocurrió un error, por favor vuelva a intentar o consulte con el Administrador", 4);
-                        return false;
+                    console.log("msg", msg.d.mensaje);
+
+                    if (msg.d.mensaje == "Se guardaron los datos") {
+                        alertify.set('notifier', 'position', 'top-center');
+                        alertify.success(msg.d.mensaje);
                     } else {
-                        return false;
+                        alertify.set('notifier', 'position', 'top-center');
+                        alertify.error(msg.d.mensaje);
                     }
+                    document.location.href = "../Cuestionario03_04.aspx?hdnCod_Establecimiento=" + $('#<%=hdnCod_Establecimiento.ClientID%>').val();
 
                 },
                 error: function (jqXHR, textStatus, errorThrown) {
                     console.log('jqXHR:' + jqXHR);
                     console.log('textStatus:' + textStatus);
                     console.log('errorThrown:' + errorThrown);
-                    //MensajeAlerta("Ocurrió un error(500), por favor vuelva a intentar o consulte con el Administrador", 4);
+                    alertify.set('notifier', 'position', 'top-center');
+                    alertify.error("Ocurrió un error(500), por favor vuelva a intentar o consulte con el Administrador");
                     return false;
                 }
             });
