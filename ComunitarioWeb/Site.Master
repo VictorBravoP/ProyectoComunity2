@@ -166,7 +166,7 @@
 							<!--	<li class="kt-menu__item " aria-haspopup="true"><a href="Dashboard.asp" class="kt-menu__link "><i class="kt-menu__link-icon flaticon-home"></i><span class="kt-menu__link-text">Dashboard</span></a></li> -->
                               
                                 <li class="kt-menu__section ">
-									<h4 class="kt-menu__section-text">Consistencia</h4>
+									<h4 class="kt-menu__section-text">Cuestionarios</h4>
 									<i class="kt-menu__section-icon flaticon-more-v2"></i>
 								</li>
 								<li class="kt-menu__item  kt-menu__item--submenu" aria-haspopup="true" data-ktmenu-submenu-toggle="hover"><a href="javascript:;" class="kt-menu__link kt-menu__toggle">
@@ -177,26 +177,14 @@
 											<rect id="Rectangle-7-Copy-2" fill="#000000" opacity="0.3" x="2" y="4" width="5" height="16" rx="1" />
 										</g>
 									</svg></span>
-									<span class="kt-menu__link-text">Consistencia</span><i class="kt-menu__ver-arrow la la-angle-right"></i></a>
+									<span class="kt-menu__link-text">Cuestionario</span><i class="kt-menu__ver-arrow la la-angle-right"></i></a>
 									<div class="kt-menu__submenu "><span class="kt-menu__arrow"></span>
 										<ul class="kt-menu__subnav">
 											<li class="kt-menu__item  kt-menu__item--parent" aria-haspopup="true"><span class="kt-menu__link"><span class="kt-menu__link-text">Consistencia</span></span></li>
 										
-											<li class="kt-menu__item " aria-haspopup="true"><a href="segmentacion_informacion.asp" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">Segmentacion Informacion </span></a></li>
-											<li class="kt-menu__item " aria-haspopup="true"><a href="imputaciones_variables.asp" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">Imputaciones </span></a></li>								
-											
-										
-											<li class="kt-menu__item " aria-haspopup="true"><a href="caratula.asp" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">Edicion </span></a></li>									
-																						
-											<li class="kt-menu__item  kt-menu__item--submenu" aria-haspopup="true" data-ktmenu-submenu-toggle="hover"><a href="javascript:;" class="kt-menu__link kt-menu__toggle"><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">Codificacion</span><i class="kt-menu__ver-arrow la la-angle-right"></i></a>
-												<div class="kt-menu__submenu "><span class="kt-menu__arrow"></span>
-													<ul class="kt-menu__subnav">
-														<li class="kt-menu__item " aria-haspopup="true"><a href="persona_codificacion_ocupados.asp" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">Ocupados</span></a></li>
-														<li class="kt-menu__item " aria-haspopup="true"><a href="persona_codificacion_desocupados.asp" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">Desocupados</span></a></li>
-													</ul>
-												</div>
-											</li>
-											<li class="kt-menu__item " aria-haspopup="true"><a href="proceso_final.asp" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">Calculo Variables </span></a></li>								
+											<li class="kt-menu__item " aria-haspopup="true"><a href="segmentacion_informacion.asp" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">Cuestionario 1 </span></a></li>
+											<li class="kt-menu__item " aria-haspopup="true"><a href="imputaciones_variables.asp" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">Cuestionario 2 </span></a></li>																													
+											<li class="kt-menu__item " aria-haspopup="true"><a href="proceso_final.asp" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">Cuestionario 3 </span></a></li>								
 										</ul>
 									</div>
                                 </li>
