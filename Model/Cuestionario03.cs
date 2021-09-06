@@ -39,9 +39,9 @@ namespace Model
         public System.Int32 P1_14_1 { get; set; }
         public System.Int32 P1_14_2 { get; set; }
 
-        public System.Int32 P2_1_1A { get; set; }
-        public System.Int32 P2_1_1B { get; set; }
-        public System.Int32 P2_1_2A { get; set; }
+        public System.Int32? P2_1_1A { get; set; }
+        public System.Int32? P2_1_1B { get; set; }
+        public int? P2_1_2A { get; set; }
         public System.Int32 P2_1_2B { get; set; }
         public System.Int32 P2_1_3A { get; set; }
         public System.Int32 P2_1_3B { get; set; }
