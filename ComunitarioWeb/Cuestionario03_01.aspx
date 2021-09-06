@@ -75,14 +75,14 @@
                             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                                 <div class="kt-portlet__body">
                                     <div class="col-lg-12">
-                                        <input type="text" id="txtP1B" name="txtP1B" class="form-control">
+                                        <input type="text" id="txtP1B" name="txtP1B"   class="form-control">
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="form-group  form-group-marginless" id="P1_1" name="P1_1">
+<%--                <div class="form-group  form-group-marginless" id="P1_1" name="P1_1"  style="display:none" >
                     <div class="col-lg-12">
                         <div class="form-group row form-group-marginless kt-margin-t-0">
                             <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
@@ -94,27 +94,34 @@
                             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                                 <div class="kt-portlet__body">
                                     <div class="col-lg-12">
-                                        <input type="text" id="txtP1_1" name="txtP1_1" class="form-control">
+                                        <input type="text" id="txtP1_1" name="txtP1_1" readonly class="form-control">
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </div>--%>
+
                 <div class="form-group  form-group-marginless" id="P1_1_1" name="P1_1_1">
                     <div class="col-lg-12">
                         <div class="form-group row form-group-marginless kt-margin-t-0">
                             <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                                <label class="col-form-label"><strong>P1.1_1</strong></label>
+                                <label class="col-form-label"><strong></strong></label>
                             </div>
                             <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
-                                <label class="col-form-label"><strong>Nombre del centro</strong></label>
+                                <label class="col-form-label"><strong>Centro poblado</strong></label>
                             </div>
                             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                                 <div class="kt-portlet__body">
-                                    <div class="col-lg-12">
-                                        <input type="text" id="txtP1_1_1" name="txtP1_1_1" class="form-control">
+                                    <div class="form-group row form-group-marginless">
+                                        <div class="col-lg-3">
+                                            <input type="text" id="txtP1_1" name="txtP1_1" readonly class="form-control">
+                                        </div>
+                                        <div class="col-lg-9">
+                                            <input type="text" id="txtP1_1_1" name="txtP1_1_1" readonly class="form-control">
+                                        </div>
                                     </div>
+                                   
                                 </div>
                             </div>
                         </div>
@@ -124,7 +131,7 @@
                     <div class="col-lg-12">
                         <div class="form-group row form-group-marginless kt-margin-t-0">
                             <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                                <label class="col-form-label"><strong>UBIGEO</strong></label>
+                                <label class="col-form-label"><strong></strong></label>
                             </div>
                             <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                                 <label class="col-form-label"><strong>Ubigeo</strong></label>
@@ -132,7 +139,7 @@
                             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                                 <div class="kt-portlet__body">
                                     <div class="col-lg-12">
-                                        <input type="text" id="txtUBIGEO" name="txtUBIGEO" class="form-control">
+                                        <input type="text" id="txtUBIGEO" name="txtUBIGEO" readonly class="form-control">
                                     </div>
                                 </div>
                             </div>
@@ -143,7 +150,7 @@
                     <div class="col-lg-12">
                         <div class="form-group row form-group-marginless kt-margin-t-0">
                             <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                                <label class="col-form-label"><strong>DEPARTAMENTO</strong></label>
+                                <label class="col-form-label"><strong></strong></label>
                             </div>
                             <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                                 <label class="col-form-label"><strong>Departamento</strong></label>
@@ -151,7 +158,7 @@
                             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                                 <div class="kt-portlet__body">
                                     <div class="col-lg-12">
-                                        <input type="text" id="txtDEPARTAMENTO" name="txtDEPARTAMENTO" class="form-control">
+                                        <input type="text" id="txtDEPARTAMENTO" name="txtDEPARTAMENTO" readonly class="form-control">
                                     </div>
                                 </div>
                             </div>
@@ -162,7 +169,7 @@
                     <div class="col-lg-12">
                         <div class="form-group row form-group-marginless kt-margin-t-0">
                             <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                                <label class="col-form-label"><strong>PROVINCIA</strong></label>
+                                <label class="col-form-label"><strong></strong></label>
                             </div>
                             <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                                 <label class="col-form-label"><strong>Provincia</strong></label>
@@ -170,7 +177,7 @@
                             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                                 <div class="kt-portlet__body">
                                     <div class="col-lg-12">
-                                        <input type="text" id="txtPROVINCIA" name="txtPROVINCIA" class="form-control">
+                                        <input type="text" id="txtPROVINCIA" name="txtPROVINCIA" readonly  class="form-control">
                                     </div>
                                 </div>
                             </div>
@@ -181,7 +188,7 @@
                     <div class="col-lg-12">
                         <div class="form-group row form-group-marginless kt-margin-t-0">
                             <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 grid-border-preg">
-                                <label class="col-form-label"><strong>DISTRITO</strong></label>
+                                <label class="col-form-label"><strong></strong></label>
                             </div>
                             <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                                 <label class="col-form-label"><strong>Distrito</strong></label>
@@ -189,7 +196,7 @@
                             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
                                 <div class="kt-portlet__body">
                                     <div class="col-lg-12">
-                                        <input type="text" id="txtDISTRITO" name="txtDISTRITO" class="form-control">
+                                        <input type="text" id="txtDISTRITO" name="txtDISTRITO"   readonly class="form-control">
                                     </div>
                                 </div>
                             </div>
@@ -621,7 +628,9 @@
                      contentType: "application/json;",
                     data: JSON.stringify(params),
                     success: function (data) {
-                        console.log("data.d.data[0].DEPARTAMENTO", data.d.data[0].DEPARTAMENTO);
+                    //    console.log("data.d.data[0].DEPARTAMENTO", data.d.data[0].DEPARTAMENTO);
+                        console.log("data.d.data[0].P1_12", data.d.data[0].P1_12);
+                        
                         $("input[name='txtP1A'][value="  + data.d.data[0].P1A + "]").prop('checked', true);
                         $("#txtP1B").val(data.d.data[0].P1B);
                         $("#txtP1_1").val(data.d.data[0].P1_1);

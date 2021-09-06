@@ -74,17 +74,17 @@
             <p>
                 Ingrese su usuario y clave para ingresar
             </p>
-            <form class="form-login" action="#" novalidate="novalidate">
-                <fieldset>
+            <form class="form-login" runat="server" method="POST">
+               
                     <div class="form-group">
                         <span class="input-icon">
-                            <input id="i_username" type="text" class="form-control" name="username" placeholder="Nombre de usuario">
+                            <input type="text" class="form-control" id="usuario" name="usuario"  required placeholder="Usuario">
                             <i class="fa fa-user"></i>
                         </span>
                     </div>
                     <div class="form-group">
                         <span class="input-icon">
-                            <input id="i_password" type="password" class="form-control" name="passname" placeholder="Clave de usuario">
+                            <input  type="password" class="form-control" id="password" name="password" required placeholder="Clave de usuario">
                             <i class="fa fa-lock"></i>
                         </span>
                     </div>
@@ -95,11 +95,10 @@
                         No tienes cuenta aún ?
                         <a href="#" class="register">Olvide contraseña
                         </a>
-                        <button type="submit" class="btn btn-primary pull-right">
-                            Ingresar &nbsp<i class="fa fa-arrow-circle-right"></i>
-                        </button>
+                               <asp:LinkButton ID="SubmitBtn" OnClick="btnIngresar_Click" runat="server"  CssClass="btn btn-primary pull-right">&nbsp;Ingresar<i class="fa fa-arrow-circle-right"></i></asp:LinkButton>
                     </div>
-                </fieldset>
+               
+                 <asp:Label ID="lblMensaje" class="bg-danger" runat="server" Text=""></asp:Label>
             </form>
         </div>
         <div class="copyright">

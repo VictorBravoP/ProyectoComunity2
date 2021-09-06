@@ -47,7 +47,7 @@
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>¿Dispone el centro de un frigorífico para vacunas?</strong></label>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp">
                         <div class="kt-portlet__body">
                             <label class="kt-radio kt-radio--tick kt-radio--brand">
                                 <input type="radio" name="txtP9_1A" value="1">
@@ -72,7 +72,7 @@
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>¿Dispone el centro de un congelador de vacunas que pueda garantizar la temperatura recomendada?</strong></label>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp">
                         <div class="kt-portlet__body">
                             <label class="kt-radio kt-radio--tick kt-radio--brand">
                                 <input type="radio" name="txtP9_1B" value="1">
@@ -97,7 +97,7 @@
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>¿Dispone actualmente el centro de un dispositivo de registro continuo de la temperatura para el frigorífico de vacunas?</strong></label>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp">
                         <div class="kt-portlet__body">
                             <label class="kt-radio kt-radio--tick kt-radio--brand">
                                 <input type="radio" name="txtP9_2A" value="1">
@@ -122,7 +122,7 @@
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>¿Dispone actualmente el centro de un dispositivo de registro continuo de la temperatura para el congelador de vacunas? </strong></label>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp">
                         <div class="kt-portlet__body">
                             <label class="kt-radio kt-radio--tick kt-radio--brand">
                                 <input type="radio" name="txtP9_2B" value="1">
@@ -147,7 +147,7 @@
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>¿Ofrece este centro la vacuna contra la COVID-19?</strong></label>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp">
                         <div class="kt-portlet__body">
                             <label class="kt-radio kt-radio--tick kt-radio--brand">
                                 <input type="radio" name="txtP9_3" value="1">
@@ -169,7 +169,7 @@
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Vacuna de Pfizer-BioNTech</strong></label>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp">
                         <div class="kt-portlet__body">
                             <label class="kt-radio kt-radio--tick kt-radio--brand">
                                 <input type="radio" name="txtP9_4_1" value="1">
@@ -194,7 +194,7 @@
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Vacuna Moderna </strong></label>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp">
                         <div class="kt-portlet__body">
                             <label class="kt-radio kt-radio--tick kt-radio--brand">
                                 <input type="radio" name="txtP9_4_2" value="1">
@@ -219,7 +219,7 @@
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Vacuna AstraZeneca/Oxford COVID-19</strong></label>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp">
                         <div class="kt-portlet__body">
                             <label class="kt-radio kt-radio--tick kt-radio--brand">
                                 <input type="radio" name="txtP9_4_3" value="1">
@@ -244,7 +244,7 @@
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Vacuna de Janssen/Johnson & Johnson </strong></label>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp">
                         <div class="kt-portlet__body">
                             <label class="kt-radio kt-radio--tick kt-radio--brand">
                                 <input type="radio" name="txtP9_4_4" value="1">
@@ -269,7 +269,7 @@
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Otras vacunas (por ejemplo, Sinopharm, Sinovac u otras)</strong></label>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp">
                         <div class="kt-portlet__body">
                             <label class="kt-radio kt-radio--tick kt-radio--brand">
                                 <input type="radio" name="txtP9_4_5" value="1">
@@ -294,7 +294,7 @@
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Almacenamiento de la vacuna </strong></label>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp">
                         <div class="kt-portlet__body">
                             <label class="kt-radio kt-radio--tick kt-radio--brand">
                                 <input type="radio" name="txtP9_5_1" value="1">
@@ -316,7 +316,7 @@
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Administración de la vacuna</strong></label>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp">
                         <div class="kt-portlet__body">
                             <label class="kt-radio kt-radio--tick kt-radio--brand">
                                 <input type="radio" name="txtP9_5_2" value="1">
@@ -338,7 +338,7 @@
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Manejo de los eventos adversos, incluido el choque anafiláctico</strong></label>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp">
                         <div class="kt-portlet__body">
                             <label class="kt-radio kt-radio--tick kt-radio--brand">
                                 <input type="radio" name="txtP9_5_3" value="1">
@@ -360,7 +360,7 @@
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Notificación de eventos adversos </strong></label>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp">
                         <div class="kt-portlet__body">
                             <label class="kt-radio kt-radio--tick kt-radio--brand">
                                 <input type="radio" name="txtP9_5_4" value="1">
@@ -382,7 +382,7 @@
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>¿Dispone el centro de suficientes jeringuillas para la vacuna contra la COVID-19 suministrada en el centro? </strong></label>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp">
                         <div class="kt-portlet__body">
                             <label class="kt-radio kt-radio--tick kt-radio--brand">
                                 <input type="radio" name="txtP9_6" value="1">
@@ -404,7 +404,7 @@
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>¿Dispone el centro de recipientes para objetos punzocortantes («cajas de seguridad»)?</strong></label>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp">
                         <div class="kt-portlet__body">
                             <label class="kt-radio kt-radio--tick kt-radio--brand">
                                 <input type="radio" name="txtP9_7" value="1">
@@ -426,7 +426,7 @@
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>¿El almacenamiento en frío de la vacuna contra la COVID-19 está actualmente en el rango de temperatura recomendado? </strong></label>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp">
                         <div class="kt-portlet__body">
                             <label class="kt-radio kt-radio--tick kt-radio--brand">
                                 <input type="radio" name="txtP9_8" value="1">
@@ -448,7 +448,7 @@
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Durante la última semana, ¿se ha mantenido el almacenamiento en frío de la vacuna contra la COVID-19 siempre en el rango de temperatura recomendado?</strong></label>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp">
                         <div class="kt-portlet__body">
                             <label class="kt-radio kt-radio--tick kt-radio--brand">
                                 <input type="radio" name="txtP9_9" value="1">
@@ -470,7 +470,7 @@
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>¿Se informa a las personas vacunadas sobre cuándo deben volver para la próxima dosis?</strong></label>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp">
                         <div class="kt-portlet__body">
                             <label class="kt-radio kt-radio--tick kt-radio--brand">
                                 <input type="radio" name="txtP9_10" value="1">
@@ -492,7 +492,7 @@
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>¿Se informa a las personas vacunadas de los posibles efectos secundarios? </strong></label>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp">
                         <div class="kt-portlet__body">
                             <label class="kt-radio kt-radio--tick kt-radio--brand">
                                 <input type="radio" name="txtP9_11" value="1">
@@ -514,7 +514,7 @@
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>¿Se informa a las personas vacunadas sobre qué hacer en caso de que se produzcan eventos adversos tras la inmunización?</strong></label>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp">
                         <div class="kt-portlet__body">
                             <label class="kt-radio kt-radio--tick kt-radio--brand">
                                 <input type="radio" name="txtP9_12" value="1">
@@ -536,7 +536,7 @@
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>¿Dispone el centro de un kit de tratamiento de eventos adversos posvacunales?</strong></label>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp">
                         <div class="kt-portlet__body">
                             <label class="kt-radio kt-radio--tick kt-radio--brand">
                                 <input type="radio" name="txtP9_13" value="1">
@@ -558,7 +558,7 @@
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>¿Dispone el centro de un sistema para notificar eventos adversos asociados a las vacunas al centro nacional de farmacovigilancia?</strong></label>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp">
                         <div class="kt-portlet__body">
                             <label class="kt-radio kt-radio--tick kt-radio--brand">
                                 <input type="radio" name="txtP9_14" value="1">
@@ -579,7 +579,7 @@
 
     <div class="form-group row">
       <div class="col-lg-12">
-        <div class="d-flex justify-content-between  ">
+        <div class="d-flex justify-content-between ">
           <div class="mr-2 px-2">
             <button type="button" name="retroceder" id="retroceder" style="width: 125px;"
               class="btn btn-outline-brand font-weight-bolder"> ATRÁS </button>
@@ -615,33 +615,33 @@
                     //  data: params,
                     type: 'POST',
                     url: 'Cuestionario03_09.aspx/cargarDatos',
-                    contentType: "application/json; charset=utf-8",
+                    contentType:"application/json; charset=utf-8",
                     data: JSON.stringify(params),
-                    dataType: "json",
+                    dataType:"json",
                     success: function (data) {                
-                        $("input[name='txtP9_1A'][value=" + data.d.data[0].P9_1A + "]").prop('checked', true);
-                        $("input[name='txtP9_1B'][value=" + data.d.data[0].P9_1B + "]").prop('checked', true);
-                        $("input[name='txtP9_2A'][value=" + data.d.data[0].P9_2A + "]").prop('checked', true);
-                        $("input[name='txtP9_2B'][value=" + data.d.data[0].P9_2B + "]").prop('checked', true);
-                        $("input[name='txtP9_3'][value=" + data.d.data[0].P9_3 + "]").prop('checked', true);
-                        $("input[name='txtP9_4_1'][value=" + data.d.data[0].P9_4_1 + "]").prop('checked', true);
-                        $("input[name='txtP9_4_2'][value=" + data.d.data[0].P9_4_2 + "]").prop('checked', true);
-                        $("input[name='txtP9_4_3'][value=" + data.d.data[0].P9_4_3 + "]").prop('checked', true);
-                        $("input[name='txtP9_4_4'][value=" + data.d.data[0].P9_4_4 + "]").prop('checked', true);
-                        $("input[name='txtP9_4_5'][value=" + data.d.data[0].P9_4_5 + "]").prop('checked', true);
-                        $("input[name='txtP9_5_1'][value=" + data.d.data[0].P9_5_1 + "]").prop('checked', true);
-                        $("input[name='txtP9_5_2'][value=" + data.d.data[0].P9_5_2 + "]").prop('checked', true);
-                        $("input[name='txtP9_5_3'][value=" + data.d.data[0].P9_5_3 + "]").prop('checked', true);
-                        $("input[name='txtP9_5_4'][value=" + data.d.data[0].P9_5_4 + "]").prop('checked', true);
-                        $("input[name='txtP9_6'][value=" + data.d.data[0].P9_6 + "]").prop('checked', true);
-                        $("input[name='txtP9_7'][value=" + data.d.data[0].P9_7 + "]").prop('checked', true);
-                        $("input[name='txtP9_8'][value=" + data.d.data[0].P9_8 + "]").prop('checked', true);
-                        $("input[name='txtP9_9'][value=" + data.d.data[0].P9_9 + "]").prop('checked', true);
-                        $("input[name='txtP9_10'][value=" + data.d.data[0].P9_10 + "]").prop('checked', true);
-                        $("input[name='txtP9_11'][value=" + data.d.data[0].P9_11 + "]").prop('checked', true);
-                        $("input[name='txtP9_12'][value=" + data.d.data[0].P9_12 + "]").prop('checked', true);
-                        $("input[name='txtP9_13'][value=" + data.d.data[0].P9_13 + "]").prop('checked', true);
-                        $("input[name='txtP9_14'][value=" + data.d.data[0].P9_14 + "]").prop('checked', true);
+                        $("input[name='txtP9_1A'][value=" + data.d.data[0].P9_1A +"]").prop('checked', true);
+                        $("input[name='txtP9_1B'][value=" + data.d.data[0].P9_1B +"]").prop('checked', true);
+                        $("input[name='txtP9_2A'][value=" + data.d.data[0].P9_2A +"]").prop('checked', true);
+                        $("input[name='txtP9_2B'][value=" + data.d.data[0].P9_2B +"]").prop('checked', true);
+                        $("input[name='txtP9_3'][value=" + data.d.data[0].P9_3 +"]").prop('checked', true);
+                        $("input[name='txtP9_4_1'][value=" + data.d.data[0].P9_4_1 +"]").prop('checked', true);
+                        $("input[name='txtP9_4_2'][value=" + data.d.data[0].P9_4_2 +"]").prop('checked', true);
+                        $("input[name='txtP9_4_3'][value=" + data.d.data[0].P9_4_3 +"]").prop('checked', true);
+                        $("input[name='txtP9_4_4'][value=" + data.d.data[0].P9_4_4 +"]").prop('checked', true);
+                        $("input[name='txtP9_4_5'][value=" + data.d.data[0].P9_4_5 +"]").prop('checked', true);
+                        $("input[name='txtP9_5_1'][value=" + data.d.data[0].P9_5_1 +"]").prop('checked', true);
+                        $("input[name='txtP9_5_2'][value=" + data.d.data[0].P9_5_2 +"]").prop('checked', true);
+                        $("input[name='txtP9_5_3'][value=" + data.d.data[0].P9_5_3 +"]").prop('checked', true);
+                        $("input[name='txtP9_5_4'][value=" + data.d.data[0].P9_5_4 +"]").prop('checked', true);
+                        $("input[name='txtP9_6'][value=" + data.d.data[0].P9_6 +"]").prop('checked', true);
+                        $("input[name='txtP9_7'][value=" + data.d.data[0].P9_7 +"]").prop('checked', true);
+                        $("input[name='txtP9_8'][value=" + data.d.data[0].P9_8 +"]").prop('checked', true);
+                        $("input[name='txtP9_9'][value=" + data.d.data[0].P9_9 +"]").prop('checked', true);
+                        $("input[name='txtP9_10'][value=" + data.d.data[0].P9_10 +"]").prop('checked', true);
+                        $("input[name='txtP9_11'][value=" + data.d.data[0].P9_11 +"]").prop('checked', true);
+                        $("input[name='txtP9_12'][value=" + data.d.data[0].P9_12 +"]").prop('checked', true);
+                        $("input[name='txtP9_13'][value=" + data.d.data[0].P9_13 +"]").prop('checked', true);
+                        $("input[name='txtP9_14'][value=" + data.d.data[0].P9_14 +"]").prop('checked', true);
                     }
                 });
 
@@ -651,7 +651,7 @@
 
 
         $("button[name='retroceder']").click(function () {           
-            document.location.href = "../Cuestionario03_08.aspx?hdnCod_Establecimiento=" + $('#<%=hdnCod_Establecimiento.ClientID%>').val();
+            document.location.href ="../Cuestionario03_08.aspx?hdnCod_Establecimiento=" + $('#<%=hdnCod_Establecimiento.ClientID%>').val();
         });
         
 
@@ -660,10 +660,10 @@
         });
 
         function saveData() {        
-            var params = {
-                'cod_establecimiento': $('#<%=hdnCod_Establecimiento.ClientID%>').val(),
-                'seccion': '08',                   
-                'usuario': $('#<%=hdnUsuario.ClientID%>').val(),
+            var Formulario = new Array();
+
+            Formulario.push({
+                'COD_ESTABLECIMIENTO': $('#<%=hdnCod_Establecimiento.ClientID%>').val(),
                 'P9_1A': $('input[name="txtP9_1A"]:checked').val(),
                 'P9_1B': $('input[name="txtP9_1B"]:checked').val(),
                 'P9_2A': $('input[name="txtP9_2A"]:checked').val(),
@@ -687,26 +687,25 @@
                 'P9_12': $('input[name="txtP9_12"]:checked').val(),
                 'P9_13': $('input[name="txtP9_13"]:checked').val(),
                 'P9_14': $('input[name="txtP9_14"]:checked').val(),
-            };
+            });
 
             $.ajax({
-                type: "POST",
+                type:"POST",
                 dataType: 'json',
-                url: "Cuestionario03_09.aspx/GuardarCuestionario03_09",
-                //data: JSON.stringify({ pDocumento: Formulario, pUsuario: $('#<%=hdnUsuario.ClientID%>').val() }),
-                data: JSON.stringify(params),
+                url:"Cuestionario03_09.aspx/GuardarCuestionario03_09",
+                data: JSON.stringify({ pDocumento: Formulario, pUsuario: $('#<%=hdnUsuario.ClientID%>').val() }),
                 contentType: 'application/json; charset=utf-8',
                 //async: false,
                 success: function (msg) {
 
-                    if (msg.d.mensaje == "Se guardaron los datos") {
+                    if (msg.d.mensaje =="Se guardaron los datos") {
                         alertify.set('notifier', 'position', 'top-center');
                         alertify.success(msg.d.mensaje);
                     } else {
                         alertify.set('notifier', 'position', 'top-center');
                         alertify.error(msg.d.mensaje);
                     }
-                    document.location.href = "../Cuestionario03_02.aspx?hdnCod_Establecimiento=" + $('#<%=hdnCod_Establecimiento.ClientID%>').val();
+                    document.location.href ="../Cuestionario03_10.aspx?hdnCod_Establecimiento=" + $('#<%=hdnCod_Establecimiento.ClientID%>').val();
 
                 },
                 error: function (jqXHR, textStatus, errorThrown) {

@@ -28,10 +28,14 @@ namespace Datos2
                 cmd.Parameters.AddWithValue("@USUARIO", usuario);
 
                 rd = cmd.ExecuteReader();
+
                 Lista = new List<Cuestionario03>();
+                
                 while (rd.Read())
                 {
+
                     Cuestionario03 c = new Cuestionario03();
+                 
                     if (!rd.IsDBNull(rd.GetOrdinal("COD_ESTABLECIMIENTO"))) c.COD_ESTABLECIMIENTO = rd.GetString(rd.GetOrdinal("COD_ESTABLECIMIENTO"));
                     if (!rd.IsDBNull(rd.GetOrdinal("P1A"))) c.P1A = rd.GetInt32(rd.GetOrdinal("P1A"));
                     if (!rd.IsDBNull(rd.GetOrdinal("P1B"))) c.P1B = rd.GetString(rd.GetOrdinal("P1B"));
@@ -57,6 +61,9 @@ namespace Datos2
                     if (!rd.IsDBNull(rd.GetOrdinal("P1_10_3"))) c.P1_10_3 = rd.GetString(rd.GetOrdinal("P1_10_3"));
                     if (!rd.IsDBNull(rd.GetOrdinal("P1_11"))) c.P1_11 = rd.GetInt32(rd.GetOrdinal("P1_11"));
                     if (!rd.IsDBNull(rd.GetOrdinal("P1_12"))) c.P1_12 = rd.GetInt32(rd.GetOrdinal("P1_12"));
+
+                    //if (rd["P1_12"] != DBNull.Value) c.P1_12 = int.Parse(rd["P1_12"].ToString());
+
                     if (!rd.IsDBNull(rd.GetOrdinal("P1_13"))) c.P1_13 = rd.GetInt32(rd.GetOrdinal("P1_13"));
                     if (!rd.IsDBNull(rd.GetOrdinal("P1_14_1"))) c.P1_14_1 = rd.GetInt32(rd.GetOrdinal("P1_14_1"));
                     if (!rd.IsDBNull(rd.GetOrdinal("P1_14_2"))) c.P1_14_2 = rd.GetInt32(rd.GetOrdinal("P1_14_2"));

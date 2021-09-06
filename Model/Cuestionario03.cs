@@ -34,7 +34,7 @@ namespace Model
         public System.String P1_10_2 { get; set; }
         public System.String P1_10_3 { get; set; }
         public System.Int32 P1_11 { get; set; }
-        public System.Int32 P1_12 { get; set; }
+        public int P1_12 { get; set; }
         public System.Int32 P1_13 { get; set; }
         public System.Int32 P1_14_1 { get; set; }
         public System.Int32 P1_14_2 { get; set; }
@@ -261,6 +261,6 @@ namespace Model
         public System.String P10_4_O { get; set; }
 
         public System.String USUARIO { get; set; }
-
+        
     }
 }

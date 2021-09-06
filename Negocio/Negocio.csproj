@@ -76,6 +76,7 @@
     <Compile Include="T_05_DIG_CAP100.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
+    <Compile Include="UsuarioBL.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Datos2\Datos2.csproj">

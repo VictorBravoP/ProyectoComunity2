@@ -55,6 +55,7 @@
     <Compile Include="T_05_DIG_VIVIENDA.cs" />
     <Compile Include="T_MARCO.cs" />
     <Compile Include="T_SEGMENTACION.cs" />
+    <Compile Include="Usuario.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

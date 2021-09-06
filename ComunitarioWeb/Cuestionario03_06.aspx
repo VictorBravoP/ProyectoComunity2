@@ -48,7 +48,7 @@
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
                         <label class="col-form-label"><strong>¿Recoge el centro muestras de los pacientes para diagnosticar la COVID-19?</strong></label>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp">
                         <div class="kt-portlet__body">
                             <label class="kt-radio kt-radio--tick kt-radio--brand">
                                 <input type="radio" name="txtP6_1" value="1">
@@ -70,7 +70,7 @@
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Indique si disponen actualmente de cada uno de los siguientes elementos para la obtención de muestras:</strong></label>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp">
                     </div>
                 </div>
             </div>
@@ -84,7 +84,7 @@
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Cajas de embalaje triple para el transporte</strong></label>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp">
                         <div class="kt-portlet__body">
                             <label class="kt-radio kt-radio--tick kt-radio--brand">
                                 <input type="radio" name="txtP6_2_1" value="1">
@@ -109,7 +109,7 @@
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Medios de transporte para virus con hisopo</strong></label>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp">
                         <div class="kt-portlet__body">
                             <label class="kt-radio kt-radio--tick kt-radio--brand">
                                 <input type="radio" name="txtP6_2_2" value="1">
@@ -134,7 +134,7 @@
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>¿Realiza el centro las siguientes pruebas in situ para diagnosticar la COVID-19?</strong></label>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp">
                         <div class="kt-portlet__body">
                         </div>
                     </div>
@@ -150,7 +150,7 @@
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Pruebas de PCR</strong></label>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp">
                         <div class="kt-portlet__body">
                             <label class="kt-radio kt-radio--tick kt-radio--brand">
                                 <input type="radio" name="txtP6_3_1" value="1">
@@ -172,7 +172,7 @@
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Pruebas rápidas de detección de antígenos </strong></label>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp">
                         <div class="kt-portlet__body">
                             <label class="kt-radio kt-radio--tick kt-radio--brand">
                                 <input type="radio" name="txtP6_3_2" value="1">
@@ -194,7 +194,7 @@
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Ha mencionado que el centro realiza pruebas de PCR. ¿Funciona el termociclador para PCR para el diagnóstico de la COVID-19?</strong></label>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp">
                         <div class="kt-portlet__body">
                             <label class="kt-radio kt-radio--tick kt-radio--brand">
                                 <input type="radio" name="txtP6_4" value="1">
@@ -216,7 +216,7 @@
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>¿Por qué no funciona el termociclador? </strong></label>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp">
                         <div class="kt-portlet__body">
                             <label class="kt-checkbox kt-checkbox--tick kt-checkbox--brand">
                                 <input type="checkbox" name="txtP6_5_1" value="1">
@@ -239,6 +239,7 @@
                             <label class="kt-checkbox kt-checkbox--tick kt-checkbox--brand">
                                 <input type="checkbox" name="txtP6_5_7" value="1">
                                 7. Otro<span></span>    </label>
+                             <input type="text"  id="txtP6_5_7_O" name="txtP6_5_7_O" class="form-control"   placeholder="Especifique"> 
                         </div>
                     </div>
                 </div>
@@ -253,10 +254,10 @@
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>¿Cuántos resultados de pruebas de PCR para el diagnóstico de la COVID-19 suele procesar el centro en un solo día?</strong></label>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp">
                         <div class="kt-portlet__body">
                             <div class="col-lg-4">
-                                <input type="text" id="txtP6_6 " name="txtP6_6 " class="mb-4 form-control">
+                                <input type="text" id="txtP6_6" name="txtP6_6" class="mb-4 form-control">
                             </div>
                             <label class="kt-checkbox kt-checkbox--tick kt-checkbox--brand">      
                                 <input type="checkbox" name="txtP6_6_1" value="1">No lo sabe<span></span> 
@@ -275,10 +276,10 @@
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>¿Cuál es el número máximo de resultados de pruebas  por PCR para el diagnóstico de la COVID-19 que el laboratorio del centro puede procesar en un solo día?</strong></label>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp">
                         <div class="kt-portlet__body">
                             <div class="col-lg-4">
-                                <input type="text" id="txtP6_7 " name="txtP6_7 " class="mb-4 form-control">
+                                <input type="text" id="txtP6_7" name="txtP6_7" class="mb-4 form-control">
                             </div>
                             <label class="kt-checkbox kt-checkbox--tick kt-checkbox--brand">
                                 <input type="checkbox" name="txtP6_7_1" value="1">No lo sabe<span></span>    </label>
@@ -296,7 +297,7 @@
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Ha mencionado que el centro realiza pruebas de diagnóstico rápido de detección de antígenos. Indique si disponen actualmente de los siguientes artículos</strong></label>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp">
                         <div class="kt-portlet__body"></div>
                     </div>
                 </div>
@@ -311,7 +312,7 @@
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Kits de PDR-Ag </strong></label>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp">
                         <div class="kt-portlet__body">
                             <label class="kt-radio kt-radio--tick kt-radio--brand">
                                 <input type="radio" name="txtP6_8_1" value="1">
@@ -335,7 +336,7 @@
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Material de control de PDR-Ag</strong></label>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp">
                         <div class="kt-portlet__body">
                             <label class="kt-radio kt-radio--tick kt-radio--brand">
                                 <input type="radio" name="txtP6_8_2" value="1">
@@ -359,10 +360,10 @@
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>¿Cuántos resultados de PDR-Ag para la COVID-19 suele procesar el centro en un solo día?</strong></label>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp">
                         <div class="kt-portlet__body">
                             <div class="col-lg-4">
-                                <input type="text" id="txtP6_9 " name="txtP6_9 " class="mb-4 form-control">
+                                <input type="text" id="txtP6_9" name="txtP6_9" class="mb-4 form-control">
                             </div>
                             <label class="kt-checkbox kt-checkbox--tick kt-checkbox--brand">
                                 <input type="checkbox" name="txtP6_9_1" value="1">No lo sabe<span></span>
@@ -381,10 +382,10 @@
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>¿Cuál es el número máximo de resultados de PDR-Ag para la COVID-19 que el laboratorio del centro puede procesar en un solo día?</strong></label>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp">
                         <div class="kt-portlet__body">
                             <div class="col-lg-4">
-                                <input type="text" id="txtP6_10 " name="txtP6_10 " class="mb-4 form-control">
+                                <input type="text" id="txtP6_10" name="txtP6_10" class="mb-4 form-control">
                             </div>
                             <label class="kt-checkbox kt-checkbox--tick kt-checkbox--brand">
                                 <input type="checkbox" name="txtP6_10_1" value="1">No lo sabe<span></span>
@@ -403,7 +404,7 @@
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>Para eliminar los desechos de la obtención de muestras o de las pruebas, ¿utiliza el centro suministros de eliminación de desechos de peligros biológicos, como bolsas para residuos infecciosos? </strong></label>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp">
                         <div class="kt-portlet__body">
                             <label class="kt-radio kt-radio--tick kt-radio--brand">
                                 <input type="radio" name="txtP6_11" value="1">
@@ -427,7 +428,7 @@
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>¿Disponen de un sistema de transporte de muestras en funcionamiento para enviarlas desde el centro a un laboratorio de referencia?</strong></label>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp">
                         <div class="kt-portlet__body">
                             <label class="kt-radio kt-radio--tick kt-radio--brand">
                                 <input type="radio" name="txtP6_12" value="1">
@@ -451,7 +452,7 @@
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 grid-border-preg">
                         <label class="col-form-label"><strong>¿Cuál es el tiempo habitual de entrega de los resultados de las pruebas, es decir, el tiempo que transcurre entre la recogida de la muestra en el centro y la recepción del resultado del laboratorio de referencia?</strong></label>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp ">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 grid-border-resp">
                         <div class="kt-portlet__body">
                             <label class="kt-radio kt-radio--tick kt-radio--brand">
                                 <input type="radio" name="txtP6_13" value="1">
@@ -480,7 +481,7 @@
 
     <div class="form-group row">
       <div class="col-lg-12">
-        <div class="d-flex justify-content-between  ">
+        <div class="d-flex justify-content-between ">
           <div class="mr-2 px-2">
             <button type="button" name="retroceder" id="retroceder" style="width: 125px;"
               class="btn btn-outline-brand font-weight-bolder"> ATRÁS </button>
@@ -514,37 +515,37 @@
                     //  data: params,
                     type: 'POST',
                     url: 'Cuestionario03_06.aspx/cargarDatos',
-                    contentType: "application/json; charset=utf-8",
+                    contentType:"application/json; charset=utf-8",
                     data: JSON.stringify(params),
-                    dataType: "json",
+                    dataType:"json",
                     success: function (data) {
-                        $("input[name='txtP6_1'][value=" + data.d.data[0].P6_1 + "]").prop('checked', true);
-                        $("input[name='txtP6_2_1'][value=" + data.d.data[0].P6_2_1 + "]").prop('checked', true);
-                        $("input[name='txtP6_2_2'][value=" + data.d.data[0].P6_2_2 + "]").prop('checked', true);
-                        $("input[name='txtP6_3_1'][value=" + data.d.data[0].P6_3_1 + "]").prop('checked', true);
-                        $("input[name='txtP6_3_2'][value=" + data.d.data[0].P6_3_2 + "]").prop('checked', true);
-                        $("input[name='txtP6_4'][value=" + data.d.data[0].P6_4 + "]").prop('checked', true);
-                        $("input[name='txtP6_5_1'][value=" + data.d.data[0].P6_5_1 + "]").prop('checked', true);
-                        $("input[name='txtP6_5_2'][value=" + data.d.data[0].P6_5_2 + "]").prop('checked', true);
-                        $("input[name='txtP6_5_3'][value=" + data.d.data[0].P6_5_3 + "]").prop('checked', true);
-                        $("input[name='txtP6_5_4'][value=" + data.d.data[0].P6_5_4 + "]").prop('checked', true);
-                        $("input[name='txtP6_5_5'][value=" + data.d.data[0].P6_5_5 + "]").prop('checked', true);
-                        $("input[name='txtP6_5_6'][value=" + data.d.data[0].P6_5_6 + "]").prop('checked', true);
-                        $("input[name='txtP6_5_7'][value=" + data.d.data[0].P6_5_7 + "]").prop('checked', true);
+                        $("input[name='txtP6_1'][value=" + data.d.data[0].P6_1 +"]").prop('checked', true);
+                        $("input[name='txtP6_2_1'][value=" + data.d.data[0].P6_2_1 +"]").prop('checked', true);
+                        $("input[name='txtP6_2_2'][value=" + data.d.data[0].P6_2_2 +"]").prop('checked', true);
+                        $("input[name='txtP6_3_1'][value=" + data.d.data[0].P6_3_1 +"]").prop('checked', true);
+                        $("input[name='txtP6_3_2'][value=" + data.d.data[0].P6_3_2 +"]").prop('checked', true);
+                        $("input[name='txtP6_4'][value=" + data.d.data[0].P6_4 +"]").prop('checked', true);
+                        $("input[name='txtP6_5_1'][value=" + data.d.data[0].P6_5_1 +"]").prop('checked', true);
+                        $("input[name='txtP6_5_2'][value=" + data.d.data[0].P6_5_2 +"]").prop('checked', true);
+                        $("input[name='txtP6_5_3'][value=" + data.d.data[0].P6_5_3 +"]").prop('checked', true);
+                        $("input[name='txtP6_5_4'][value=" + data.d.data[0].P6_5_4 +"]").prop('checked', true);
+                        $("input[name='txtP6_5_5'][value=" + data.d.data[0].P6_5_5 +"]").prop('checked', true);
+                        $("input[name='txtP6_5_6'][value=" + data.d.data[0].P6_5_6 +"]").prop('checked', true);
+                        $("input[name='txtP6_5_7'][value=" + data.d.data[0].P6_5_7 +"]").prop('checked', true);
                         $("#txtP6_5_7_O").val(data.d.data[0].P6_5_7_O);
                         $("#txtP6_6").val(data.d.data[0].P6_6);
-                        $("input[name='txtP6_6_1'][value=" + data.d.data[0].P6_6_1 + "]").prop('checked', true);
+                        $("input[name='txtP6_6_1'][value=" + data.d.data[0].P6_6_1 +"]").prop('checked', true);
                         $("#txtP6_7").val(data.d.data[0].P6_7);
-                        $("input[name='txtP6_7_1'][value=" + data.d.data[0].P6_7_1 + "]").prop('checked', true);
-                        $("input[name='txtP6_8_1'][value=" + data.d.data[0].P6_8_1 + "]").prop('checked', true);
-                        $("input[name='txtP6_8_2'][value=" + data.d.data[0].P6_8_2 + "]").prop('checked', true);
+                        $("input[name='txtP6_7_1'][value=" + data.d.data[0].P6_7_1 +"]").prop('checked', true);
+                        $("input[name='txtP6_8_1'][value=" + data.d.data[0].P6_8_1 +"]").prop('checked', true);
+                        $("input[name='txtP6_8_2'][value=" + data.d.data[0].P6_8_2 +"]").prop('checked', true);
                         $("#txtP6_9").val(data.d.data[0].P6_9);
-                        $("input[name='txtP6_9_1'][value=" + data.d.data[0].P6_9_1 + "]").prop('checked', true);
+                        $("input[name='txtP6_9_1'][value=" + data.d.data[0].P6_9_1 +"]").prop('checked', true);
                         $("#txtP6_10").val(data.d.data[0].P6_10);
-                        $("input[name='txtP6_10_1'][value=" + data.d.data[0].P6_10_1 + "]").prop('checked', true);
-                        $("input[name='txtP6_11'][value=" + data.d.data[0].P6_11 + "]").prop('checked', true);
-                        $("input[name='txtP6_12'][value=" + data.d.data[0].P6_12 + "]").prop('checked', true);
-                        $("input[name='txtP6_13'][value=" + data.d.data[0].P6_13 + "]").prop('checked', true);
+                        $("input[name='txtP6_10_1'][value=" + data.d.data[0].P6_10_1 +"]").prop('checked', true);
+                        $("input[name='txtP6_11'][value=" + data.d.data[0].P6_11 +"]").prop('checked', true);
+                        $("input[name='txtP6_12'][value=" + data.d.data[0].P6_12 +"]").prop('checked', true);
+                        $("input[name='txtP6_13'][value=" + data.d.data[0].P6_13 +"]").prop('checked', true);
                     }
                 });
 
@@ -554,7 +555,7 @@
 
 
         $("button[name='retroceder']").click(function () {      
-            document.location.href = "../Cuestionario03_05.aspx?hdnCod_Establecimiento=" + $('#<%=hdnCod_Establecimiento.ClientID%>').val();
+            document.location.href ="../Cuestionario03_05.aspx?hdnCod_Establecimiento=" + $('#<%=hdnCod_Establecimiento.ClientID%>').val();
         });
         
 
@@ -563,7 +564,9 @@
         });
 
         function saveData() {        
-            var params = {
+            var Formulario = new Array();
+
+            Formulario.push({
                 'cod_establecimiento': $('#<%=hdnCod_Establecimiento.ClientID%>').val(),
                 'seccion': '06',
                 'usuario': $('#<%=hdnUsuario.ClientID%>').val(),
@@ -594,26 +597,25 @@
                 'P6_11': $('input[name="txtP6_11"]:checked').val(),
                 'P6_12': $('input[name="txtP6_12"]:checked').val(),
                 'P6_13': $('input[name="txtP6_13"]:checked').val(),
-            };
+            });
 
             $.ajax({
-                type: "POST",
+                type:"POST",
                 dataType: 'json',
-                url: "Cuestionario03_06.aspx/GuardarCuestionario03_06",
-                // data: JSON.stringify({ pDocumento: Formulario, pUsuario: $('#<%=hdnUsuario.ClientID%>').val() }),
-                data: JSON.stringify(params),
+                url:"Cuestionario03_06.aspx/GuardarCuestionario03_06",
+                data: JSON.stringify({ pDocumento: Formulario, pUsuario: $('#<%=hdnUsuario.ClientID%>').val() }),
                 contentType: 'application/json; charset=utf-8',
                 //async: false,
                 success: function (msg) {
 
-                    if (msg.d.mensaje == "Se guardaron los datos") {
+                    if (msg.d.mensaje =="Se guardaron los datos") {
                         alertify.set('notifier', 'position', 'top-center');
                         alertify.success(msg.d.mensaje);
                     } else {
                         alertify.set('notifier', 'position', 'top-center');
                         alertify.error(msg.d.mensaje);
                     }
-                    document.location.href = "../Cuestionario03_02.aspx?hdnCod_Establecimiento=" + $('#<%=hdnCod_Establecimiento.ClientID%>').val();
+                    document.location.href ="../Cuestionario03_07.aspx?hdnCod_Establecimiento=" + $('#<%=hdnCod_Establecimiento.ClientID%>').val();
 
                 },
                 error: function (jqXHR, textStatus, errorThrown) {
