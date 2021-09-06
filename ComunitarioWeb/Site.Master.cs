@@ -20,6 +20,7 @@ namespace ComunitarioWeb
                 Usuario objUsuario = (Usuario)Session["usuario"];
                 string user = objUsuario.NOMBRE;
                 lblUsuario.Text = user;
+                lblUsuario2.Text = user;
             }
             else
             {

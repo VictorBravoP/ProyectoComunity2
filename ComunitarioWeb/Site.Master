@@ -287,7 +287,7 @@
 											<span class="kt-badge kt-badge--lg kt-badge--rounded kt-badge--bold kt-font-success"></span>
 										</div>
 										<div class="kt-user-card__name">
-											
+												<asp:Label ID="lblUsuario2" runat="server" Text=""></asp:Label>
 										</div>
 																			
 
