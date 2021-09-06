@@ -294,9 +294,7 @@
 									</div>
 									<div class="kt-notification">
 										<div class="kt-notification__custom">	
-											 <form runat="server" method="POST">
-												 <asp:Button ID="btnCerrarSesion" type="button" class="btn btn-label-brand btn-sm btn-bold" runat="server" Text="Cerrar Sesión" OnClick="lnkCerrarSesion_Click" />
-											 </form>
+
 										
 
 										</div>
